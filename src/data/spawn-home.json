@@ -8,10 +8,10 @@
       "palette": {
         "primary": "#1C1917",
         "accent": "#EA580C",
-        "cream": "#0C0A09",
-        "ink": "#FAFAF9",
+        "cream": "#FAFAF9",
+        "ink": "#1C1917",
         "secondary": "#44403C",
-        "surface": "#0C0A09"
+        "surface": "#F5F5F4"
       },
       "fonts": {
         "display": "Oswald",

@@ -8,30 +8,31 @@ export default {
       colors: {
         cream: {
           50: "#FAFAF9",
-          100: "#0C0A09",
+          100: "#F5F5F4",
           200: "#E7E5E4",
         },
         terracotta: {
           400: "#FB923C",
-          500: "#1C1917",
-          600: "#0C0A09",
+          500: "#EA580C",
+          600: "#C2410C",
         },
         primary: { DEFAULT: "#1C1917" },
         accent: { DEFAULT: "#EA580C" },
         sage: { 400: "#8FA888", 500: "#6F8B6A", 600: "#566F52" },
-        rose: { deep: "#FAFAF9" },
+        rose: { deep: "#9F3D2E" },
         ink: {
-          900: "#FAFAF9",
-          700: "#4A4340",
-          500: "#6E6863",
+          900: "#1C1917",
+          700: "#44403C",
+          500: "#78716C",
         },
       },
       maxWidth: {
         prose: "68ch",
+        site: "72rem",
       },
       typography: {
         DEFAULT: { css: { maxWidth: "68ch" } },
-        ink: { css: { color: "#4A4340" } },
+        ink: { css: { color: "#44403C" } },
       },
       fontFamily: {
         display: ["Oswald", "Georgia", "serif"],

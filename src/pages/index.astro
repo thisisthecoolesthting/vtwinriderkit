@@ -148,14 +148,14 @@ const latestSixWithDedupe = latestSix.map((a) => {
 });
 ---
 
-<BaseLayout title={b.fullName} description={dmeta} sectionAds="home">
+<BaseLayout title={b.fullName} description={dmeta} sectionAds="home" sectionAdsCompact>
 
   {/* ============================================================
       1. HERO — 2-col on desktop, headline left + 2:3 portrait image right.
       The 2:3 ratio is the native Pinterest pin shape; same hero image is
       used as the OG image so search/share previews match.
   ============================================================ */}
-  <section class="relative pt-4 md:pt-16 pb-12 md:pb-24 overflow-hidden">
+  <section class="relative pt-3 md:pt-6 pb-10 md:pb-14 overflow-hidden">
     {/* radial blooms — pulled from CSS palette, no extra deps */}
     <div aria-hidden="true" class="pointer-events-none absolute inset-0 -z-10
                                    bg-[radial-gradient(60%_50%_at_92%_18%,rgba(196,135,58,.10),transparent_70%),radial-gradient(45%_40%_at_8%_90%,rgba(91,123,106,.08),transparent_70%)]"></div>
@@ -200,9 +200,9 @@ const latestSixWithDedupe = latestSix.map((a) => {
           </ul>
         </div>
 
-        {/* ----- 2:3 hero image with overlay stat card ----- */}
-        <div class="relative">
-          <div class="relative rounded-2xl overflow-hidden shadow-soft-lg aspect-[2/3] bg-cream-100">
+        {/* ----- Hero media: 2:3 on mobile, capped height on desktop so copy stays above the fold ----- */}
+        <div class="relative w-full max-w-md mx-auto md:mx-0 md:max-w-none md:justify-self-end">
+          <div class="relative rounded-2xl overflow-hidden shadow-soft-lg aspect-[2/3] max-h-[min(52vh,420px)] md:max-h-[min(58vh,480px)] w-full bg-cream-200">
             {heroVideoUrl ? (
               <video
                 class="absolute inset-0 w-full h-full object-cover"
