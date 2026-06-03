@@ -68,7 +68,34 @@
     "ctaSecondaryLabel": "Touring essentials",
     "ctaSecondaryHref": "/pillars/touring-essentials",
     "trustLine": "Independent gear guide. Not affiliated with Harley-Davidson or any OEM. We disclose Amazon Associates links on every buying guide.",
-    "heroImageUrl": "/images/hero/home.jpg"
+    "heroImageUrl": "/images/hero/home.jpg",
+    "compareRowEnabled": true,
+    "comparePicks": [
+      {
+        "title": "BRCOVAN Motorcycle Phone Mount Holder with Vibration Dampener, Anti-Shake Handle",
+        "slug": "b0cghszp31-product",
+        "priceLabel": "See Amazon",
+        "href": "/products/b0cghszp31-product/"
+      },
+      {
+        "title": "JOYROOM Motorcycle Phone Mount, [1s Auto Lock][100mph Military Anti-Shake] Bike ",
+        "slug": "b09pvfn7lg-product",
+        "priceLabel": "See Amazon",
+        "href": "/products/b09pvfn7lg-product/"
+      },
+      {
+        "title": "Lamicall Bike Phone Holder, Motorcycle Mount - Motorcycle Phone Holder, Handleba",
+        "slug": "b085dmv7xd-product",
+        "priceLabel": "See Amazon",
+        "href": "/products/b085dmv7xd-product/"
+      },
+      {
+        "title": "JOYROOM Motorcycle Phone Mount Holder - [Dual Vibration Dampener] 150mph Anti-Sh",
+        "slug": "b0dplzgs51-product",
+        "priceLabel": "See Amazon",
+        "href": "/products/b0dplzgs51-product/"
+      }
+    ]
   },
   "about": {
     "headline": "Why V-Twin Rider Kit exists",
@@ -121,7 +148,7 @@
     }
   },
   "analytics": {
-    "ga_measurement_id": "pending",
+    "ga_measurement_id": "G-BECE2HBE37",
     "ga_property_id": "pending",
     "search_console_property": "https://vtwinriderkit.org/"
   }

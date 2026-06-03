@@ -159,3 +159,10 @@ Yes. Though belts don’t require lubrication like chains, checking for cracks, 
 ---
 
 Keeping your chain or belt in top shape is part respect for your cruiser, part practical motorcycle maintenance. By assembling the right kit and setting a routine, you ensure your American V-twin stays reliable and ready for every ride. From my experience, investing in good quality maintenance gear and making time for care pays off on the road—and in the garage.
+
+## Products in this guide
+
+- [YeewayVeh 6PCS Motorcycle Cleaning Kit with Boar Hair Detailing Brush-Pro Safe for Chrome,Chain, Tire & Engine, Bendable](/products/b0d8th35nd-product/)
+- [Wizards Motorcycle Cleaning Kit - Bike Wash Foam and Rinse, Quick Detailer Spray, and Bug Remover with Fiber Cloth and D](/products/b00t6j26z8-product/)
+- [oesee 8 Pack Motorcycle Cleaning Kit - Professional Safe for Chrome/Engine/Tires, Hard Reach Brush, Microfiber Mitt, Det](/products/b0dsd1wzbm-product/)
+- [YeewayVeh 7PCS Motorcycle Cleaning & Polishing Kit - Ultimate All-in-One Care with Wax Applicator Pads, Detailing Brush](/products/b0gkxzghms-product/)

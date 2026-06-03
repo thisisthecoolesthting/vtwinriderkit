@@ -220,3 +220,10 @@ Hydration packs like the Hydrapak Seeker provide an easy way to drink without st
 ---
 
 Packing smart for your V-twin tour isn’t just about cramming things into bags — it’s about choosing gear that serves multiple purposes and is tested for durability. These 25 essentials come from years of experience on the road, workshop, and long rides. Whether you’re plotting a weekend escape or a coast-to-coast run, these Amazon finds will help keep you rolling smooth, comfortable, and prepared.
+
+## Products in this guide
+
+- [URBAN UR6 Hi-Tech Motorcycle Disc Lock with Smart Alarm | Best Value | 120dB, LED, Warning, A+ Sensitivity, Truly Waterp](/products/b00yf051zu-product/)
+- [Alpinestars Hurricane Rain v2 Waterproof Motorcycle Suit, Lightweight All-Weather Rain Gear with Reflective Safety Featu](/products/b0dr7ryp1m-product/)
+- [URBAN UR14S Approved Motorcycle Disc Lock with Smart Alarm | 120dB, LED, Warning, A+ Sensitivity, X2 ON | SRA & Sold Sec](/products/b01n2uc3r3-product/)
+- [KEMIMOTO Saddlebag Liners 1 Pair Motorcycle Saddle Liner Bag 32L Hard Saddle Insert Travel Storage Bag Compatible with T](/products/b078n57hdw-product/)

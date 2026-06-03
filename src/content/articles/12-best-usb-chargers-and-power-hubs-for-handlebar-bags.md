@@ -138,3 +138,10 @@ Use protective cable sleeves, avoid sharp bends, and secure cables away from mov
 ---
 
 Keeping your gadgets powered during your next cruiser ride just got easier. I hope this guide helps you pick the best USB charger or power hub that fits your handlebar bag and riding style. Ride safe and stay charged!
+
+## Products in this guide
+
+- [BRCOVAN Anti-Theft Motorcycle Phone Mount Holder with Vibration Dampener & High-Speed Secure Lock, Adjustable Size Handl](/products/b0bxkxx7dx-product/)
+- [Kryptonite Heavy Duty Motorcycle Alarm Disc Lock – Anti-Theft Powersport Brake Lock with 120dB Siren, Weather-Resistant](/products/b08c5j63rq-product/)
+- [BRCOVAN Motorcycle Phone Mount Holder with Vibration Dampener, Anti-Shake Handlebar Cellphone Cradle for Bike Bicycle Sc](/products/b0cghszp31-product/)
+- [Wizards Motorcycle Cleaning Kit - Bike Wash Foam and Rinse, Quick Detailer Spray, and Bug Remover with Fiber Cloth and D](/products/b00t6j26z8-product/)
