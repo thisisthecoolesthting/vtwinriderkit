@@ -43,6 +43,8 @@ Cruiser riders spend hours on the road, and staying connected—without losing f
 
 I've tested dozens of setups over the past five years of long-haul touring on my own V-twin, and I've learned that not all motorcycle tech gear is created equal. Wind, vibration, and road salt wreak havoc on hardware. In this guide, I'll walk you through the essential tech ecosystem for cruiser riders—from rock-solid phone mounts to dash cams that actually stay put—and help you choose what makes sense for your riding style and budget.
 
+*As an Amazon Associate I earn from qualifying purchases. V-Twin Rider Kit is an independent gear guide — not affiliated with Harley-Davidson, Inc. or any motorcycle OEM.*
+
 ## Key Takeaways
 
 - Secure phone mounting requires both vibration isolation and weatherproofing; RAM mounts and Tite Flex systems lead the pack for cruisers.

@@ -42,6 +42,8 @@ A solid weekend ride kit is the difference between cutting your Saturday short a
 
 I've learned this the hard way—left for a Friday-night run to the mountains without a rain layer once. Won't make that mistake twice. Over a decade of touring on Harley-style V-twins and helping other riders pack smart, I've boiled it down to essentials that fit, weigh reasonable, and actually get used. This guide walks you through what goes in your kit, why it belongs there, and how to organize it so you're not fumbling in a parking lot at dusk.
 
+*As an Amazon Associate I earn from qualifying purchases. V-Twin Rider Kit is an independent gear guide — not affiliated with Harley-Davidson, Inc. or any motorcycle OEM.*
+
 ## Key Takeaways
 
 - **Smart layering beats bulky jackets.** A mesh overjacket and merino base layer handle 80% of weekend weather surprises.

@@ -5,6 +5,7 @@ metaDescription: Two-up touring kit — passenger comfort and storage math. Prac
 publishedAt: '2026-06-02'
 updatedAt: '2026-06-02'
 excerpt: Two-up touring kit — passenger comfort and storage math
+targetKeyword: two-up touring kit passenger comfort storage cruiser
 author: jake-morales-vtwinriderkit
 tags:
 - touring
@@ -42,6 +43,8 @@ hero_image_keywords:
 When you're planning a multi-day cruise with a passenger, comfort and cargo capacity become the difference between a memorable road trip and a day spent apologizing for sore legs and forgotten gear. Building a two-up touring kit for a Harley-style cruiser means thinking through seat geometry, weight distribution, storage access, and the small luxuries that keep both rider and passenger smiling across state lines.
 
 I've packed two-up tours from the Texas Panhandle to the Canadian Maritimes, and I've also listened to plenty of riders regret their choices halfway through a trip. This guide walks through the gear, math, and real-world priorities that make two-up touring actually work.
+
+*As an Amazon Associate I earn from qualifying purchases. V-Twin Rider Kit is an independent gear guide — not affiliated with Harley-Davidson, Inc. or any motorcycle OEM.*
 
 ## Key takeaways
 
@@ -86,7 +89,7 @@ Popular options include:
 
 **Stock replacements with aftermarket padding** are a budget move: remove your factory seat, strip it, add a high-density foam layer (open-cell or memory foam), and have an upholsterer re-cover it. Cost: $150–$300. This works reasonably well for 4–8 hour days, though it's not a permanent fix.
 
-**Factory touring seats** from Harley-Davidson's optional parts catalog include built-in sissybars and rubberized surfaces that keep passengers in place. They're heavier and less sleek, but they're engineered for the job. Cost: $600–$1,000 installed.
+**Factory touring seats** from factory optional parts catalogs include built-in sissybars and rubberized surfaces that keep passengers in place. They're heavier and less sleek, but they're engineered for the job. Cost: $600–$1,000 installed.
 
 Backrests and sissy bars serve a critical function: they let passengers lean back and rest their core, especially on long interstate miles. Without one, passengers clench their legs around the seat and hold the rider's ribs, which tires everyone and creates safety issues (passengers who fatigue can't react to sudden maneuvers).
 

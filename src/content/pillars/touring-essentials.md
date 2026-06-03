@@ -42,6 +42,8 @@ If you're throwing your leg over a Harley or American V-twin cruiser and heading
 
 It's about packing smart, staying dry, and making sure your bike and body make it back home without regret.
 
+*As an Amazon Associate I earn from qualifying purchases. V-Twin Rider Kit is an independent gear guide — not affiliated with Harley-Davidson, Inc. or any motorcycle OEM.*
+
 ## Key Takeaways
 
 - Quality luggage (saddlebags, top boxes, or racks) is the foundation—what you choose affects weight distribution, aerodynamics, and how much you can actually bring

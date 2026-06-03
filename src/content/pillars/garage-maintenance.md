@@ -41,6 +41,8 @@ hero_image_keywords:
 
 Whether you're storing a V-twin for winter or keeping your ride dialed in year-round, a well-organized garage is the difference between firing up confidently and troubleshooting a dead battery or seized chain. I've spent enough hours wrenching in my shop to know that the right maintenance gear pays for itself in saved shop bills and saved headaches on the road.
 
+*As an Amazon Associate I earn from qualifying purchases. V-Twin Rider Kit is an independent gear guide — not affiliated with Harley-Davidson, Inc. or any motorcycle OEM.*
+
 ## Key takeaways
 
 - A quality battery tender keeps your cruiser's battery charged and healthy during storage, preventing sulfation and corrosion that drain starting power.

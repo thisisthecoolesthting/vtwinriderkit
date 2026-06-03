@@ -6,6 +6,7 @@ metaDescription: Winter storage checklist — battery, fuel, cover, theft preven
 publishedAt: '2026-06-02'
 updatedAt: '2026-06-02'
 excerpt: Winter storage checklist — battery, fuel, cover, theft prevention
+targetKeyword: winter storage checklist battery fuel cover theft prevention motorcycle
 author: jake-morales-vtwinriderkit
 tags:
 - winter
@@ -41,6 +42,8 @@ hero_image_keywords:
 Storing your cruiser properly over winter means the difference between firing up ready to ride in spring and spending March wrestling with a dead battery, gummy fuel, or discovering your bike's been stripped in the garage. I've seen too many beautiful bikes come out of winter storage worse than when they went in—and most of that damage is preventable with a solid checklist and a couple of hours of prep work.
 
 Whether you're in the snowbelt laying up your bike for four months or just taking a break during the wet season, this guide walks you through the exact steps I use to put mine to sleep and wake it up like it never stopped running.
+
+*As an Amazon Associate I earn from qualifying purchases. V-Twin Rider Kit is an independent gear guide — not affiliated with Harley-Davidson, Inc. or any motorcycle OEM.*
 
 ## Key Takeaways
 

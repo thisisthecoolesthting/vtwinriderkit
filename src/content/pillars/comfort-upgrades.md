@@ -40,6 +40,8 @@ hero_image_keywords:
 
 A long ride in the wrong seat or with cold hands stops being fun around mile 50—and comfort upgrades are the quickest way to reclaim the joy of your cruiser. I've tested these upgrades on everything from weekend mall runs to 800-mile hauls, and the right combination of grips, pegs, seats, gloves, and heated gear transforms how your body feels when you roll back into the driveway.
 
+*As an Amazon Associate I earn from qualifying purchases. V-Twin Rider Kit is an independent gear guide — not affiliated with Harley-Davidson, Inc. or any motorcycle OEM.*
+
 ## Key Takeaways
 
 - **Comfort starts at contact points**: grips, pegs, and seats absorb road vibration and fatigue far more than bike setup alone.

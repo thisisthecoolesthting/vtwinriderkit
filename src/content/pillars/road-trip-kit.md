@@ -43,6 +43,8 @@ If you're planning a week-plus on your cruiser—whether it's following the back
 
 This article cuts through the upsell noise and shows you exactly what you need to keep riding when you're 200 miles from the nearest authorized shop. We're talking tools, fluids, spare parts, and comfort gear that you can source on Amazon and stash without turning your cruiser into a pack mule.
 
+*As an Amazon Associate I earn from qualifying purchases. V-Twin Rider Kit is an independent gear guide — not affiliated with Harley-Davidson, Inc. or any motorcycle OEM.*
+
 ## Key Takeaways
 
 - A focused long-haul kit prevents most common roadside issues—loose bolts, chain slip, fuel contamination, and minor leaks—without dealer dependency

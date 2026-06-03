@@ -41,6 +41,8 @@ hero_image_keywords:
 
 Whether you're parking at a roadside diner for lunch or storing your bike for the winter, protecting your investment means thinking beyond the ignition switch. A solid security and storage plan—combining physical locks, weather protection, theft deterrence, and smart garage habits—is something every cruiser owner should tackle before problems start.
 
+*As an Amazon Associate I earn from qualifying purchases. V-Twin Rider Kit is an independent gear guide — not affiliated with Harley-Davidson, Inc. or any motorcycle OEM.*
+
 ## Key Takeaways
 
 - Disc locks and cable systems offer affordable, layered protection; GPS trackers add modern recovery capability if theft happens.

@@ -41,6 +41,8 @@ You're heading out on a Saturday morning with a clear sky overhead and a three-d
 
 After nearly two decades of wrenching in my garage and logging thousands of miles on various American V-twins, I've assembled and tested dozens of rain-protection strategies. Here's what actually works when the forecast lies.
 
+*As an Amazon Associate I earn from qualifying purchases. V-Twin Rider Kit is an independent gear guide — not affiliated with Harley-Davidson, Inc. or any motorcycle OEM.*
+
 ## Key Takeaways
 
 - A rapid-deploy rain kit keeps your core layers dry and your sight lines clear without bulky hard luggage.
