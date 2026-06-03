@@ -2,57 +2,57 @@
 import CompliantLayout from '@/layouts/CompliantLayout.astro';
 import PageIntro from '@/components/PageIntro.astro';
 import NewsletterForm from '@/components/NewsletterForm.astro';
+import home from '@/data/spawn-home.json';
+
+const about = (home as { about?: { headline?: string; body?: string } }).about;
+const headline = about?.headline ?? 'Why V-Twin Rider Kit exists';
+const body =
+  about?.body ??
+  'We ride American cruisers and baggers and organize Amazon-buyable touring gear, garage tools, and road-trip kits with honest comparisons.';
 ---
 
 <CompliantLayout
   title="About"
-  description="What RefillWatch is, why it exists, and how we choose what to recommend."
+  description="What V-Twin Rider Kit is, why it exists, and how we choose gear for V-twin and cruiser riders."
   sectionAds="about"
 >
   <PageIntro
-    eyebrow="About RefillWatch"
-    title="When retailers creep prices, we're watching."
-    description="Consumer-advocacy watchdog for repeat buys — water, detergent, ink, pet food, subscriptions. We track hikes and point you to smarter refills."
+    eyebrow="About V-Twin Rider Kit"
+    title={headline}
+    description="Independent gear checklists for American V-twin and cruiser riders — not affiliated with Harley-Davidson or any motorcycle manufacturer."
   />
 
   <section class="max-w-site mx-auto px-4 sm:px-6 lg:px-8 pb-10 md:pb-14">
     <article class="content-panel max-w-3xl mx-auto prose prose-lg prose-ink">
-      <h2>What we do here</h2>
-      <p>We track retailer price hikes on the consumables people buy every month, name the increase specifically, and point readers to alternatives before they overpay. We do not take sponsorships from the retailers or brands we cover. Revenue comes from partner commissions on the refillable and reusable alternatives we recommend, and from bank/credit accounts readers open to stop getting gouged by the financial side of the same problem.</p>
+      <p class="!mt-0">{body}</p>
 
-      <h2>How we pick</h2>
+      <h2>How we pick gear</h2>
       <p>
-        Every product on this site clears four bars before we recommend it:
-        real-world evidence (rating, reviews, longevity), reasonable price
-        for what you get, no concerning safety or quality issues, and at
-        least one of us would buy it for someone we care about. We say no
-        to a lot of things, including paid placements.
+        We prioritize scenario fit (weekend ride, touring, garage maintenance),
+        verified Amazon listings with strong review signals, and gear we would
+        pack on our own bikes. We decline paid placements and do not let
+        commissions change sort order.
       </p>
 
       <h2>How we make money</h2>
       <p>
-        Most of our links are partner links -- when you buy through them
-        we earn a small commission at no cost to you. That money keeps the
-        site free, keeps us editorially independent, and lets us spend the
-        time it takes to actually research what we recommend.
-        <a href="/disclosure">Read the full disclosure.</a>
+        <strong>As an Amazon Associate I earn from qualifying purchases.</strong>
+        Revenue is Amazon Associates only. See our full
+        <a href="/disclosure">partner disclosure</a>.
       </p>
 
-      <h2>Who this is for</h2>
-      <p>Cost-conscious consumers, budget-minded households, and anyone tired of watching routine purchases creep up in price without explanation.</p>
-
-      <h2>What we&rsquo;re not</h2>
+      <h2>Trademark notice</h2>
       <p>
-        We&rsquo;re not doctors, lawyers, financial advisors, or licensed
-        practitioners of anything. Nothing here is professional advice. If
-        what we cover intersects with a decision that matters to your
-        health or finances, please talk to someone qualified.
+        V-Twin Rider Kit is not affiliated with, endorsed by, or sponsored by
+        Harley-Davidson, Inc. or any motorcycle manufacturer. Product names and
+        trademarks belong to their owners. Always confirm fitment with the seller
+        before you buy.
       </p>
 
       <h2>Get in touch</h2>
       <p>
-        Questions, requests, corrections, or product suggestions:
-        <a href="mailto:hello@refillwatch.org">hello@refillwatch.org</a>.
+        Questions, corrections, or fitment notes:
+        <a href="mailto:hello@vtwinriderkit.org">hello@vtwinriderkit.org</a>.
       </p>
     </article>
   </section>

@@ -4,7 +4,7 @@ import PageIntro from '@/components/PageIntro.astro';
 import home from '@/data/spawn-home.json';
 
 const b = home.brand;
-const support = (home as { supportEmail?: string }).supportEmail || 'hello@example.com';
+const support = (home as { supportEmail?: string }).supportEmail || 'hello@vtwinriderkit.org';
 const year = new Date().getFullYear();
 ---
 
@@ -18,9 +18,13 @@ const year = new Date().getFullYear();
 
   <section class="max-w-site mx-auto px-4 sm:px-6 lg:px-8 pb-14">
   <article class="content-panel max-w-prose mx-auto prose prose-lg prose-ink">
+    <p class="!mt-0">
+      <strong>As an Amazon Associate I earn from qualifying purchases.</strong>
+    </p>
     <p>
       {b.fullName} respects your privacy. This policy explains what we collect when you visit
-      our site, how we use it, and the choices you have.
+      our site, how we use it, and the choices you have. We are not affiliated with
+      Harley-Davidson, Inc. or any motorcycle manufacturer.
     </p>
     <h2>Information we collect</h2>
     <p>

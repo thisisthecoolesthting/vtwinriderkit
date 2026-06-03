@@ -1,119 +1,85 @@
 ---
 import CompliantLayout from '@/layouts/CompliantLayout.astro';
 import PageIntro from '@/components/PageIntro.astro';
+import home from '@/data/spawn-home.json';
+
+const b = home.brand;
+const editorial = (home as { editorial?: { methodology?: string[]; author_slug?: string } }).editorial;
+const defaultAuthorSlug = (home as { defaultAuthorSlug?: string }).defaultAuthorSlug || 'jake-morales-vtwinriderkit';
+const leadAuthorSlug = editorial?.author_slug || defaultAuthorSlug;
+const methodology = (editorial?.methodology || []).filter(Boolean);
+const supportEmail = (home as { supportEmail?: string }).supportEmail || 'hello@vtwinriderkit.org';
 ---
 
 <CompliantLayout
-  title="How RefillWatch researches and reports"
-  description="RefillWatch's methodology for tracking retailer price hikes, naming the brands, and finding the cheaper refill or bulk alternative."
+  title="How V-Twin Rider Kit researches and recommends"
+  description="How V-Twin Rider Kit evaluates cruiser and touring gear, handles Amazon links, and keeps editorial decisions independent."
   sectionAds="legal"
 >
   <PageIntro
     eyebrow="Methodology"
-    title="How we track hikes, name brands, and find the alternative"
-    description="RefillWatch exists because most consumer reporting on retail pricing is too polite, too abstract, or too late. Here is exactly how we work."
+    title="How we research, test, and recommend"
+    description="Practical buyer guides for V-twin riders — fitment notes, honest comparisons, and no pay-to-play rankings."
   />
 
   <section class="max-w-site mx-auto px-4 sm:px-6 lg:px-8 pb-14 md:pb-20">
     <article class="content-panel max-w-prose mx-auto prose prose-lg prose-ink">
+      <p class="!mt-0">
+        <strong>As an Amazon Associate I earn from qualifying purchases.</strong>
+      </p>
+      <p>
+        We are not affiliated with, endorsed by, or sponsored by Harley-Davidson, Inc. or any
+        motorcycle manufacturer.
+      </p>
+
       <h2>Our mission</h2>
       <p>
-        Catch retailer price hikes on routine purchases before readers quietly pay another
-        year&rsquo;s worth, name the brand and the dollar amount, and point to a cheaper
-        refillable, bulk, or third-party alternative. The goal is specificity &mdash;
-        generic &ldquo;inflation is bad&rdquo; takes are a dime a dozen.
+        {b.fullName} exists because cruiser and touring riders deserve organized, road-tested gear
+        lists — not scattered forum threads and dealer upsells. We document what we pack, what we
+        wrench with, and what survives long hauls on American V-twins.
       </p>
 
-      <h2>What we track</h2>
-      <ul>
-        <li>SKU-level price changes at major national retailers (Amazon, Walmart, Target, Kroger, Costco, Trader Joe&rsquo;s).</li>
-        <li>Per-ounce and per-unit pricing to catch shrinkflation (same box, less product).</li>
-        <li>Subscription-service price creep (streaming, delivery, household staples auto-ship).</li>
-        <li>Private-label pricing relative to the national brand equivalent.</li>
-        <li>Ink, bottled water, pet food, detergent, paper goods, coffee, and a rotating roster of routine categories.</li>
-      </ul>
-
-      <h2>How we verify a hike</h2>
-      <p>
-        We don&rsquo;t publish a price-hike alert based on a single data point. Every alert
-        requires at least two of the following sources agreeing on the hike, the dollar
-        amount, and the approximate date:
-      </p>
-      <ul>
-        <li>Direct retailer page screenshots across at least two separate dates.</li>
-        <li>Price-history databases (Keepa, CamelCamelCamel, Honey) where available.</li>
-        <li>Reader submissions with receipts or app screenshots.</li>
-        <li>Manufacturer or retailer earnings-call commentary acknowledging the category move.</li>
-      </ul>
-      <p>
-        When evidence is thin or conflicting, we say so. &ldquo;Possibly rising&rdquo; is a
-        different headline than &ldquo;up 9.7% in the last 90 days.&rdquo;
-      </p>
-
-      <h2>How we pick the alternative</h2>
-      <p>
-        Every price-hike story ends with a specific alternative &mdash; a refillable version,
-        a bulk-refill supplier, a private-label equivalent, or a different category
-        altogether (a SodaStream instead of another case of La Croix). The alternative must
-        clear four bars:
-      </p>
-      <ol>
-        <li><strong>Cheaper per unit</strong> after factoring in any up-front equipment cost, amortized over 12 months.</li>
-        <li><strong>Actually available</strong> at the retailers our readers use &mdash; not a drop-ship-only obscure DTC brand.</li>
-        <li><strong>Not the same parent company</strong> that owns the brand doing the hike (catching the private-label trick).</li>
-        <li><strong>We&rsquo;d switch to it ourselves</strong>, and most of the time we already have.</li>
-      </ol>
+      <h2>How we evaluate gear</h2>
+      {methodology.length > 0 ? (
+        <ul>
+          {methodology.map((item) => <li>{item}</li>)}
+        </ul>
+      ) : (
+        <ul>
+          <li>We prioritize gear with verified cruiser/touring fitment notes in listing text.</li>
+          <li>We do not publish live Amazon prices unless pulled from approved catalog data at build time.</li>
+          <li>We re-check top picks quarterly and remove discontinued ASINs.</li>
+          <li>Reader fitment corrections are updated within 72 hours.</li>
+        </ul>
+      )}
 
       <h2>Editorial standards</h2>
       <ul>
         <li>
-          <strong>No sponsored placements.</strong> We do not accept paid promotion from any
-          retailer, brand, or manufacturer RefillWatch covers. If that ever changes, the
-          page carrying the promotion will say so plainly.
+          <strong>No sponsored placements.</strong> We do not accept payment to rank products or
+          change checklist order.
         </li>
         <li>
-          <strong>Partner links go to neutral third parties.</strong> When we link to a
-          bulk supplier or refill brand, that partner relationship is disclosed. We do
-          not run Amazon partner links to the brands we are criticizing for price hikes
-          &mdash; that would be a direct conflict.
+          <strong>Partner links are disclosed.</strong> Commissions do not change what we recommend.
+          See our <a href="/disclosure/">affiliate disclosure</a>.
         </li>
         <li>
-          <strong>Named, dated, numbered.</strong> Every hike story states the specific
-          product or SKU, the specific retailer, the specific old price, the specific new
-          price, and the specific date (or date range) of the hike. Soft claims don&rsquo;t
-          ship.
+          <strong>Human review before publish.</strong> Every piece is reviewed and edited by{' '}
+          <a href={`/authors/${leadAuthorSlug}/`}>our editorial lead</a> before it ships.
         </li>
       </ul>
 
-      <h2>Disclosure</h2>
-      <p>
-        RefillWatch is funded by partner revenue from bulk-refill suppliers and a few
-        category-specific retailers who are not themselves the targets of our price-hike
-        coverage. When you click through an partner links and buy, we earn a small
-        commission at no extra cost to you. See the full <a href="/disclosure/">partner
-        disclosure</a>.
-      </p>
-      <p>
-        RefillWatch uses AI tools for research drafting and initial article structure.
-        Every piece is reviewed and edited by <a href="/authors/dana-wolff/">Dana Wolff</a>
-        before publish. Factual claims, dollar amounts, and brand names are verified
-        by a human before they appear on the site.
-      </p>
-
       <h2>Corrections</h2>
       <p>
-        Wrong price? Wrong date? Link to the receipt or the archived page and email
-        <a href="mailto:hello@refillwatch.org">hello@refillwatch.org</a>. We correct fast
-        and leave a visible &ldquo;corrected on&rdquo; stamp on the page so readers know
-        what changed and when.
+        Wrong fitment note? Discontinued ASIN? Email{' '}
+        <a href={`mailto:${supportEmail}`}>{supportEmail}</a>. We correct fast and note material
+        changes on the page.
       </p>
 
-      <h2>What RefillWatch is not</h2>
+      <h2>What {b.fullName} is not</h2>
       <p>
-        RefillWatch is consumer-pricing journalism &mdash; not financial advice, not
-        investment guidance, not a substitute for a household budget conversation. If a
-        hike is putting real stress on your monthly spending, we&rsquo;ll point you to
-        the alternative, but we can&rsquo;t tell you how much to allocate to groceries.
+        Consumer gear journalism — not mechanical, legal, or safety certification advice. Verify
+        compatibility with your bike and local regulations before you ride or buy.
       </p>
     </article>
   </section>

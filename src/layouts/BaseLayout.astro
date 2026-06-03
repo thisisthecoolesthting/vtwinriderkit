@@ -56,7 +56,8 @@ const {
   sectionAdsCompact = false,
 } = Astro.props;
 
-const siteUrl = (import.meta.env.SITE as string | undefined)?.replace(/\/$/, '') || '';
+const SITE_ORIGIN = 'https://vtwinriderkit.org';
+const siteUrl = (import.meta.env.SITE as string | undefined)?.replace(/\/$/, '') || SITE_ORIGIN;
 const hero = home.homepage.heroImageUrl;
 const defaultOg = (image && image.length) ? image : (hero && hero.length ? hero : '/og-default.png');
 const og = defaultOg;

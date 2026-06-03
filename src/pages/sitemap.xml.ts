@@ -5,7 +5,7 @@
 import type { APIRoute } from 'astro';
 import { getCollection } from 'astro:content';
 
-const SITE = (import.meta.env.SITE as string | undefined)?.replace(/\/$/, '') || 'https://example.com';
+const SITE = (import.meta.env.SITE as string | undefined)?.replace(/\/$/, '') || 'https://vtwinriderkit.org';
 
 export const GET: APIRoute = async () => {
   const products = await getCollection('products', ({ data }) => data.status === 'published');

@@ -4,8 +4,8 @@
  */
 export function siteOrigin(): string {
   const s = import.meta.env.SITE;
-  if (typeof s !== 'string' || !s) {
-    return '';
+  if (typeof s === 'string' && s) {
+    return s.replace(/\/$/, '');
   }
-  return s.replace(/\/$/, '');
+  return 'https://vtwinriderkit.org';
 }
