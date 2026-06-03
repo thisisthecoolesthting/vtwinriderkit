@@ -13,8 +13,8 @@ import {
 import { amazonAsinImageUrl } from '@/utils/product-image';
 import home from '@/data/spawn-home.json';
 
-const siteBrand = home.brand?.fullName || 'RefillWatch';
-const associateTag = import.meta.env.PUBLIC_ASSOCIATE_TAG ?? 'refillwatch-20';
+const siteBrand = home.brand?.fullName || 'V-Twin Rider Kit';
+const associateTag = import.meta.env.PUBLIC_ASSOCIATE_TAG ?? 'vtwinriderkit-20';
 
 const catalog = await getCollection('products', ({ data }) => data.status === 'published');
 
@@ -28,7 +28,7 @@ const fromCatalog: BottomAmazonPick[] = catalog
       subtitle:
         (p.data as { cardPick?: string }).cardPick ||
         p.data.metaDescription?.slice(0, 120) ||
-        'Reviewed on RefillWatch — real retail tests.',
+        'Reviewed on V-Twin Rider Kit — real retail tests.',
       priceLabel: price > 0 ? `From ~$${price.toFixed(0)}` : 'See Amazon price',
       badge: 'On our watchlist',
       imageUrl: p.data.imageUrl,

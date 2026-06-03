@@ -1,6 +1,6 @@
-/** Amazon Associates link helpers for RefillWatch. */
+/** Amazon Associates link helpers for V-Twin Rider Kit. */
 
-export const DEFAULT_ASSOCIATE_TAG = 'refillwatch-20';
+export const DEFAULT_ASSOCIATE_TAG = 'vtwinriderkit-20';
 
 export function amazonAffiliateUrlFromAsin(
   asin: string,

@@ -78,7 +78,7 @@ async function remoteUrlOk(url: string): Promise<boolean> {
   try {
     const res = await fetch(url, {
       method: 'HEAD',
-      headers: { 'User-Agent': 'RefillWatchBuild/1.0' },
+      headers: { 'User-Agent': 'V-Twin Rider KitBuild/1.0' },
       redirect: 'follow',
     });
     if (!res.ok) return false;

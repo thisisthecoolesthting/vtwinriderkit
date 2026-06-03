@@ -6,6 +6,7 @@ publishedAt: '2026-06-02'
 updatedAt: '2026-06-02'
 excerpt: Weekend ride kit — pack list for Saturday loops and overnight stays
 author: jake-morales-vtwinriderkit
+targetKeyword: weekend ride kit cruiser packing list overnight
 tags:
 - weekend
 - ride
