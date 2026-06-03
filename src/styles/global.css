@@ -6,13 +6,13 @@
 
 @layer base {
   html {
-    @apply text-ink-900 bg-cream-50 antialiased;
+    @apply text-ink-900 bg-cream-50 antialiased overflow-x-hidden;
     font-family: 'Inter', system-ui, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
   body {
-    @apply leading-relaxed site-page-bg texture-paper;
+    @apply leading-relaxed site-page-bg texture-paper overflow-x-hidden max-w-[100vw];
   }
   h1, h2, h3, h4, h5, h6 {
     font-family: 'Archivo', Georgia, serif;
@@ -94,7 +94,8 @@
   .amazon-inline-card__link {
     @apply flex items-center gap-3 no-underline rounded-xl border border-cream-200
            bg-white p-3 sm:p-4 shadow-soft transition-all duration-200
-           hover:border-terracotta-400 hover:shadow-soft-lg hover:no-underline;
+           hover:border-terracotta-400 hover:shadow-soft-lg hover:no-underline
+           max-w-full w-full min-w-0;
   }
   .amazon-inline-card__img {
     @apply w-20 h-20 object-contain rounded-lg bg-cream-100 flex-shrink-0 p-1;
@@ -204,6 +205,63 @@
 
   .prose h1, .prose h2, article h1, article h2, main article h1, main article h2 {
     @apply text-ink-900;
+  }
+
+  html.has-mobile-sticky-ad .has-mobile-main-pad {
+    padding-bottom: 5.5rem;
+  }
+
+  @media (min-width: 768px) {
+    html.has-mobile-sticky-ad .has-mobile-main-pad {
+      padding-bottom: 0;
+    }
+  }
+
+  #sticky-ad-bar :global(.cad-wrap) {
+    margin: 0;
+  }
+
+  #sticky-ad-bar :global(.cad-leader) {
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.12);
+  }
+
+  .article-longform .article-body-wide :global(.prose),
+  .article-longform .article-body-wide {
+    overflow-wrap: anywhere;
+    word-break: break-word;
+  }
+
+  .article-longform .article-body-wide :global(table) {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .article-longform .article-body-wide :global(pre),
+  .article-longform .article-body-wide :global(code) {
+    max-width: 100%;
+    overflow-x: auto;
+  }
+
+  .article-longform .article-body-wide :global(img) {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .article-longform .article-body-wide :global(.product-link-pair) {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.35rem 0.5rem;
+    max-width: 100%;
+  }
+
+  .article-longform .article-body-wide :global(a) {
+    overflow-wrap: anywhere;
   }
 }
 

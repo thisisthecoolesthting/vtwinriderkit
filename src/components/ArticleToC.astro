@@ -17,7 +17,7 @@ const { embedded = false, expanded = false } = Astro.props;
     expanded && 'article-toc--expanded',
   ]}
 >
-  <p class="font-mono text-[10px] tracking-[0.16em] uppercase text-terracotta-600 mb-2">Page map</p>
+  <p class="font-mono text-[10px] tracking-[0.16em] uppercase text-[#EA580C] mb-2 hidden lg:block">Page map</p>
   <a
     id="toc-jump"
     href="#top-picks"
@@ -84,7 +84,7 @@ const { embedded = false, expanded = false } = Astro.props;
     a.textContent = h.textContent ?? '';
     a.className =
       'block py-0.5 px-2 rounded transition-colors no-underline leading-snug ' +
-      'text-ink-600 hover:text-terracotta-600 hover:bg-cream-100';
+      'text-ink-700 hover:text-[#EA580C] hover:bg-cream-50';
     li.appendChild(a);
     list.appendChild(li);
   });
@@ -101,7 +101,7 @@ const { embedded = false, expanded = false } = Astro.props;
       entries.forEach((e) => {
         const lnk = list.querySelector(`a[href="#${e.target.id}"]`);
         if (lnk) {
-          lnk.classList.toggle('text-terracotta-600', e.isIntersecting);
+          lnk.classList.toggle('text-[#EA580C]', e.isIntersecting);
           lnk.classList.toggle('font-semibold', e.isIntersecting);
         }
       });

@@ -65,7 +65,7 @@ const {
 
 
 
-<div class="max-w-site mx-auto px-4 sm:px-6 lg:px-8 py-10 md:py-14 pb-16">
+<div class="max-w-site mx-auto px-3 sm:px-6 lg:px-8 py-4 md:py-14 pb-8 md:pb-16">
 
   <div class="longform-layout flex flex-col lg:flex-row gap-4 lg:gap-8 items-start lg:items-start">
 
@@ -84,9 +84,9 @@ const {
 
 
 
-        <header class="mb-6 text-center">
+        <header class="mb-4 md:mb-6 text-left md:text-center">
 
-          <h1 class="font-display text-2xl md:text-3xl text-ink-900 mb-0 !mt-0 leading-tight">
+          <h1 class="article-title-display font-display text-[1.65rem] sm:text-3xl md:text-4xl text-ink-900 mb-0 !mt-0 leading-[1.15] tracking-tight break-words">
 
             {title}
 
@@ -138,9 +138,6 @@ const {
           <slot />
         </div>
 
-        <div class="my-8 lg:hidden not-prose">
-          <PhoneCaseFamilyTextLinks placement="longform-mid-mobile" compact />
-        </div>
 
 
 
@@ -272,7 +269,18 @@ const {
   .article-longform .article-body-wide :global(table) {
 
     font-size: 0.875rem;
+    display: block;
+    max-width: 100%;
+    overflow-x: auto;
 
+  }
+
+  .article-longform .article-body-wide :global(.amazon-inline-card) {
+    max-width: 100%;
+  }
+
+  .article-longform .article-body-wide :global(.amazon-inline-card__title) {
+    word-break: break-word;
   }
 
   .article-longform .article-body-wide :global(blockquote) {

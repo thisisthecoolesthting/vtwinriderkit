@@ -8,30 +8,47 @@ import CaseAdSlot from '@/components/CaseAdSlot.astro';
   aria-label="Page map and phone case offer"
 >
   <div class="article-sidebar-panel flex flex-col gap-3">
-    <section class="article-sidebar-toc min-h-0">
+    {/* Mobile: collapsed page map */}
+    <details class="article-toc-mobile lg:hidden group">
+      <summary
+        class="list-none cursor-pointer flex items-center justify-between gap-2 font-mono text-[10px] tracking-[0.16em] uppercase text-[#EA580C] py-2 px-1 select-none"
+      >
+        <span>Page map</span>
+        <span class="text-ink-500 group-open:rotate-180 transition-transform" aria-hidden="true">▾</span>
+      </summary>
+      <div class="pt-1 pb-2 border-t border-cream-200/80 mt-1">
+        <ArticleToC embedded expanded />
+      </div>
+    </details>
+
+    {/* Desktop: always visible TOC */}
+    <section class="article-sidebar-toc hidden lg:block min-h-0">
       <ArticleToC embedded expanded />
     </section>
 
-    <div class="article-sidebar-ad not-prose shrink-0">
+    <div class="article-sidebar-ad not-prose shrink-0 hidden lg:block">
       <CaseAdSlot size="300x600" placement="longform-sidebar-sticky" />
     </div>
   </div>
 </aside>
 
 <style>
-  /* Sticky is on <aside> so the rail stays fixed for the full article scroll */
   .article-sidebar-panel {
     width: 100%;
   }
 
   @media (max-width: 1023px) {
     .article-sidebar-panel {
-      margin-bottom: 0.75rem;
-      padding: 0.75rem;
+      margin-bottom: 0.5rem;
+      padding: 0.625rem 0.75rem;
       border-radius: 0.75rem;
-      border: 1px solid #e8e0d4;
-      background: rgba(255, 255, 255, 0.97);
-      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+      border: 1px solid #e7e5e4;
+      background: #fff;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+    }
+
+    .article-toc-mobile summary::-webkit-details-marker {
+      display: none;
     }
   }
 

@@ -11,6 +11,7 @@ import NewsletterForm from '@/components/NewsletterForm.astro';
 import home from '@/data/spawn-home.json';
 
 const h = home.homepage;
+const heroVideoUrl = (h as { heroVideoUrl?: string }).heroVideoUrl?.trim() || '';
 const b = home.brand;
 const id = b.identity;
 const dmeta = (home as { defaultMetaDescription?: string }).defaultMetaDescription || b.taglineShort;
@@ -154,7 +155,7 @@ const latestSixWithDedupe = latestSix.map((a) => {
       The 2:3 ratio is the native Pinterest pin shape; same hero image is
       used as the OG image so search/share previews match.
   ============================================================ */}
-  <section class="relative pt-10 md:pt-16 pb-20 md:pb-24 overflow-hidden">
+  <section class="relative pt-4 md:pt-16 pb-12 md:pb-24 overflow-hidden">
     {/* radial blooms — pulled from CSS palette, no extra deps */}
     <div aria-hidden="true" class="pointer-events-none absolute inset-0 -z-10
                                    bg-[radial-gradient(60%_50%_at_92%_18%,rgba(196,135,58,.10),transparent_70%),radial-gradient(45%_40%_at_8%_90%,rgba(91,123,106,.08),transparent_70%)]"></div>
@@ -167,7 +168,7 @@ const latestSixWithDedupe = latestSix.map((a) => {
           <p class="font-mono text-[11px] tracking-[0.18em] uppercase text-terracotta-600 font-medium">
             {h.eyebrow}
           </p>
-          <h1 class="font-display text-4xl md:text-6xl text-ink-900 mt-3 leading-[1.08] tracking-tight">
+          <h1 class="font-display text-3xl sm:text-4xl md:text-6xl text-ink-900 mt-2 md:mt-3 leading-[1.1] tracking-tight">
             {h.h1}
           </h1>
           <p class="text-base md:text-lg text-ink-700 max-w-[32em] mt-5 leading-relaxed">
@@ -201,8 +202,20 @@ const latestSixWithDedupe = latestSix.map((a) => {
 
         {/* ----- 2:3 hero image with overlay stat card ----- */}
         <div class="relative">
-          <div class="relative rounded-2xl overflow-hidden shadow-soft-lg aspect-[2/3]">
-            {h.heroImageUrl ? (
+          <div class="relative rounded-2xl overflow-hidden shadow-soft-lg aspect-[2/3] bg-cream-100">
+            {heroVideoUrl ? (
+              <video
+                class="absolute inset-0 w-full h-full object-cover"
+                src={heroVideoUrl}
+                poster={h.heroImageUrl || undefined}
+                muted
+                loop
+                playsinline
+                autoplay
+                preload="metadata"
+                aria-label="Editorial clip: cruiser touring gear at golden hour"
+              />
+            ) : h.heroImageUrl ? (
               <img src={h.heroImageUrl} alt="" loading="eager"
                    class="absolute inset-0 w-full h-full object-cover" />
             ) : (
@@ -213,7 +226,7 @@ const latestSixWithDedupe = latestSix.map((a) => {
               {(home.categories?.[0] || 'Editorial').toUpperCase()} · TESTED
             </span>
             <span class="absolute bottom-4 left-4 right-4 text-cream-50/95 font-mono text-[10.5px] tracking-[0.1em]">
-              Photographed by editorial team
+              {heroVideoUrl ? 'Editorial video · V-Twin Rider Kit' : 'Photographed by editorial team'}
             </span>
           </div>
 

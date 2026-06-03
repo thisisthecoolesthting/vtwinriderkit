@@ -1,6 +1,7 @@
 ---
 import type { CollectionEntry } from 'astro:content';
 import { amazonAffiliateUrl } from '@/utils/related-products';
+import { amazonAsinImageUrl } from '@/utils/product-image';
 
 export interface Props {
   products: CollectionEntry<'products'>[];
@@ -29,6 +30,8 @@ const FB = "data:image/svg+xml;utf8," + encodeURIComponent(
       const href = amazonAffiliateUrl(p, associateTag);
       const title = d.cardTitle?.trim() ||
         (d.title?.length > 52 ? d.title.slice(0, 49) + '…' : d.title || '');
+      const imgSrc =
+        (d.imageUrl && String(d.imageUrl).trim()) ? String(d.imageUrl).trim() : amazonAsinImageUrl(String(d.asin || ''));
       return (
         <div class="p-5 flex flex-col gap-3">
           <span class="inline-block self-start bg-terracotta-500 text-cream-50 font-mono
@@ -37,7 +40,7 @@ const FB = "data:image/svg+xml;utf8," + encodeURIComponent(
           </span>
           <div class="flex gap-4 items-start">
             <img
-              src={d.imageUrl || FB}
+              src={imgSrc}
               alt=""
               aria-hidden="true"
               loading="lazy"

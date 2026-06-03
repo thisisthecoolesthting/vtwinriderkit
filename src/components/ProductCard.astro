@@ -7,6 +7,7 @@
 
 import type { CollectionEntry } from 'astro:content';
 import { amazonAffiliateUrl } from '@/utils/related-products';
+import { amazonAsinImageUrl } from '@/utils/product-image';
 
 export interface Props {
   product: CollectionEntry<'products'>;
@@ -34,6 +35,10 @@ const shortTitle = (data.cardTitle && data.cardTitle.trim())
 
 // One-line "Why we picked it" — optional, hand-curated per product.
 const pickLine = (data.cardPick && data.cardPick.trim()) ? data.cardPick.trim() : '';
+const imgSrc =
+  (data.imageUrl && String(data.imageUrl).trim() && !String(data.imageUrl).includes('example'))
+    ? String(data.imageUrl).trim()
+    : amazonAsinImageUrl(String(data.asin || ''));
 
 // Inline SVG placeholder — shown when imageUrl is missing or fails to load.
 // Neutral cream background, subtle icon — no raw alt text ever renders.
@@ -59,7 +64,7 @@ const FALLBACK_SVG =
 >
   <div class="aspect-square bg-cream-100 flex items-center justify-center overflow-hidden">
     <img
-      src={data.imageUrl || FALLBACK_SVG}
+      src={imgSrc}
       alt=""
       aria-hidden="true"
       loading="lazy"

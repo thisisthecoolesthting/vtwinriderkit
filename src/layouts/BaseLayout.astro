@@ -5,6 +5,7 @@ import SkipLink from '@/components/SkipLink.astro';
 import Footer from '@/components/Footer.astro';
 import CaseAdRotateInit from '@/components/CaseAdRotateInit.astro';
 import GlobalBottomAffiliateStrip from '@/components/GlobalBottomAffiliateStrip.astro';
+import StickyAdBar from '@/components/StickyAdBar.astro';
 import SiteSectionAds from '@/components/SiteSectionAds.astro';
 import type { SectionPage } from '@/lib/section-page';
 import home from '@/data/spawn-home.json';
@@ -126,15 +127,16 @@ const ogImageUrl = isAbs(og) ? og : siteUrl ? new URL(og, siteUrl + '/').toStrin
     <SkipLink />
     <Header />
     {sectionAds && (
-      <div class="site-top-ad-band border-b border-cream-200/70 bg-cream-50/95">
+      <div class="site-top-ad-band hidden md:block border-b border-cream-200/70 bg-cream-50/95">
         <SiteSectionAds page={sectionAds} variant="header" compact={sectionAdsCompact} />
       </div>
     )}
-    <main id="main-content" class="flex-1" tabindex="-1">
+    <main id="main-content" class="flex-1 pb-0 md:pb-0 has-mobile-main-pad" tabindex="-1">
       <slot />
       {sectionAds && <SiteSectionAds page={sectionAds} variant="footer" />}
     </main>
     <GlobalBottomAffiliateStrip />
+    <StickyAdBar />
     <CaseAdRotateInit />
     <Footer />
       <script is:inline>

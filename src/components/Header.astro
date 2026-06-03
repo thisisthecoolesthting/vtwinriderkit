@@ -24,12 +24,12 @@ const siteName = (spawnHome as { brand?: { fullName?: string } }).brand?.fullNam
 ---
 
 <header class="bg-cream-50 relative z-30">
-  <div class="max-w-6xl mx-auto px-3 sm:px-5 pt-2 sm:pt-3">
+  <div class="max-w-6xl mx-auto px-2 sm:px-5 pt-1 sm:pt-3">
     <div
       id="site-nav-shell"
-      class="bg-cream-100/85 backdrop-blur-sm rounded-2xl md:rounded-full shadow-soft transition-all duration-300"
+      class="bg-white/95 md:bg-cream-100/85 backdrop-blur-sm rounded-xl md:rounded-full shadow-soft border border-cream-200/80 md:border-transparent transition-all duration-300"
     >
-      <div class="px-4 sm:px-5 py-2 md:py-2.5 flex items-center justify-between gap-3">
+      <div class="px-3 sm:px-5 py-1.5 md:py-2.5 flex items-center justify-between gap-2">
         <a href="/" class="no-underline flex items-baseline min-w-0 shrink">
           {textOnlyHeader ? (
             <span class="font-display text-base md:text-lg font-semibold text-ink-900 tracking-tight">
@@ -63,7 +63,7 @@ const siteName = (spawnHome as { brand?: { fullName?: string } }).brand?.fullNam
           aria-label="Open menu"
           aria-expanded="false"
           aria-controls="site-nav-mobile"
-          class="md:hidden inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/70 text-ink-900 shadow-soft
+          class="md:hidden inline-flex items-center justify-center w-9 h-9 rounded-full bg-cream-50 text-ink-900 border border-cream-200/90
                  hover:bg-white transition-colors duration-200 shrink-0"
         >
           <svg class="w-5 h-5 icon-open" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
@@ -84,12 +84,12 @@ const siteName = (spawnHome as { brand?: { fullName?: string } }).brand?.fullNam
         class="md:hidden overflow-hidden max-h-0 transition-[max-height] duration-300 ease-out"
         aria-hidden="true"
       >
-        <ul class="px-5 pb-4 pt-1 space-y-1 text-base font-medium">
+        <ul class="px-3 pb-3 pt-0 space-y-0.5 text-base font-semibold bg-white rounded-b-xl">
           {navItems.map((item) => (
             <li>
               <a
                 href={item.href}
-                class="block px-4 py-3 rounded-2xl text-ink-700 hover:bg-white hover:text-terracotta-600 no-underline transition-colors duration-200"
+                class="block px-4 py-2.5 rounded-xl text-ink-900 hover:bg-cream-50 hover:text-[#EA580C] no-underline transition-colors duration-200"
               >
                 {item.label}
               </a>

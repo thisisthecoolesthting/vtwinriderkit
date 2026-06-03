@@ -1,12 +1,18 @@
 /**
- * Populated by: SPINE_SYNC_SITE=<slug> python scripts/sync_amazon_inline_image_map.py
+ * Curated m.media-amazon.com/images/I/* URLs.
+ * P/ASIN paths return a 43-byte tracking GIF — do not use for <img src>.
+ * Regenerate: SPINE_SYNC_SITE=<slug> python scripts/sync_amazon_inline_image_map.py
  */
-export const AMAZON_INLINE_IMAGE_BY_ASIN = {};
+export const AMAZON_INLINE_IMAGE_BY_ASIN = {
+};
 
 export function amazonInlineImageUrl(asin) {
   const id = String(asin || '').trim().toUpperCase();
   if (!id) return '';
-  return AMAZON_INLINE_IMAGE_BY_ASIN[id] || `/images/amazon-picks/${id}.jpg`;
+  return (
+    AMAZON_INLINE_IMAGE_BY_ASIN[id] ||
+    `/images/amazon-picks/${id}.jpg`
+  );
 }
 
 export function rewriteAmazonInlineImgSrc(src, href) {
