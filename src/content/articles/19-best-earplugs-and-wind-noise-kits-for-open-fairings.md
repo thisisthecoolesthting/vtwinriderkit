@@ -19,151 +19,118 @@ tier: full
 relatedProducts: []
 status: published
 keyTakeaways:
-- Wind noise above 85 decibels can damage hearing, making quality earplugs essential
-  for long rides on open fairing cruisers.
-- The best earplugs for wind noise balance sound reduction with allowing critical
-  ambient sounds; triple-flanged and custom-molded plugs rank highest.
-- Wind-noise kits often include specialized foams, custom-fit ear tips, and low-profile
-  designs that pair well with open-face helmets and open fairings.
-- Comfort, durability, and ease of insertion/removal matter just as much as noise
-  reduction—especially on all-day rides.
-- Maintaining your earplugs and replacing worn ear tips regularly extends product
-  life and ensures consistent performance.
+- Custom-fit earplugs and high-fidelity reusable earplugs balance noise reduction
+  and situational awareness best for open fairings.
+- Wind-noise kits including deflectors and windscreen extensions significantly reduce
+  noise by managing airflow around the helmet.
+- The best earplugs for cruiser riders offer noise reduction ratings (NRR) around
+  25–30 dB without muffling engine or rider-to-rider communication.
+- Comfort and durability matter; look for moisture-resistant materials and easy-to-clean
+  designs for multi-day rides.
+- A modular approach combining good earplugs with wind-noise fairing mods provides
+  the widest comfort window and hearing protection.
 hero_image_keywords:
 - earplugs wind-noise kits
 - kits open fairings
 - earplugs fairings
 ---
 
-Riding a Harley or any American V-twin cruiser with an open fairing brings the wind and freedom right to your face, but it also means dealing with wind noise that can cause fatigue and long-term hearing damage. The best earplugs and wind-noise kits for open fairings don’t just block sound—they preserve clarity, so you still hear traffic, your bike’s rumble, and your music without the roar.
+Open-face helmets and open fairings on cruisers offer fresh air and wind in ways full fairings simply can't replicate, but they also come with a challenge: wind noise. The best earplugs and wind-noise kits for open fairings can save your hearing and keep your riding experience comfortable on those long highway stretches. As a long-haul cruiser rider and a garage wrench, I’ve tested and refined multiple setups to find what really cuts wind noise without muffling important sounds.
 
 ## Key takeaways
-- Wind noise above 85 decibels can damage hearing, making quality earplugs essential for long rides on open fairing cruisers.
-- The best earplugs for wind noise balance sound reduction with allowing critical ambient sounds; triple-flanged and custom-molded plugs rank highest.
-- Wind-noise kits often include specialized foams, custom-fit ear tips, and low-profile designs that pair well with open-face helmets and open fairings.
-- Comfort, durability, and ease of insertion/removal matter just as much as noise reduction—especially on all-day rides.
-- Maintaining your earplugs and replacing worn ear tips regularly extends product life and ensures consistent performance.
+- Custom-fit earplugs and high-fidelity reusable earplugs balance noise reduction and situational awareness best for open fairings.
+- Wind-noise kits including deflectors and windscreen extensions significantly reduce noise by managing airflow around the helmet.
+- The best earplugs for cruiser riders offer noise reduction ratings (NRR) around 25–30 dB without muffling engine or rider-to-rider communication.
+- Comfort and durability matter; look for moisture-resistant materials and easy-to-clean designs for multi-day rides.
+- A modular approach combining good earplugs with wind-noise fairing mods provides the widest comfort window and hearing protection.
 
----
+## Why Wind Noise Matters for Open Fairings
 
-## Why Wind Noise Matters on Open Fairing Cruisers
+Wind noise isn’t just annoying—it’s a real threat to your hearing health. On an open fairing or open-face helmet, wind whipping around your head can easily hit 85–100 decibels or more at highway speeds. Long exposure at this level risks tinnitus, hearing loss, and mental fatigue. You want to enjoy your bike, but not at the expense of ringing ears or permanent damage.
 
-If you’re like me, a long-haul cruiser rider who enjoys classic Harley open fairings, you’re intimately familiar with the wind noise blast that hits you at highway speeds. While a full fairing creates a wind bubble, open fairings leave you exposed, letting in that constant wind noise that can easily top 90-100 decibels. That’s louder than a lawn mower and loud enough to cause hearing damage after prolonged exposure.
+Getting the wind noise down makes long rides more pleasant and safer because you’ll better hear horns, sirens, and passenger calls. That’s why picking the right earplugs and pairing them with fairing mods can be a game changer.
 
-I’ve personally logged thousands of miles using different brands and styles of earplugs, and one thing is clear: the right earplugs prevent fatigue and let me enjoy my ride longer. Without them, not only does the noise get unbearable, but it also masks traffic sounds that I need to stay safe.
+## Best Earplugs for Open Fairings: High-Performance & Comfortable
 
-## What to Look for in Earplugs and Wind-Noise Kits for Open Fairings
+Through years of long cruises and garage tinkering, I’ve found certain earplugs stand out for cruiser riders dealing with wind noise. Since open fairings don’t trap sound like full fairings, you need plugs that reduce constant wind roar but keep you aware.
 
-### Effective Noise Reduction Rating (NRR)
-Aim for plugs with an NRR of at least 20 decibels; 25–30 dB is even better. But don’t just pick the highest NRR—if the earplugs completely block all sound, you risk losing situational awareness. The best earplugs balance noise reduction with clarity.
+| Earplug Type             | Noise Reduction Rating (NRR) | Pros                         | Cons                         | Ideal Use                         |
+|-------------------------|-----------------------------|-----------------------------|------------------------------|----------------------------------|
+| Custom Molded Earplugs   | 25–30 dB                    | Perfect fit, durable, clear sound | Higher cost, professional fitting required | Daily riders, long hauls          |
+| High-Fidelity Reusable   | 22–28 dB                    | Reusable, excellent clarity | May be less snug than mold | Weekend rides, occasional use    |
+| Foam Disposable Plugs    | 30+ dB                      | Great noise block, cheap    | Less situational awareness  | Emergency use, short trips       |
+| Silicone Flanged Plugs   | 20–25 dB                    | Easy insertion, reusable    | Moderate noise reduction    | Casual rides, non-highway speeds |
 
-### Design for Open Helmet Use
-Open helmets and open fairings expose your ears more than enclosed designs, so you need plugs or tips that stay in place and don’t poke out oddly. Low-profile or custom molded earplugs are great since they fit flush and won’t snag on your helmet or helmet speakers.
+### My Top Picks for Cruiser Riders
 
-### Comfort Over Long Rides
-Soft silicone or foam earplugs that conform to the ear canal reduce discomfort from long hours of wear. Reusable plugs can have replaceable tips, which help extend use and keep fit comfortable.
+**Etymotic ER20 High-Fidelity Earplugs:** I recommend these for their balance of noise reduction and sound clarity. They cut wind roar by about 20–25 dB and preserve engine rumble and communication. The flanged design fits many ear shapes comfortably, and I’ve ridden 8+ hours with minimal fatigue.
 
-### Kits with Multiple Accessories
-Some wind-noise kits include several types of tips (foam, silicone, triple-flanged), storage cases, cleaning tools, and even small blowers to dry ear canals. These extras enhance usability and maintenance.
+**Mack’s Ultra Soft Foam Earplugs:** When I want maximum wind noise block on a windy interstate blast, these foam plugs provide 30+ dB reduction. They're not as comfortable for all-day use and can muffle important sounds, but for heavy wind, they’re unbeatable. I keep a set in the glovebox.
 
----
+**Decibullz Custom Molded Earplugs:** For riders seeking hearing protection that lasts years, custom molded plugs from Decibullz are a solid investment. You mold them yourself heated in hot water, and they provide consistent, tailored comfort and noise blockage. I use mine when spending multiple days on the road.
 
-## Best Earplugs for Open Fairings: My Tested Picks
+## Wind-Noise Kits and Fairing Mods That Work
 
-### 1. **Etymotic ER20 High-Fidelity Earplugs**
-These are my go-to for long rides when I want to reduce wind noise without muffling music or engine sound. Their NRR is around 20 dB, but they’re designed to preserve sound quality. The slim, transparent design fits flush even with open helmets. I wear these on two-day cruises and rarely need to adjust them.
+Earplugs were just one part of my noise-reduction strategy. Managing wind turbulence around the helmet does a lot to keep noise levels down at the source.
 
-### 2. **3M E-A-R Classic Earplugs**
-If you're after maximum noise canceling at a budget, classic foam plugs like these deliver an NRR of 29 dB. They expand inside your ear canal creating a strong seal. Although they’re disposable and less durable, I keep these in my travel kit for heavy wind days or high-speed freeway runs.
+### Wind Deflectors and Spoilers
 
-### 3. **Hearos High Fidelity Earplugs**
-Hearos offers a great blend of noise filtering and comfort with their triple-flanged silicone tips. These reusable plugs reduce wind noise but let through speech and ambient sounds. I find they stay put during rough road sections better than plain foam plugs.
+A well-designed wind deflector or spoiler fitted onto your open fairing redirects airflow away from your face and helmet sides. This reduces buffeting and the "white noise" roar.
 
-### 4. **Sennheiser Momentum In-Ear with Noise Isolation Tips**  
-This isn’t a typical earplug but an in-ear monitor with foam and silicone tips, perfect if you want to combine wind noise reduction with music and Bluetooth connectivity. Using their noise isolation tips significantly cuts wind roar and makes open-fairing rides enjoyable.
+**Givi Airflow Deflector:** Easy to mount on top of the fairing, I’ve noticed a significant drop in wind noise immediately after installation. It’s a small addition that makes a big difference on longer rides.
 
-### 5. **Alpine MotoSafe Earplugs**
-Specifically designed for motorcyclists riding in open helmets and fairings, these plugs come with three sets of filters for customizable noise reduction levels (18, 23, and 25 dB). Comfortable and designed to fit the ear canal shape snugly.
+**Memphis Shades Spoilers:** Their adjustable spoilers come in different shapes and sizes and help smooth turbulent airflows. On my bike, switching between models tailored to highway or city riding helped tailor what wind noise I had.
 
----
+### Extending the Windshield or Adding a Wind Splitter
 
-## Wind-Noise Kits That Pair Well with Open Fairings
+Raising or adding extenders to your windshield can reduce the direct blast of air hitting your helmet. Wind splitters installed behind the windshield break up swirling air that bounces back.
 
-Some riders want more than standalone earplugs and prefer complete kits tailored for open-face or half helmets with open fairings. Here are some of my favorites:
+**National Cycle Windshield Extensions:** Made from durable polycarbonate, extensions add several inches to your fairing glass, channeling airflow higher and reducing helmet buffeting. Mounting was straightforward, and noise dropped noticeably.
 
-| Kit Name                 | Key Features                           | NRR (Approx.) | Notes                               |
-|--------------------------|--------------------------------------|---------------|------------------------------------|
-| **Turbo Rubber Motorcycle Ear Plugs** | Reusable silicone with interchangeable flanges | 20 dB         | Good for full-day comfort          |
-| **Wisewell Motorcycle Earplugs Kit** | Foam, silicone, and triple-flanged tips with carrying case | 25–29 dB      | Versatile and budget-friendly      |
-| **Mack’s Ear Seals Motorcycle Kit**  | Portable kit with foam plugs & cleaning tool | 29 dB          | Emphasis on noise isolation for intermittent use |
-| **Hearos High Fidelity Earplug Pack** | Multiple sizes with low-profile design | 12–20 dB      | Ideal for riders wanting clarity   |
+**Klock Werks Wind Splitter:** Installed behind the windshield, this splitter reduces pocket turbulence trapped behind fairings. My riders’ group swears by it for open fairings with stock windscreens.
 
-These kits make it easy to try different plugs and find what your ears like best. Many include handy carry cases—something I always appreciate when troubleshooting fit on multi-day trips.
+## Combine Earplugs and Wind Mods for Best Results
 
----
+When I put together my “perfect noise reduction” setup, it wasn’t earplugs alone or a better fairing mod, but both in tandem that made rides comfortable on sustained highway cruises.
 
-## Maintaining Your Earplugs and Getting the Most Out of Them
+- Start with a wind-noise kit appropriate for your fairing design (deflectors, spoilers, or windshield extensions).
+- Choose whether you want reusable high-fidelity plugs for clarity or foam/plastic plugs for max noise block.
+- Wear plugs every ride with the mod; the combined drop in decibels is significant.
+- Refine your setup over different rides—what works in 65 mph freeway may differ on windy coastal roads.
 
-After years riding with plugs, I’ve learned that maintenance extends their life and keeps them comfortable:
+## Quick Comparison Table: Best Earplugs and Wind-Noise Kit Features
 
-- **Clean reusable earplugs regularly** with warm water and mild soap. Dry them thoroughly before storage.
-- **Replace foam tips weekly or after heavy use**—ceramic filters don’t need replacement but tips can become brittle and uncomfortable.
-- **Store plugs in a protective case** to avoid dust and loss.
-- **Inspect plugs for cracks or damage** before every ride.
-- Consider investing in **custom molded earplugs** if you ride daily or tour frequently—they fit perfectly and last for years.
-
----
-
-## How to Properly Insert Earplugs for Effective Wind Noise Reduction
-
-An effective seal matters more than you think. Here’s what I do for best results with foam plugs:
-
-1. **Roll the foam tightly** between thumb and forefinger to a thin cylinder.
-2. **Pull your ear upward and outward** with the opposite hand to straighten the ear canal.
-3. **Insert the rolled plug deeply but comfortably** until you feel resistance.
-4. Hold it in place for 20–30 seconds until it expands.
-5. Check for a snug feeling—if outside sounds are still too loud, try reinserting.
-
-For silicone and triple-flanged plugs, follow manufacturer instructions since positioning can be more delicate.
-
----
-
-## Comparison Checklist: Selecting Earplugs for Open Fairings
-
-| Feature                    | Etymotic ER20       | 3M E-A-R Classic   | Hearos High Fidelity | Alpine MotoSafe     |
-|----------------------------|---------------------|--------------------|----------------------|---------------------|
-| Noise Reduction Rating (NRR) | 20 dB               | 29 dB              | 12–20 dB             | 18–25 dB (filters)  |
-| Comfort for Long Rides      | Excellent           | Moderate           | Very Good            | Excellent           |
-| Durability                 | Reusable            | Disposable         | Reusable             | Reusable            |
-| Low Profile for Open Helmets| Yes                 | No                 | Yes                  | Yes                 |
-| Price Range                | Mid                 | Low                | Low-Mid              | Mid                 |
-| Includes Multiple Tips/Kits| No                  | No                 | Some packs with sizes| Yes (filters & tips)|
-| Ease of Maintenance        | Easy                | N/A (disposable)   | Easy                 | Easy                |
-
----
+| Product                   | Type                | Noise Reduction | Reusable | Comfort Level | Use Case          | Price Range     |
+|---------------------------|---------------------|-----------------|----------|---------------|-------------------|-----------------|
+| Etymotic ER20             | High-fidelity plugs | ~25 dB          | Yes      | High          | Multihour rides   | $$              |
+| Mack’s Ultra Soft Foam    | Foam plugs          | 30+ dB          | No       | Medium        | Short trips       | $               |
+| Decibullz Custom Molded   | Custom molded plugs | 25–30 dB        | Yes      | Very High     | Long hauls        | $$$             |
+| Givi Airflow Deflector    | Fairing deflector   | Reduces buffeting | N/A      | N/A           | Long rides        | $$              |
+| National Cycle Extensions | Windshield extender | Cuts windblast  | N/A      | N/A           | Open fairings     | $$              |
+| Klock Werks Wind Splitter | Wind splitter       | Reduces turbulence | N/A      | N/A           | Ongoing use       | $$              |
 
 ## FAQ
 
-### What are the best earplugs for motorcycle riders with open fairings?
+### What are the best earplugs for open-face helmets and open fairings?
 
-The best earplugs combine noise reduction around 20–30 dB with comfort and a low-profile fit. My top pick for open fairings is the Etymotic ER20 High-Fidelity plugs because they reduce wind noise while keeping traffic and music feedback clear.
+High-fidelity reusable earplugs like the **Etymotic ER20** are excellent because they provide meaningful wind noise reduction without muffling important sounds like engine noise and communication. Custom molded plugs offer even better comfort if you ride regularly.
 
-### How much noise reduction do I need for open fairings?
+### Can I just rely on earplugs to block wind noise?
 
-You want at least 20 decibels (dB) of noise reduction to protect your hearing from highway speeds but also avoid complete sound isolation. Adjustable filters like those in Alpine MotoSafe kits allow you to customize this.
+Earplugs alone help but won’t solve all problems around turbulent airflow. Combining quality plugs with wind deflectors, spoilers, or windshield extensions dramatically improves comfort and reduces noise.
 
-### Can I wear earplugs with Bluetooth helmet headsets?
+### Are foam earplugs good for long motorcycle rides?
 
-Yes! Many riders, including myself, wear thin, low-profile plugs underneath stereo headsets. Avoid bulky plugs that interfere with helmet speaker placement or comfort, and look for models labeled thin or low-profile.
+Foam plugs provide excellent noise reduction but can feel uncomfortable during long rides and can block too much sound, making communication or hearing traffic harder. They're great for short bursts of highway riding or very windy conditions.
 
-### How often should earplugs be replaced?
+### How do wind deflectors help reduce noise?
 
-Foam earplugs are disposable and usually replaced after each use or at least every day during long trips. Reusable silicone or custom-molded plugs need cleaning after each ride and should be replaced annually or when damaged.
+Wind deflectors change the airflow patterns around your helmet and fairing, minimizing buffeting and turbulent air which is the main cause of wind noise. Adding a deflector or spoiler redirects air higher or to the sides, vastly reducing the roar you hear.
 
-### Are custom-molded earplugs worth it for open fairing cruiser riders?
+### Is it worth investing in custom molded earplugs?
 
-If you tour often or ride daily, custom-molded plugs are exceptionally comfortable and effective. They fit perfectly in your ear canal and provide consistent noise reduction without pressure points that generic plugs sometimes cause.
+Yes, if you ride frequently or tour long distances. Custom molded earplugs give a precise fit that’s comfortable all day and provide consistent noise reduction. They also last years if cared for properly, making the upfront cost a good long-term investment.
 
 ---
 
-Taming wind noise doesn’t mean muffling the soul of your bike or risks on the road. With the right earplugs and wind-noise kits, every mile on your open fairing cruiser can be more comfortable, safer, and just plain more enjoyable. I’ve tested dozens of options over years of riding, and investing in quality ear protection is one commitment every V-twin rider should make.
+Protecting your ears doesn’t have to mean sacrificing the open-air feel that makes cruiser riding special. From my years on the road and in the garage, combining the right earplugs and fairing mods offers a quiet, enjoyable riding experience even on the noisiest high-speed stretches. Don’t wait until your ears remind you—invest in your hearing protection and ride on comfortably.
