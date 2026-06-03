@@ -106,7 +106,9 @@ const normalizeImageKey = (u: string | undefined | null): string => {
   return String(u).split('?')[0];
 };
 
-const heroKey = normalizeImageKey(h.heroImageUrl);
+// When hero video is live, do not treat the legacy still as the hero visual (different bike).
+const heroStillUrl = heroVideoUrl ? '' : (h.heroImageUrl || '');
+const heroKey = normalizeImageKey(heroStillUrl);
 const articleKeyCounts = new Map<string, number>();
 for (const a of latestSix) {
   const k = normalizeImageKey(a.data.heroImage);
@@ -207,12 +209,11 @@ const latestSixWithDedupe = latestSix.map((a) => {
               <video
                 class="absolute inset-0 w-full h-full object-cover"
                 src={heroVideoUrl}
-                poster={h.heroImageUrl || undefined}
                 muted
                 loop
                 playsinline
                 autoplay
-                preload="metadata"
+                preload="auto"
                 aria-label="Editorial clip: cruiser touring gear at golden hour"
               />
             ) : h.heroImageUrl ? (
