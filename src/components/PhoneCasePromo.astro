@@ -1,0 +1,118 @@
+---
+/**
+ * First-party cross-sell to phonecasesforall.com.
+ * Config: spawn-home.json → distribution.phone_case_promo
+ *
+ * placement:
+ *   top     — compact strip under article title (one static ad)
+ *   sponsor — one-line sponsorship note
+ *   inline  — card before body (optional)
+ *   sidebar — narrow column (xl+)
+ */
+import home from '@/data/spawn-home.json';
+
+type PromoCfg = {
+  enabled?: boolean;
+  store_url?: string;
+  brand_name?: string;
+  headline?: string;
+  subhead?: string;
+  cta?: string;
+  sponsor_line?: string;
+  utm_campaign?: string;
+};
+
+export interface Props {
+  placement?: 'top' | 'sponsor' | 'inline' | 'sidebar';
+}
+
+const dist = (home as { distribution?: { phone_case_promo?: PromoCfg } }).distribution;
+const cfg = dist?.phone_case_promo ?? {};
+const enabled = cfg.enabled !== false;
+const placement = Astro.props.placement ?? 'inline';
+
+if (!enabled) return null;
+
+const storeUrl = (cfg.store_url || 'https://phonecasesforall.com').replace(/\/$/, '');
+const brandName = cfg.brand_name || 'Phone Cases For All';
+const headline = cfg.headline || 'Custom phone cases · free shipping';
+const subhead = cfg.subhead || 'iPhone & Samsung — ships from our print shop.';
+const cta = cfg.cta || 'Shop cases →';
+const sponsorLine =
+  cfg.sponsor_line ||
+  `${(home as { brand?: { fullName?: string } }).brand?.fullName || 'This site'} is sponsored by ${brandName}. If a case would help your phone, supporting them keeps our guides free to read.`;
+const utm = `utm_source=affiliate&utm_medium=case_promo&utm_campaign=${cfg.utm_campaign || Astro.url.hostname || 'site'}`;
+const href = `${storeUrl}?${utm}`;
+---
+
+{placement === 'sponsor' && (
+  <p class="not-prose text-xs text-ink-600 leading-relaxed mb-3" data-phone-case-sponsor="true">
+    {sponsorLine}{' '}
+    <a href={href} rel="sponsored noopener" target="_blank" class="text-terracotta-600 font-medium no-underline hover:underline">
+      Visit {brandName} →
+    </a>
+  </p>
+)}
+
+{placement === 'top' && (
+  <a
+    href={href}
+    rel="sponsored noopener"
+    target="_blank"
+    class="not-prose group flex items-center gap-3 rounded-xl border border-cream-200 bg-white px-3 py-2.5 shadow-soft hover:border-terracotta-400/60 hover:shadow-soft-lg transition-all no-underline mb-2"
+    data-phone-case-promo="top"
+  >
+    <span
+      class="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-terracotta-500/10 text-lg"
+      aria-hidden="true"
+    >
+      📱
+    </span>
+    <span class="min-w-0 flex-1 text-left">
+      <span class="block text-[10px] font-mono uppercase tracking-[0.12em] text-terracotta-600">Sponsored</span>
+      <span class="block text-sm font-semibold text-ink-900 leading-tight truncate">{brandName}</span>
+      <span class="block text-[11px] text-ink-600 leading-snug truncate">{headline}</span>
+    </span>
+    <span class="shrink-0 rounded-full bg-terracotta-500 px-3 py-1.5 text-[11px] font-semibold text-cream-50 group-hover:bg-terracotta-600">
+      {cta}
+    </span>
+  </a>
+)}
+
+{placement === 'inline' && (
+  <aside
+    class="case-ad-slot not-prose rounded-xl border border-cream-200/70 bg-gradient-to-br from-cream-50 to-white p-3 shadow-soft my-4"
+    data-phone-case-promo="inline"
+  >
+    <p class="font-mono text-[10px] uppercase tracking-[0.14em] text-terracotta-600 mb-1">From our sponsor</p>
+    <p class="text-sm font-semibold text-ink-900 leading-snug">{headline}</p>
+    <p class="mt-0.5 text-xs text-ink-600 leading-relaxed">{subhead}</p>
+    <a
+      href={href}
+      rel="sponsored noopener"
+      target="_blank"
+      class="mt-2 inline-flex items-center justify-center rounded-full bg-terracotta-500 px-4 py-1.5 text-xs font-semibold text-cream-50 hover:bg-terracotta-600 transition-colors no-underline"
+    >
+      {cta}
+    </a>
+  </aside>
+)}
+
+{placement === 'sidebar' && (
+  <aside
+    class="case-ad-slot not-prose rounded-xl border border-cream-200/70 bg-white p-3 shadow-soft mb-4 sticky top-24"
+    data-phone-case-promo="sidebar"
+  >
+    <p class="font-mono text-[10px] uppercase tracking-[0.14em] text-terracotta-600 mb-1">Sponsor</p>
+    <p class="text-xs font-semibold text-ink-900 leading-snug">{brandName}</p>
+    <p class="mt-1 text-[11px] text-ink-600 leading-relaxed">{subhead}</p>
+    <a
+      href={href}
+      rel="sponsored noopener"
+      target="_blank"
+      class="mt-2 inline-flex w-full items-center justify-center rounded-full bg-terracotta-500 px-3 py-1.5 text-[11px] font-semibold text-cream-50 hover:bg-terracotta-600 no-underline"
+    >
+      {cta}
+    </a>
+  </aside>
+)}

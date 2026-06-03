@@ -1,0 +1,48 @@
+---
+import CompliantLayout from '@/layouts/CompliantLayout.astro';
+import PageIntro from '@/components/PageIntro.astro';
+import ProductCard from '@/components/ProductCard.astro';
+import { getCollection } from 'astro:content';
+
+const products = await getCollection('products', ({ data }) => data.status === 'published');
+const sorted = products.sort((a, b) => (b.data.score ?? 0) - (a.data.score ?? 0));
+
+function categoryLabel(cat: string) {
+  return (cat || 'other').replace(/-/g, ' ');
+}
+---
+
+<CompliantLayout
+  title="Product reviews"
+  description="RefillWatch tracks household staples, bulk refills, and repeat buys — scored by price history and real-world value."
+  sectionAds="reviews"
+  sectionAdsCompact={true}
+>
+  <PageIntro
+    eyebrow="Tracked this week"
+    title="Product reviews"
+    description="Sorted by our internal score — sales velocity, review quality, and category value so the top rows are picks we would actually restock."
+    align="left"
+  />
+
+  <section class="max-w-site mx-auto px-4 sm:px-6 lg:px-8 pb-10 md:pb-14 w-full section-band">
+    <div
+      class="products-review-grid grid w-full grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-3 sm:gap-4 md:gap-5"
+    >
+      {sorted.map((p) => (
+        <div class="min-w-0 flex flex-col gap-2">
+          <span class="text-[10px] font-mono uppercase tracking-[0.14em] text-ink-500 px-1">
+            {categoryLabel(p.data.category)}
+          </span>
+          <ProductCard product={p} />
+        </div>
+      ))}
+    </div>
+  </section>
+</CompliantLayout>
+
+<style>
+  .products-review-grid > * {
+    min-width: 0;
+  }
+</style>

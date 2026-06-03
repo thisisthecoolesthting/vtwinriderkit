@@ -1,0 +1,23 @@
+---
+export interface Props {
+  /** Inline on article pages — less vertical space */
+  compact?: boolean;
+}
+const { compact = false } = Astro.props;
+---
+{compact ? (
+  <p class="text-xs text-ink-600 leading-snug mb-2">
+    Some links are affiliate links; we may earn a commission at no extra cost to you.
+    <a href="/disclosure" class="text-terracotta-600 hover:underline">Disclosure</a>.
+  </p>
+) : (
+  <aside class="bg-cream-50 not-prose">
+    <div class="max-w-6xl mx-auto px-5 pt-2 pb-1">
+      <div class="bg-cream-100/70 rounded-full px-4 py-1.5 text-center text-xs text-ink-700">
+        Some links on this page are affiliate links. If you buy through them we may
+        earn a small commission at no extra cost to you.
+        <a href="/disclosure" class="underline underline-offset-4">Learn more.</a>
+      </div>
+    </div>
+  </aside>
+)}

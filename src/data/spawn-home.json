@@ -1,0 +1,127 @@
+{
+  "brand": {
+    "shortName": "V-Twin Rider Kit",
+    "fullName": "V-Twin Rider Kit",
+    "taglineShort": "Amazon gear checklists for American V-twin and cruiser riders.",
+    "identity": {
+      "palette": {
+        "primary": "#1C1917",
+        "accent": "#EA580C",
+        "cream": "#0C0A09",
+        "ink": "#FAFAF9",
+        "secondary": "#44403C",
+        "surface": "#0C0A09"
+      },
+      "fonts": {
+        "display": "Oswald",
+        "body": "Source Sans 3",
+        "mono": "IBM Plex Mono"
+      },
+      "mark": {
+        "svgPath": "brand/vtwinriderkit-mark.svg",
+        "svgPublicPath": "/brand/vtwinriderkit-mark.svg",
+        "sizeRem": 1.75,
+        "position": "left-of-wordmark"
+      },
+      "wordmark": {
+        "weight": 600,
+        "tracking": "tight",
+        "case": "normal"
+      },
+      "headerVariant": "minimal",
+      "eyebrowText": "V-TWIN GEAR GUIDE",
+      "fontCssHref": "https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700&family=Source+Sans+3:wght@400;600;700&family=IBM+Plex+Mono:wght@400;600;700&display=swap"
+    }
+  },
+  "persona": {
+    "ymyl": false,
+    "tone": "practical"
+  },
+  "editorial": {
+    "authorSlug": "jake-morales-vtwinriderkit",
+    "author_slug": "jake-morales-vtwinriderkit",
+    "methodology": [
+      "We prioritize gear with verified cruiser/touring fitment notes in listing text.",
+      "We do not publish live Amazon prices unless pulled from approved catalog data at build time.",
+      "Every buying guide includes: As an Amazon Associate I earn from qualifying purchases.",
+      "We are not affiliated with Harley-Davidson, Inc. or any motorcycle OEM.",
+      "We re-check top picks quarterly and remove discontinued ASINs.",
+      "Reader fitment corrections are updated within 72 hours."
+    ],
+    "ymyl": false
+  },
+  "newsletter": {
+    "title": "The V-Twin Rider Kit weekly",
+    "subtitle": "Practical picks and straight answers from V-Twin Rider Kit, once a week. No spam.",
+    "kicker": "Stay in the loop"
+  },
+  "supportEmail": "hello@vtwinriderkit.org",
+  "defaultAuthorSlug": "jake-morales-vtwinriderkit",
+  "defaultMetaDescription": "Practical checklists, road-tested gear picks, and garage essentials for cruiser and touring riders \u2014 organized by ride type, not hype.",
+  "homepage": {
+    "eyebrow": "V-twin gear guide",
+    "h1": "The Amazon Gear Guide for V-Twin Riders",
+    "subhead": "Practical checklists, road-tested gear picks, and garage essentials for cruiser and touring riders \u2014 organized by ride type, not hype.",
+    "ctaPrimaryLabel": "Weekend ride checklist",
+    "ctaPrimaryHref": "/pillars/weekend-ride-kit",
+    "ctaSecondaryLabel": "Touring essentials",
+    "ctaSecondaryHref": "/pillars/touring-essentials",
+    "trustLine": "Independent gear guide. Not affiliated with Harley-Davidson or any OEM. We disclose Amazon Associates links on every buying guide.",
+    "heroImageUrl": "/images/hero/home.jpg"
+  },
+  "about": {
+    "headline": "Why V-Twin Rider Kit exists",
+    "body": "We ride American cruisers and baggers and got tired of scattered forum lists and dealer upsells. We organize Amazon-buyable touring gear, garage tools, comfort upgrades, and road-trip kits with fitment notes and honest comparisons \u2014 never pretending to be an official brand site."
+  },
+  "navigation": [
+    {
+      "href": "/",
+      "label": "Home"
+    },
+    {
+      "href": "/pillars",
+      "label": "Guides"
+    },
+    {
+      "href": "/articles",
+      "label": "Articles"
+    },
+    {
+      "href": "/products",
+      "label": "Reviews"
+    },
+    {
+      "href": "/about",
+      "label": "About"
+    }
+  ],
+  "distribution": {
+    "ads": {
+      "provider": "none",
+      "site_id": "",
+      "slot_ids": {
+        "hero": "",
+        "content_mid": "",
+        "footer": ""
+      }
+    },
+    "email_capture": {
+      "provider": "none",
+      "form_action": "",
+      "list_id": ""
+    },
+    "phone_case_promo": {
+      "enabled": true,
+      "store_url": "https://phonecasesforall.com",
+      "headline": "Custom phone cases, free shipping",
+      "subhead": "Thousands of designs for iPhone & Samsung \u2014 from our own shop.",
+      "cta": "Browse cases \u2192",
+      "utm_campaign": "vtwinriderkit.org"
+    }
+  },
+  "analytics": {
+    "ga_measurement_id": "pending",
+    "ga_property_id": "pending",
+    "search_console_property": "https://vtwinriderkit.org/"
+  }
+}

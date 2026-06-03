@@ -1,0 +1,50 @@
+---
+/** Decorative rule between top leaderboard and article title. */
+---
+
+<div class="article-ornament not-prose" aria-hidden="true">
+  <span class="article-ornament__line"></span>
+  <span class="article-ornament__gem" aria-hidden="true"></span>
+  <span class="article-ornament__line article-ornament__line--flip"></span>
+</div>
+
+<style>
+  .article-ornament {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin: 1.25rem auto 1.5rem;
+    max-width: 28rem;
+    padding: 0 0.5rem;
+  }
+  .article-ornament__line {
+    flex: 1;
+    height: 1px;
+    background: linear-gradient(
+      90deg,
+      transparent 0%,
+      rgba(220, 38, 38, 0.25) 18%,
+      rgba(180, 31, 31, 0.55) 50%,
+      rgba(220, 38, 38, 0.2) 82%,
+      transparent 100%
+    );
+  }
+  .article-ornament__line--flip {
+    background: linear-gradient(
+      270deg,
+      transparent 0%,
+      rgba(220, 38, 38, 0.25) 18%,
+      rgba(180, 31, 31, 0.55) 50%,
+      rgba(220, 38, 38, 0.2) 82%,
+      transparent 100%
+    );
+  }
+  .article-ornament__gem {
+    width: 0.45rem;
+    height: 0.45rem;
+    flex-shrink: 0;
+    transform: rotate(45deg);
+    background: #dc2626;
+    box-shadow: 0 0 0 2px rgba(220, 38, 38, 0.15);
+  }
+</style>

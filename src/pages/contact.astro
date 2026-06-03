@@ -1,0 +1,29 @@
+---
+import CompliantLayout from '@/layouts/CompliantLayout.astro';
+import PageIntro from '@/components/PageIntro.astro';
+import home from '@/data/brand.config.json';
+
+const b = home.brand;
+const supportEmail = (home as { supportEmail?: string }).supportEmail || 'hello@refillwatch.org';
+---
+
+<CompliantLayout
+  title={`Contact ${b.fullName}`}
+  description={`Contact the editorial team at ${b.fullName}.`}
+  sectionAds="legal"
+>
+  <PageIntro eyebrow="Get in touch" title="Contact" description="Questions, corrections, or product updates — we review every note for the next refresh cycle." />
+
+  <section class="max-w-site mx-auto px-4 sm:px-6 lg:px-8 pb-14">
+    <article class="content-panel max-w-2xl mx-auto prose prose-lg prose-ink">
+      <p class="!mt-0">
+        Email us at{' '}
+        <a href={`mailto:${supportEmail}`}>{supportEmail}</a>.
+      </p>
+      <p>
+        We do not accept paid placement in reviews. For editorial policy details, see{' '}
+        <a href="/editorial-standards/">Editorial Standards</a>.
+      </p>
+    </article>
+  </section>
+</CompliantLayout>

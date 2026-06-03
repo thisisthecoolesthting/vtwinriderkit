@@ -1,0 +1,13 @@
+---
+import { CASE_AD_STORES } from '@/data/case-ad-stores';
+---
+
+<script id="case-ad-stores-json" type="application/json" set:html={JSON.stringify(CASE_AD_STORES)} />
+<script src="/js/case-ad-rotate.js" defer></script>
+<noscript>
+  <style is:global>
+    [data-cad-slot] {
+      opacity: 1 !important;
+    }
+  </style>
+</noscript>

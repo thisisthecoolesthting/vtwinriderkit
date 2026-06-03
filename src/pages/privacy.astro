@@ -1,0 +1,53 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import PageIntro from '@/components/PageIntro.astro';
+import home from '@/data/spawn-home.json';
+
+const b = home.brand;
+const support = (home as { supportEmail?: string }).supportEmail || 'hello@example.com';
+const year = new Date().getFullYear();
+---
+
+<BaseLayout
+  title={`Privacy Policy — ${b.fullName}`}
+  description={`How ${b.fullName} collects, uses, and protects visitor information.`}
+  ogType="website"
+  sectionAds="legal"
+>
+  <PageIntro eyebrow="Legal" title="Privacy policy" description={`How ${b.fullName} collects, uses, and protects visitor information. Last updated: ${year}.`} />
+
+  <section class="max-w-site mx-auto px-4 sm:px-6 lg:px-8 pb-14">
+  <article class="content-panel max-w-prose mx-auto prose prose-lg prose-ink">
+    <p>
+      {b.fullName} respects your privacy. This policy explains what we collect when you visit
+      our site, how we use it, and the choices you have.
+    </p>
+    <h2>Information we collect</h2>
+    <p>
+      We may collect standard web log data (IP address, browser type, pages viewed, referring URL)
+      through our hosting provider and analytics tools. If you email us, we keep your message and
+      contact details only as long as needed to respond.
+    </p>
+    <h2>How we use information</h2>
+    <ul>
+      <li>Operate, secure, and improve the site</li>
+      <li>Understand aggregate traffic and content performance</li>
+      <li>Respond to editorial corrections or support requests</li>
+    </ul>
+    <h2>Affiliate and third-party links</h2>
+    <p>
+      Outbound retailer links (including Amazon) are governed by those sites&apos; privacy policies.
+      See our <a href="/disclosure/">affiliate disclosure</a> for how we earn commissions.
+    </p>
+    <h2>Cookies and analytics</h2>
+    <p>
+      We may use cookies or similar technologies for basic analytics. You can limit cookies in
+      your browser settings.
+    </p>
+    <h2>Contact</h2>
+    <p>
+      Privacy questions: <a href={`mailto:${support}`}>{support}</a>
+    </p>
+  </article>
+  </section>
+</BaseLayout>

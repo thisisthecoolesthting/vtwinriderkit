@@ -1,0 +1,427 @@
+---
+/**
+ * Phone-case cross-promo slot. Store + image rotate on each page load (see case-ad-rotate.js).
+ */
+import home from '@/data/spawn-home.json';
+import { CASE_AD_STORES } from '@/data/case-ad-stores';
+
+export interface Props {
+  size: '300x250' | '728x90' | '320x50' | '160x600' | '300x600';
+  placement?: string;
+  /** Pin one store (skips rotation for this slot). */
+  shop?: string;
+  /** Kids / family gift copy overlay. */
+  kids?: boolean;
+}
+
+const { size, placement = 'default', shop, kids = false } = Astro.props;
+
+/** SSR placeholder — replaced client-side before paint (defer script runs quickly). */
+const store = shop
+  ? (CASE_AD_STORES.find((s) => s.slug === shop) ?? CASE_AD_STORES[0])
+  : CASE_AD_STORES[0];
+
+const img = store.images[0];
+const imgUrl = `https://phonecasesforall.com/hero-cases/${img}`;
+
+const displayBadge = kids ? '🧒 Colorful cases kids love' : store.badge;
+const displayTagline = kids
+  ? 'Durable, fun designs they will actually keep on their phone.'
+  : store.tagline;
+const displayCta = kids ? 'Shop kids picks' : store.cta;
+
+const brandName: string =
+  (home as { brand?: { shortName?: string; fullName?: string } }).brand?.shortName ||
+  (home as { brand?: { fullName?: string } }).brand?.fullName ||
+  (home as { siteSlug?: string }).siteSlug ||
+  '';
+const affSlug = brandName.toLowerCase().replace(/[^a-z0-9]/g, '') || 'affiliate';
+const utmContent = `${size}_${placement}`;
+
+const clickUrl = `https://${store.domain}/?utm_source=${affSlug}&utm_medium=cross_promo&utm_campaign=15off&utm_content=${utmContent}`;
+const iphoneUrl = `https://${store.iphoneDomain}/?utm_source=${affSlug}&utm_medium=cross_promo&utm_campaign=15off&utm_content=${utmContent}_iph`;
+const samsungUrl = `https://${store.samsungDomain}/?utm_source=${affSlug}&utm_medium=cross_promo&utm_campaign=15off&utm_content=${utmContent}_sam`;
+
+const slotId = `cad-${placement}`;
+
+const isLeader = size === '728x90' || size === '320x50';
+const isSkyscraper = size === '160x600' || size === '300x600';
+
+const wrapAttrs = {
+  'data-cad-slot': '',
+  'data-cad-placement': placement,
+  'data-cad-size': size,
+  'data-cad-kids': kids ? 'true' : 'false',
+  'data-aff-slug': affSlug,
+  ...(shop ? { 'data-cad-pinned': shop } : {}),
+};
+---
+
+{isLeader ? (
+  <div
+    id={slotId}
+    class="cad-wrap cad-leader cad-ready not-prose"
+    {...wrapAttrs}
+    style={`--accent:${store.accent};--accent-light:${store.accentLight};--accent-dark:${store.accentDark}`}
+  >
+    <a
+      href={clickUrl}
+      target="_blank"
+      rel="noopener sponsored"
+      data-href-iphone={iphoneUrl}
+      data-href-samsung={samsungUrl}
+      class="cad-leader-inner"
+    >
+      <span class="cad-leader-accent-bar"></span>
+      <img
+        src={imgUrl}
+        alt=""
+        loading="lazy"
+        class="cad-leader-img"
+        onerror="this.style.display='none'"
+      />
+      <span class="cad-leader-body">
+        <span class="cad-leader-name">{store.name}</span>
+        <span class="cad-leader-tag">{displayTagline}</span>
+      </span>
+      <span class="cad-leader-offer">
+        <span class="cad-leader-pct">15% OFF</span>
+        <span class="cad-leader-code">{store.code}</span>
+      </span>
+      <span class="cad-leader-cta">{displayCta} →</span>
+    </a>
+    <p class="cad-disc">Sponsored</p>
+  </div>
+) : isSkyscraper ? (
+  <div
+    id={slotId}
+    class="cad-wrap cad-sky cad-ready not-prose"
+    {...wrapAttrs}
+    style={`--accent:${store.accent};--accent-light:${store.accentLight};--accent-dark:${store.accentDark}`}
+  >
+    <p class="cad-eyebrow">Sponsored</p>
+    <a
+      href={clickUrl}
+      target="_blank"
+      rel="noopener sponsored"
+      data-href-iphone={iphoneUrl}
+      data-href-samsung={samsungUrl}
+      class="cad-sky-card"
+    >
+      <div class="cad-sky-img-wrap">
+        <img
+          src={imgUrl}
+          alt={store.name}
+          loading="lazy"
+          class="cad-sky-img"
+          onerror="this.parentElement.style.background='var(--accent-light)';this.remove()"
+        />
+      </div>
+      <div class="cad-sky-body">
+        <span class="cad-badge">{displayBadge}</span>
+        <p class="cad-name">{store.name}</p>
+        <p class="cad-tag">{displayTagline}</p>
+        <div class="cad-offer">
+          <span class="cad-offer-text">✦ {store.offer}</span>
+          <span class="cad-code">Code: <strong>{store.code}</strong></span>
+        </div>
+        <span class="cad-cta-btn">{displayCta} →</span>
+      </div>
+    </a>
+  </div>
+) : (
+  <div
+    id={slotId}
+    class="cad-wrap cad-rect cad-ready not-prose"
+    {...wrapAttrs}
+    style={`--accent:${store.accent};--accent-light:${store.accentLight};--accent-dark:${store.accentDark}`}
+  >
+    <p class="cad-eyebrow">Sponsored · From our family of brands</p>
+    <a
+      href={clickUrl}
+      target="_blank"
+      rel="noopener sponsored"
+      data-href-iphone={iphoneUrl}
+      data-href-samsung={samsungUrl}
+      class="cad-rect-card"
+    >
+      <div class="cad-rect-img-wrap">
+        <img
+          src={imgUrl}
+          alt={store.name}
+          loading="lazy"
+          class="cad-rect-img"
+          onerror="this.parentElement.style.background='var(--accent-light)';this.remove()"
+        />
+      </div>
+      <div class="cad-rect-body">
+        <span class="cad-badge">{displayBadge}</span>
+        <p class="cad-name">{store.name}</p>
+        <p class="cad-tag">{displayTagline}</p>
+        <div class="cad-stars"><span class="cad-star-row">★★★★★</span></div>
+        <div class="cad-offer">
+          <span class="cad-offer-text">✦ {store.offer}</span>
+          <span class="cad-code">Code: <strong>{store.code}</strong></span>
+        </div>
+        <span class="cad-cta-btn">{displayCta} →</span>
+      </div>
+    </a>
+  </div>
+)}
+
+<style>
+  .cad-wrap {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    margin: 16px 0;
+    opacity: 1;
+  }
+  .cad-wrap.cad-leader {
+    width: 100%;
+    max-width: 100%;
+  }
+  .cad-eyebrow {
+    font-size: 9px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.6px;
+    color: #9ca3af;
+    margin: 0 0 5px;
+  }
+  .cad-disc {
+    font-size: 9px;
+    color: #bbb;
+    text-align: center;
+    margin: 3px 0 0;
+  }
+  .cad-badge {
+    font-size: 10px;
+    font-weight: 700;
+    color: var(--accent);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  .cad-name {
+    font-size: 13px;
+    font-weight: 700;
+    color: #111;
+    margin: 0;
+    line-height: 1.2;
+  }
+  .cad-tag {
+    font-size: 11px;
+    color: #6b7280;
+    margin: 0;
+    line-height: 1.4;
+  }
+  .cad-stars {
+    font-size: 10px;
+  }
+  .cad-star-row {
+    color: #f59e0b;
+    letter-spacing: 1px;
+  }
+  .cad-offer {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    background: var(--accent-light);
+    border-left: 3px solid var(--accent);
+    border-radius: 4px;
+    padding: 6px 8px;
+    margin: 3px 0;
+  }
+  .cad-offer-text {
+    font-size: 11px;
+    font-weight: 700;
+    color: var(--accent-dark);
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+  }
+  .cad-code {
+    font-size: 10px;
+    color: #374151;
+  }
+  .cad-code strong {
+    font-family: 'Courier New', monospace;
+    font-size: 10px;
+    background: rgba(0, 0, 0, 0.07);
+    padding: 1px 4px;
+    border-radius: 3px;
+    letter-spacing: 1px;
+  }
+  .cad-cta-btn {
+    display: inline-block;
+    padding: 7px 14px;
+    background: var(--accent);
+    color: #fff;
+    border-radius: 6px;
+    font-size: 11px;
+    font-weight: 600;
+    margin-top: 5px;
+    transition: background 150ms;
+  }
+
+  .cad-leader-inner {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 0 12px;
+    height: 82px;
+    background: #fff;
+    border-radius: 10px;
+    border: 1.5px solid rgba(0, 0, 0, 0.08);
+    border-top: 4px solid var(--accent);
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.06);
+    text-decoration: none;
+    color: inherit;
+    overflow: hidden;
+  }
+  .cad-leader-accent-bar {
+    width: 4px;
+    height: 40px;
+    background: var(--accent);
+    border-radius: 2px;
+    flex-shrink: 0;
+  }
+  .cad-leader-img {
+    width: 52px;
+    height: 68px;
+    object-fit: cover;
+    object-position: center top;
+    border-radius: 6px;
+    flex-shrink: 0;
+  }
+  .cad-leader-body {
+    flex: 1;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+  .cad-leader-name {
+    font-size: 13px;
+    font-weight: 700;
+    color: #111;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .cad-leader-tag {
+    font-size: 11px;
+    color: #6b7280;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .cad-leader-offer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+    background: var(--accent-light);
+    border-radius: 6px;
+    padding: 5px 10px;
+    flex-shrink: 0;
+  }
+  .cad-leader-pct {
+    font-size: 13px;
+    font-weight: 800;
+    color: var(--accent-dark);
+    line-height: 1;
+  }
+  .cad-leader-code {
+    font-family: 'Courier New', monospace;
+    font-size: 10px;
+    color: #374151;
+    background: rgba(0, 0, 0, 0.06);
+    padding: 1px 5px;
+    border-radius: 3px;
+    letter-spacing: 1px;
+  }
+  .cad-leader-cta {
+    font-size: 12px;
+    font-weight: 600;
+    color: #fff;
+    background: var(--accent);
+    padding: 8px 12px;
+    border-radius: 7px;
+    flex-shrink: 0;
+    white-space: nowrap;
+  }
+
+  .cad-rect-card {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    color: inherit;
+    border-radius: 14px;
+    overflow: hidden;
+    border: 1.5px solid rgba(0, 0, 0, 0.08);
+    background: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.07);
+    border-top: 4px solid var(--accent);
+    width: 100%;
+  }
+  .cad-rect-img-wrap {
+    flex-shrink: 0;
+    width: 120px;
+    background: var(--accent-light);
+    overflow: hidden;
+  }
+  .cad-rect-img {
+    width: 120px;
+    height: 100%;
+    min-height: 210px;
+    object-fit: cover;
+    object-position: center top;
+  }
+  .cad-rect-body {
+    flex: 1;
+    padding: 14px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    justify-content: center;
+  }
+
+  .cad-sky-card {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: inherit;
+    border-radius: 14px;
+    overflow: hidden;
+    border: 1.5px solid rgba(0, 0, 0, 0.08);
+    background: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.07);
+    border-top: 4px solid var(--accent);
+    max-width: 300px;
+  }
+  .cad-sky-img-wrap {
+    width: 100%;
+    height: 200px;
+    background: var(--accent-light);
+    overflow: hidden;
+  }
+  .cad-sky-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: center top;
+  }
+  .cad-sky-body {
+    padding: 14px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  @media (max-width: 480px) {
+    .cad-leader-img {
+      display: none;
+    }
+    .cad-leader-tag {
+      display: none;
+    }
+  }
+</style>

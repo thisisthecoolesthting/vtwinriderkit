@@ -1,0 +1,68 @@
+---
+import CompliantLayout from '@/layouts/CompliantLayout.astro';
+import PageIntro from '@/components/PageIntro.astro';
+import { getCollection } from 'astro:content';
+import { isHeroImageAvailable } from '@/lib/hero-image';
+
+const pillars = await getCollection('pillars', ({ data }) => data.status === 'published');
+const sorted = pillars.sort((a, b) => +new Date(b.data.publishedAt) - +new Date(a.data.publishedAt));
+---
+
+<CompliantLayout
+  title="Guides"
+  description="In-depth RefillWatch guides on household refills, shrinkflation, and smarter swaps."
+  sectionAds="guides"
+  sectionAdsCompact={true}
+>
+  <PageIntro
+    eyebrow="Start here"
+    title="Guides"
+    description="Long-form watchlists: what prices are doing, which refills actually work, and where to save without junk swaps."
+  />
+
+  <section class="max-w-site mx-auto px-4 sm:px-6 lg:px-8 pb-10 md:pb-14">
+    {sorted.length === 0 && (
+      <p class="text-ink-700">First guides coming soon.</p>
+    )}
+
+    <div class="grid md:grid-cols-2 gap-6">
+      {sorted.map((p, idx) => {
+        const heroImage = isHeroImageAvailable(p.data.heroImage) ? p.data.heroImage : '';
+        const tints = [
+          'bg-gradient-to-b from-cream-100 to-cream-50',
+          'bg-gradient-to-b from-sage-400/15 to-cream-50',
+          'bg-gradient-to-b from-terracotta-400/15 to-cream-50',
+          'bg-gradient-to-b from-cream-200 to-cream-50',
+        ];
+        return (
+        <a
+          href={`/pillars/${p.slug}`}
+          class:list={[
+            'group no-underline block rounded-xl border border-cream-200 overflow-hidden',
+            'hover:border-terracotta-400 hover:shadow-soft-lg hover:-translate-y-0.5 transition-all',
+            !heroImage && `p-5 ${tints[idx % tints.length]}`,
+          ]}
+        >
+          {heroImage && (
+            <div class="rounded-lg overflow-hidden mb-4 bg-cream-200 aspect-[16/10]">
+              <img
+                src={heroImage}
+                alt={p.data.title}
+                loading="lazy"
+                class="w-full h-full object-cover group-hover:scale-[1.02] transition-transform duration-300"
+              />
+            </div>
+          )}
+          <h2 class="font-display text-2xl text-ink-900 !mt-0 group-hover:text-terracotta-500 transition-colors">
+            {p.data.title}
+          </h2>
+          <p class="text-ink-700 mt-2 text-base">{p.data.excerpt}</p>
+          <p class="text-ink-500 text-xs mt-3">
+            {new Date(p.data.publishedAt).toLocaleDateString()}
+          </p>
+        </a>
+        );
+      })}
+    </div>
+  </section>
+</CompliantLayout>

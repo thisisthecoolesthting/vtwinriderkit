@@ -1,0 +1,53 @@
+---
+/**
+ * Section pages: one top leaderboard + text links (fast; no 3× heavy image ad stack).
+ */
+import CaseAdSlot from '@/components/CaseAdSlot.astro';
+import ArticleOrnamentDivider from '@/components/ArticleOrnamentDivider.astro';
+import PhoneCaseFamilyTextLinks from '@/components/PhoneCaseFamilyTextLinks.astro';
+import type { SectionPage } from '@/lib/section-page';
+
+export type { SectionPage };
+
+export interface Props {
+  page: SectionPage;
+  variant?: 'header' | 'footer' | 'both';
+  /** Index/list pages: skip ornament and tighten ad margins */
+  compact?: boolean;
+}
+
+const { page, variant = 'both', compact = false } = Astro.props;
+
+const showHeader = variant === 'header' || variant === 'both';
+const showFooter = variant === 'footer' || variant === 'both';
+---
+
+{showHeader && (
+  <div
+    class:list={[
+      'max-w-site mx-auto px-4 sm:px-6 lg:px-8 not-prose section-ads-header',
+      compact ? 'py-2 md:py-3' : 'py-3 md:py-4',
+    ]}
+    role="complementary"
+    aria-label="Sponsored phone case offer"
+  >
+    <div class="flex justify-center min-h-[5.5rem]">
+      <CaseAdSlot size="728x90" placement={`${page}-section-top`} />
+    </div>
+    {!compact && <ArticleOrnamentDivider />}
+  </div>
+)}
+
+{showFooter && (
+  <div class="max-w-site mx-auto px-4 sm:px-6 lg:px-8 py-8 md:py-10 border-t border-cream-200/80">
+    <div class="max-w-3xl mx-auto">
+      <PhoneCaseFamilyTextLinks placement={`${page}-section-footer`} />
+    </div>
+  </div>
+)}
+
+<style>
+  .section-ads-header--compact :global(.cad-wrap) {
+    margin: 0.35rem 0 0.25rem;
+  }
+</style>

@@ -1,0 +1,46 @@
+---
+import CompliantLayout from '@/layouts/CompliantLayout.astro';
+import PageIntro from '@/components/PageIntro.astro';
+import { getEntry } from 'astro:content';
+import home from '@/data/brand.config.json';
+
+const b = home.brand;
+const editorial = (home as { editorial?: { author_slug?: string; methodology?: string[] } }).editorial;
+const defaultAuthorSlug = (home as { defaultAuthorSlug?: string }).defaultAuthorSlug || '_default';
+const leadAuthorSlug = editorial?.author_slug || defaultAuthorSlug;
+const leadAuthor = await getEntry('authors', leadAuthorSlug);
+const methodology = (editorial?.methodology || []).filter(Boolean);
+const standards = methodology.length > 0
+  ? methodology
+  : [
+      'We prioritize practical recommendations tied to a clear use case.',
+      'We label partner links and keep editorial decisions independent from commissions.',
+      'We correct material mistakes and update pricing context when market data shifts.',
+    ];
+---
+
+<CompliantLayout
+  title={`Editorial Standards — ${b.fullName}`}
+  description={`How ${b.fullName} handles sourcing, recommendations, and disclosures.`}
+  sectionAds="legal"
+>
+  <PageIntro
+    eyebrow="Standards"
+    title="Editorial standards"
+    description={`${b.fullName} publishes independent reviews and guides. Partner commissions never change ranking criteria or what we recommend.`}
+  />
+
+  <section class="max-w-site mx-auto px-4 sm:px-6 lg:px-8 pb-14">
+    <article class="content-panel max-w-2xl mx-auto prose prose-lg prose-ink">
+      {leadAuthor && (
+        <p class="!mt-0 text-sm text-ink-600">
+          Editorial lead:{' '}
+          <a href={`/authors/${leadAuthor.slug}/`}>{leadAuthor.data.name}</a>
+        </p>
+      )}
+      <ul class="space-y-3 !mb-0">
+        {standards.map((item) => <li>{item}</li>)}
+      </ul>
+    </article>
+  </section>
+</CompliantLayout>

@@ -1,0 +1,92 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import LongformPageShell from '@/components/LongformPageShell.astro';
+import NewsletterForm from '@/components/NewsletterForm.astro';
+import { getCollection, getEntry } from 'astro:content';
+import { getRelatedProductsFromBody } from '@/utils/related-products';
+import { siteOrigin } from '@/utils/site-origin';
+import home from '@/data/spawn-home.json';
+
+export async function getStaticPaths() {
+  const pillars = await getCollection('pillars', ({ data }) => data.status !== 'draft');
+  return pillars.map((p) => ({
+    params: { slug: p.slug },
+    props: { entry: p },
+  }));
+}
+
+const { entry } = Astro.props;
+const { Content } = await entry.render();
+const b = home.brand;
+const nl = home.newsletter;
+const siteYmyl = (home as { persona?: { ymyl?: boolean } }).persona?.ymyl === true;
+const o = siteOrigin();
+const defSlug = (home as { defaultAuthorSlug?: string }).defaultAuthorSlug || '_default';
+const authorSlug = entry.data.author ?? defSlug;
+const author = await getEntry('authors', authorSlug);
+const relatedProducts = await getRelatedProductsFromBody(entry.body);
+const publishedISO = new Date(entry.data.publishedAt).toISOString();
+const modifiedISO = entry.data.updatedAt ? new Date(entry.data.updatedAt).toISOString() : undefined;
+const orgPub = b.fullName;
+const orgUrl = o;
+const personSchema = author
+  ? {
+      '@type': 'Person' as const,
+      '@id': `${o}/authors/${author.slug}/#person`,
+      name: author.data.name,
+      url: `${o}/authors/${author.slug}/`,
+      image: `${o}${author.data.photoUrl}`,
+      jobTitle: author.data.role,
+    }
+  : { '@type': 'Organization' as const, name: orgPub, url: orgUrl };
+const articleSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  headline: entry.data.title,
+  description: entry.data.metaDescription,
+  datePublished: publishedISO,
+  dateModified: modifiedISO ?? publishedISO,
+  author: personSchema,
+  publisher: { '@type': 'Organization', name: b.fullName, url: o },
+  keywords: entry.data.targetKeyword,
+  image: entry.data.heroImage ? [entry.data.heroImage] : undefined,
+  mainEntityOfPage: { '@type': 'WebPage', '@id': `${o}/pillars/${entry.slug}/` },
+};
+
+const currentYear = new Date().getFullYear();
+const h1Text = entry.data.targetKeyword
+  ? `${entry.data.title} — ${currentYear} Guide`
+  : entry.data.title;
+---
+
+<BaseLayout
+  title={entry.data.title}
+  description={entry.data.metaDescription}
+  image={entry.data.heroImage}
+  ogType="article"
+  articlePublishedTime={publishedISO}
+  articleModifiedTime={modifiedISO}
+  articleAuthor={author?.data.name ?? b.fullName}
+  articleSection={entry.data.targetKeyword}
+  articleTags={entry.data.tags}
+  sectionAds="guides"
+  sectionAdsCompact
+>
+  <script type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
+
+  <LongformPageShell
+    title={h1Text}
+    heroImage={entry.data.heroImage}
+    authorSlug={authorSlug}
+    publishedAt={entry.data.publishedAt}
+    reviewedAt={entry.data.reviewedAt ?? entry.data.updatedAt}
+    medicalBeforeBody={siteYmyl}
+    relatedProducts={relatedProducts}
+  >
+    <Content />
+  </LongformPageShell>
+
+  <div class="max-w-site mx-auto px-4 sm:px-6 lg:px-8 pb-20">
+    <NewsletterForm variant="inline" title={nl.title} subtitle={nl.subtitle} />
+  </div>
+</BaseLayout>

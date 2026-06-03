@@ -1,0 +1,52 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import type { Props as BaseLayoutProps } from '@/layouts/BaseLayout.astro';
+import type { SectionPage } from '@/lib/section-page';
+
+interface Props extends BaseLayoutProps {
+  articleJsonLd?: Record<string, unknown>;
+  showPriceFootnote?: boolean;
+  priceFootnoteText?: string;
+  /** Sitewide ad spine: top 728×90 + ornament, footer phone-case text links */
+  sectionAds?: SectionPage | false;
+  sectionAdsCompact?: boolean;
+}
+
+const {
+  articleJsonLd,
+  showPriceFootnote = false,
+  priceFootnoteText = 'Prices and availability can change at any time. We may update rankings and picks as market data changes.',
+  sectionAds = false,
+  sectionAdsCompact = false,
+  ...baseProps
+} = Astro.props as Props;
+---
+
+<BaseLayout {...baseProps} sectionAds={sectionAds} sectionAdsCompact={sectionAdsCompact}>
+  {articleJsonLd && <script type="application/ld+json" set:html={JSON.stringify(articleJsonLd)} />}
+  <slot />
+
+  {showPriceFootnote && (
+    <p class="max-w-3xl mx-auto px-6 pb-8 text-xs text-ink-500">
+      {priceFootnoteText}
+      {' '}
+      <a href="/disclosure" class="text-terracotta-600 hover:underline">Disclosure</a>
+      {' '} - {' '}
+      <a href="/editorial-standards/" class="text-terracotta-600 hover:underline">Editorial standards</a>
+    </p>
+  )}
+
+  <script is:inline>
+    (() => {
+      const firstCard = document.querySelector('[data-content-card]');
+      if (!firstCard || firstCard.querySelector('[data-amazon-associates-note]')) return;
+      const target = firstCard.querySelector('[data-card-content]') || firstCard;
+      const note = document.createElement('p');
+      note.setAttribute('data-amazon-associates-note', 'true');
+      note.setAttribute('role', 'note');
+      note.className = 'text-xs text-ink-500 leading-snug mb-2';
+      note.textContent = 'As an Amazon Associate, we earn from qualifying purchases.';
+      target.insertBefore(note, target.firstChild);
+    })();
+  </script>
+</BaseLayout>

@@ -1,0 +1,148 @@
+---
+/**
+ * Site-wide bottom strip: large Amazon affiliate cards for high-AOV household picks.
+ * Rendered on every page via BaseLayout.
+ */
+import { getCollection } from 'astro:content';
+import { BOTTOM_AMAZON_PICKS } from '@/data/bottom-amazon-picks';
+import PhoneCaseFamilyTextLinks from '@/components/PhoneCaseFamilyTextLinks.astro';
+import {
+  amazonAffiliateUrlFromAsin,
+  type BottomAmazonPick,
+} from '@/utils/amazon-affiliate';
+import { amazonAsinImageUrl } from '@/utils/product-image';
+import home from '@/data/spawn-home.json';
+
+const siteBrand = home.brand?.fullName || 'RefillWatch';
+const associateTag = import.meta.env.PUBLIC_ASSOCIATE_TAG ?? 'refillwatch-20';
+
+const catalog = await getCollection('products', ({ data }) => data.status === 'published');
+
+const fromCatalog: BottomAmazonPick[] = catalog
+  .filter((p) => p.data.asin)
+  .map((p) => {
+    const price = typeof p.data.price === 'number' ? p.data.price : 0;
+    return {
+      asin: p.data.asin!,
+      title: (p.data as { cardTitle?: string }).cardTitle || p.data.title,
+      subtitle:
+        (p.data as { cardPick?: string }).cardPick ||
+        p.data.metaDescription?.slice(0, 120) ||
+        'Reviewed on RefillWatch — real retail tests.',
+      priceLabel: price > 0 ? `From ~$${price.toFixed(0)}` : 'See Amazon price',
+      badge: 'On our watchlist',
+      imageUrl: p.data.imageUrl,
+      sortPrice: price,
+    };
+  })
+  .sort((a, b) => b.sortPrice - a.sortPrice)
+  .map(({ sortPrice: _s, ...pick }) => pick);
+
+const seen = new Set<string>();
+const merged: BottomAmazonPick[] = [];
+
+for (const pick of [...BOTTOM_AMAZON_PICKS, ...fromCatalog]) {
+  const key = pick.asin.toUpperCase();
+  if (seen.has(key)) continue;
+  seen.add(key);
+  merged.push(pick);
+  if (merged.length >= 6) break;
+}
+
+const FB =
+  'data:image/svg+xml;utf8,' +
+  encodeURIComponent(
+    `<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'><rect width='200' height='200' fill='#F5EFE6'/></svg>`,
+  );
+---
+
+{merged.length > 0 && (
+  <section
+    class="not-prose border-t border-cream-200 section-band relative overflow-hidden"
+    aria-labelledby="global-bottom-picks-heading"
+  >
+    <div class="max-w-site mx-auto px-4 sm:px-6 lg:px-8 py-10 md:py-14">
+      <div class="flex flex-col md:flex-row md:items-end md:justify-between gap-4 mb-8">
+        <div>
+          <p class="font-mono text-[11px] tracking-[0.18em] uppercase text-terracotta-600 font-medium mb-2">
+            Before you leave
+          </p>
+          <h2
+            id="global-bottom-picks-heading"
+            class="font-display text-2xl md:text-3xl text-ink-900 !mt-0 leading-tight max-w-[22ch]"
+          >
+            Kitchen gear worth buying once
+          </h2>
+        </div>
+        <p class="text-sm text-ink-700 max-w-[40ch] leading-relaxed">
+          Cookware, knives, and appliances we tested at home — partner links, no extra cost to you.
+          Partner links — we may earn a commission at no extra cost to you.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 md:gap-6">
+        {merged.map((pick) => {
+          const href = amazonAffiliateUrlFromAsin(pick.asin, associateTag);
+          const img = pick.imageUrl || amazonAsinImageUrl(pick.asin);
+          return (
+            <a
+              href={href}
+              target="_blank"
+              rel="nofollow noopener sponsored"
+              class="group flex flex-col rounded-2xl border border-cream-200 bg-white shadow-soft
+                     hover:border-terracotta-400 hover:shadow-soft-lg hover:-translate-y-0.5
+                     transition-all duration-200 overflow-hidden no-underline"
+            >
+              <div class="relative bg-cream-100 aspect-[4/3] flex items-center justify-center p-6">
+                {pick.badge && (
+                  <span
+                    class="absolute top-3 left-3 z-10 bg-ink-900 text-cream-50 font-mono text-[10px]
+                           tracking-[0.12em] uppercase px-2.5 py-1 rounded-full"
+                  >
+                    {pick.badge}
+                  </span>
+                )}
+                <img
+                  src={img}
+                  alt=""
+                  loading="lazy"
+                  onerror={`this.onerror=null;this.src='${FB}'`}
+                  class="max-h-full max-w-full object-contain group-hover:scale-[1.03] transition-transform"
+                />
+              </div>
+              <div class="p-5 flex flex-col flex-1 gap-2">
+                <p class="font-semibold text-ink-900 text-base leading-snug group-hover:text-terracotta-600 transition-colors">
+                  {pick.title}
+                </p>
+                <p class="text-sm text-ink-600 leading-relaxed flex-1">{pick.subtitle}</p>
+                <div class="flex items-center justify-between gap-3 pt-3 mt-auto border-t border-cream-200">
+                  <span class="text-sm font-bold text-terracotta-600">{pick.priceLabel}</span>
+                  <span
+                    class="inline-flex items-center justify-center rounded-full bg-terracotta-500
+                           group-hover:bg-terracotta-600 text-cream-50 font-mono text-[10px]
+                           tracking-[0.14em] uppercase px-4 py-2.5 transition-colors shrink-0"
+                  >
+                    Shop on Amazon ↗
+                  </span>
+                </div>
+              </div>
+            </a>
+          );
+        })}
+      </div>
+
+      <div class="mt-8 flex flex-wrap gap-4 items-center justify-between text-xs text-ink-500">
+        <p class="!m-0 max-w-[52ch] leading-relaxed">
+          As an Amazon Associate, {siteBrand} earns from qualifying purchases.
+          <a href="/disclosure/" class="text-terracotta-600 hover:underline ml-1">Full disclosure</a>
+          {' · '}
+          <a href="/products/" class="text-terracotta-600 hover:underline">All tracked reviews</a>
+        </p>
+      </div>
+
+      <div class="mt-10 pt-8 border-t border-dashed border-cream-200/90">
+        <PhoneCaseFamilyTextLinks placement="global-bottom" />
+      </div>
+    </div>
+  </section>
+)}

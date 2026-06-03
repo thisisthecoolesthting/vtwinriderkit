@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply text-ink-900 bg-cream-50 antialiased;
+    font-family: 'Inter', system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  body {
+    @apply leading-relaxed site-page-bg texture-paper;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Archivo', Georgia, serif;
+    @apply text-ink-900 font-semibold tracking-tight;
+  }
+  h1 { @apply text-4xl md:text-5xl; }
+  h2 { @apply text-2xl md:text-3xl mt-10 mb-4; }
+  h3 { @apply text-xl md:text-2xl mt-8 mb-3; }
+  a  { @apply text-terracotta-600 underline-offset-4 hover:underline; }
+  ::selection { @apply bg-terracotta-400/30 text-ink-900; }
+  img { @apply select-none; }
+
+  /* Smoother focus ring that follows our palette. */
+  :focus-visible {
+    @apply outline-none ring-2 ring-terracotta-400/70 ring-offset-2 ring-offset-cream-50 rounded-lg;
+  }
+}
+
+@layer components {
+  /* Pill-shaped buttons, soft shadow, gentle lift on hover. */
+  .btn {
+    @apply inline-flex items-center justify-center rounded-full px-7 py-3
+           font-semibold text-base border border-transparent
+           transition-all duration-300 ease-out;
+  }
+  .btn-primary {
+    @apply btn bg-terracotta-500 text-white shadow-soft
+           hover:bg-terracotta-600 hover:shadow-soft-lg hover:-translate-y-0.5;
+  }
+  .btn-secondary {
+    @apply btn bg-white text-ink-900 border border-ink-900/15 shadow-soft
+           hover:bg-ink-900 hover:text-white hover:border-ink-900 hover:shadow-soft-lg hover:-translate-y-0.5;
+  }
+
+  .container-prose {
+    @apply max-w-prose mx-auto px-5;
+  }
+
+  /* Rounded "card" surface used across listing grids. */
+  .card-soft {
+    @apply bg-white rounded-3xl border border-cream-200/70 shadow-soft
+           transition-all duration-300 ease-out
+           hover:shadow-soft-lg hover:-translate-y-1;
+  }
+
+  /* Rounded text input, pairs with pill buttons. */
+  .input-soft {
+    @apply w-full px-5 py-3 rounded-full border border-cream-200 bg-white
+           shadow-soft placeholder:text-ink-500/70
+           focus:outline-none focus:ring-2 focus:ring-terracotta-400 focus:border-transparent
+           transition-all duration-200;
+  }
+
+  /* Rounded-corner image wrapper. */
+  .img-soft {
+    @apply rounded-3xl overflow-hidden bg-cream-200;
+  }
+
+  /* Inline Amazon pill rendered next to any internal /products/ link. The
+     rehype plugin in astro.config.mjs injects this button automatically. */
+  .amazon-cta-inline {
+    @apply inline-flex items-center gap-1 ml-2 px-3 py-1 rounded-full
+           bg-terracotta-500 text-white text-sm font-medium no-underline
+           shadow-soft align-middle
+           hover:bg-terracotta-600 hover:shadow-soft-lg hover:no-underline
+           transition-all duration-200;
+  }
+  .amazon-cta-inline:hover { text-decoration: none !important; }
+
+  /* Container for the internal-review link + inline Amazon CTA pair. */
+  .product-link-pair {
+    @apply inline-flex flex-wrap items-center gap-y-1;
+  }
+
+  /* Inline Amazon product cards at the bottom of articles (## Top Picks). */
+  .amazon-inline-card {
+    @apply my-4;
+  }
+  .amazon-inline-card__link {
+    @apply flex items-center gap-3 no-underline rounded-xl border border-cream-200
+           bg-white p-3 sm:p-4 shadow-soft transition-all duration-200
+           hover:border-terracotta-400 hover:shadow-soft-lg hover:no-underline;
+  }
+  .amazon-inline-card__img {
+    @apply w-20 h-20 object-contain rounded-lg bg-cream-100 flex-shrink-0 p-1;
+    min-width: 5rem;
+    min-height: 5rem;
+  }
+  .amazon-inline-card__body {
+    @apply flex flex-col gap-1 min-w-0 flex-1;
+  }
+  .amazon-inline-card__title {
+    @apply block text-sm font-semibold text-ink-900 leading-snug !m-0;
+  }
+  .amazon-inline-card__desc {
+    @apply text-xs text-ink-500 leading-relaxed;
+  }
+  .amazon-inline-card__cta {
+    @apply mt-2 inline-flex self-start rounded-full bg-terracotta-500 px-3 py-1.5
+           font-mono text-[10px] tracking-[0.12em] uppercase text-cream-50;
+  }
+  .article-longform .amazon-inline-card__link:hover .amazon-inline-card__cta {
+    @apply bg-terracotta-600;
+  }
+
+  .amazon-inline-card--mid {
+    @apply my-5;
+  }
+  .amazon-inline-card--mid .amazon-inline-card__link {
+    @apply p-2.5 sm:p-3 gap-2.5;
+  }
+  .amazon-inline-card--mid .amazon-inline-card__img {
+    @apply w-16 h-16;
+    min-width: 4rem;
+    min-height: 4rem;
+  }
+
+  /* Subtle grain texture for cream sections — barely visible, but gives
+     the cream background the analog feel that flat CSS doesn't.         */
+  .texture-paper {
+    background-image:
+      radial-gradient(rgba(42, 36, 34, 0.025) 1px, transparent 1px),
+      radial-gradient(rgba(42, 36, 34, 0.02) 1px, transparent 1px);
+    background-size: 4px 4px, 7px 7px;
+    background-position: 0 0, 2px 2px;
+  }
+
+  /* Soft "pebble" band used to visually separate sections without a hard
+     border. Combine with bg-cream-100 or bg-white on the parent.        */
+  .section-pebble {
+    @apply relative rounded-[2.5rem] md:rounded-[3.5rem] mx-3 md:mx-6 my-3 md:my-6
+           overflow-hidden;
+  }
+
+  /* Soft full-bleed section that softens its top/bottom edges into a
+     gentle curve instead of a hard horizontal border.                   */
+  .section-soft {
+    @apply relative;
+  }
+  .section-soft::before,
+  .section-soft::after {
+    content: '';
+    @apply absolute left-0 right-0 h-12 md:h-20 pointer-events-none;
+    background: inherit;
+  }
+  .section-soft::before {
+    @apply -top-6 md:-top-10 rounded-b-[3rem] md:rounded-b-[4rem];
+  }
+  .section-soft::after {
+    @apply -bottom-6 md:-bottom-10 rounded-t-[3rem] md:rounded-t-[4rem];
+  }
+}
+
+@layer utilities {
+  /* Wave 0 — hero headline readability (affiliate fleet) */
+  .hero-scrim-strong {
+    background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.82) 0%,
+      rgba(0, 0, 0, 0.68) 42%,
+      rgba(0, 0, 0, 0.38) 100%
+    );
+  }
+  .hero-headline-safe {
+    color: #ffffff !important;
+    text-shadow:
+      0 2px 24px rgba(0, 0, 0, 0.88),
+      0 1px 4px rgba(0, 0, 0, 0.95);
+  }
+  .trust-word {
+    @apply text-ink-900;
+  }
+  /* Softer, layered shadows so "elevation" feels like paper, not a box. */
+  .shadow-soft {
+    box-shadow:
+      0 1px 2px rgba(42, 36, 34, 0.04),
+      0 4px 16px rgba(42, 36, 34, 0.05);
+  }
+  .shadow-soft-lg {
+    box-shadow:
+      0 2px 4px rgba(42, 36, 34, 0.05),
+      0 12px 32px rgba(42, 36, 34, 0.09);
+  }
+
+  /* Rounded outside-corner "notch" backgrounds for section transitions. */
+  .rounded-blob {
+    border-radius: 2.5rem 2.5rem 3.5rem 3.5rem / 2rem 2rem 3rem 3rem;
+  }
+
+  .prose h1, .prose h2, article h1, article h2, main article h1, main article h2 {
+    @apply text-ink-900;
+  }
+}
+
+/* UIPRO-SPINE-MERGE — synced from templates/ssc-site */
+@layer components {
+  .skip-link {
+    @apply sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-[100]
+           focus:inline-flex focus:items-center focus:px-4 focus:py-2.5
+           focus:bg-ink-900 focus:text-cream-50 focus:rounded-lg focus:shadow-soft-lg
+           focus:font-semibold focus:text-sm focus:no-underline;
+  }
+  .btn-secondary-light {
+    @apply btn bg-white text-ink-900 border border-cream-200 shadow-soft
+           hover:border-terracotta-400 hover:text-terracotta-600
+           focus-visible:ring-terracotta-500;
+  }
+  .btn-nav-cta {
+    @apply hidden md:inline-flex items-center justify-center rounded-full px-5 py-2.5
+           text-sm font-semibold bg-terracotta-500 text-white no-underline
+           hover:bg-terracotta-600 transition-colors duration-200 cursor-pointer
+           focus-visible:ring-2 focus-visible:ring-terracotta-500 focus-visible:ring-offset-2;
+  }
+  .section-eyebrow {
+    @apply font-mono text-[11px] tracking-[0.18em] uppercase text-terracotta-600 font-medium;
+  }
+  .hero-band {
+    @apply relative bg-ink-900 text-cream-50 overflow-hidden;
+  }
+  .hero-band a:not(.btn-primary):not(.btn-secondary):not(.btn-secondary-light) {
+    @apply text-cream-50/90 hover:text-white;
+  }
+  .trust-badge {
+    @apply inline-flex items-center gap-2 rounded-full border border-cream-200
+           bg-white px-3 py-1.5 text-xs font-medium text-ink-700;
+  }
+  .stat-card {
+    @apply bg-white border border-cream-200 rounded-2xl p-8 text-center
+           shadow-soft transition-colors duration-200 cursor-default
+           hover:border-terracotta-400/50 hover:shadow-soft-lg;
+  }
+
+  /* Homepage color profile — light surfaces only (no full-page ink-900). */
+  .site-page-bg {
+    background-color: theme('colors.cream.50');
+    background-image:
+      radial-gradient(50% 80% at 100% 0%, rgba(220, 38, 38, 0.08), transparent 55%),
+      radial-gradient(40% 50% at 0% 100%, rgba(37, 99, 235, 0.1), transparent 60%);
+    background-attachment: fixed;
+  }
+
+  .page-intro-band {
+    @apply relative overflow-hidden;
+    background-image:
+      radial-gradient(55% 90% at 92% 8%, rgba(220, 38, 38, 0.1), transparent 58%),
+      radial-gradient(45% 70% at 4% 92%, rgba(37, 99, 235, 0.12), transparent 62%),
+      linear-gradient(180deg, theme('colors.cream.50') 0%, theme('colors.cream.100') 100%);
+  }
+
+  .content-panel {
+    @apply bg-white/90 backdrop-blur-[2px] rounded-[2rem] md:rounded-[2.5rem]
+           border border-cream-200/80 shadow-soft px-6 md:px-12 py-10 md:py-14;
+  }
+
+  .content-panel-muted {
+    @apply bg-gradient-to-b from-cream-100/90 to-cream-50/95 rounded-[2rem] md:rounded-[2.5rem]
+           border border-cream-200/80 shadow-soft px-6 md:px-12 py-10 md:py-14;
+  }
+
+  .section-band {
+    @apply border-y border-cream-200 bg-gradient-to-b from-cream-50 to-cream-100/90;
+  }
+
+  .section-band-sage {
+    @apply border-y border-cream-200 bg-sage-400/15;
+  }
+
+  .site-top-ad-band :global(.section-ads-header .cad-wrap) {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+  }
+}
+@layer utilities {
+  .text-balance { text-wrap: balance; }
+}
+
+  .hero-band .btn-secondary {
+    @apply bg-white/10 text-cream-50 border border-cream-50/35 shadow-none
+           hover:bg-cream-50 hover:text-ink-900 hover:border-cream-50 hover:shadow-soft;
+  }

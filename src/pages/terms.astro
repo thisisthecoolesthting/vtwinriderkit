@@ -1,0 +1,51 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import PageIntro from '@/components/PageIntro.astro';
+import home from '@/data/spawn-home.json';
+
+const b = home.brand;
+const support = (home as { supportEmail?: string }).supportEmail || 'hello@example.com';
+const year = new Date().getFullYear();
+---
+
+<BaseLayout
+  title={`Terms of Use — ${b.fullName}`}
+  description={`Terms governing use of ${b.fullName} and its editorial content.`}
+  ogType="website"
+  sectionAds="legal"
+>
+  <PageIntro eyebrow="Legal" title="Terms of use" description={`Terms governing use of ${b.fullName}. Last updated: ${year}.`} />
+
+  <section class="max-w-site mx-auto px-4 sm:px-6 lg:px-8 pb-14">
+  <article class="content-panel max-w-prose mx-auto prose prose-lg prose-ink">
+    <p>
+      By using {b.fullName}, you agree to these terms. If you do not agree, please do not use the site.
+    </p>
+    <h2>Editorial content</h2>
+    <p>
+      Articles, guides, and product comparisons are provided for general information only. They are
+      not professional medical, legal, or financial advice. See our
+      {' '}<a href="/methodology/">methodology</a> and <a href="/disclosure/">affiliate disclosure</a>.
+    </p>
+    <h2>Accuracy and updates</h2>
+    <p>
+      We work to keep recommendations current, but prices, availability, and product details change.
+      Verify important details with the retailer before purchasing.
+    </p>
+    <h2>External links</h2>
+    <p>
+      We link to third-party retailers and resources. We are not responsible for their content,
+      policies, or transactions.
+    </p>
+    <h2>Limitation of liability</h2>
+    <p>
+      To the fullest extent permitted by law, {b.fullName} and its operators are not liable for
+      damages arising from your use of the site or reliance on its content.
+    </p>
+    <h2>Contact</h2>
+    <p>
+      Questions about these terms: <a href={`mailto:${support}`}>{support}</a>
+    </p>
+  </article>
+  </section>
+</BaseLayout>

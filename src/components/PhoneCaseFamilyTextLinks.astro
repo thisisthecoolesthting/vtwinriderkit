@@ -1,0 +1,58 @@
+---
+/**
+ * Lightweight text cross-links to phone-case family shops (replaces heavy 300×250 image stacks).
+ */
+import { CASE_AD_STORES } from '@/data/case-ad-stores';
+
+export interface Props {
+  /** utm_content suffix, e.g. longform-after-author */
+  placement?: string;
+  compact?: boolean;
+}
+
+const { placement = 'text-links', compact = false } = Astro.props;
+const aff = 'refillwatch';
+---
+
+<nav
+  class:list={[
+    'not-prose rounded-2xl border border-cream-200 bg-cream-50/80',
+    compact ? 'px-3 py-3 text-xs' : 'px-4 py-4 sm:px-5 sm:py-5 text-sm',
+  ]}
+  aria-label="Phone case shops in our family of brands"
+>
+  <p class="font-mono text-[10px] tracking-[0.14em] uppercase text-terracotta-600 mb-3 !m-0">
+    From our family of brands
+  </p>
+  <ul class="space-y-3 !m-0 !p-0 list-none">
+    {CASE_AD_STORES.map((store) => {
+      const base = `https://${store.domain}/?utm_source=${aff}&utm_medium=cross_promo_text&utm_campaign=15off&utm_content=${placement}_${store.slug}`;
+      return (
+        <li class="!m-0">
+          <a
+            href={base}
+            class="font-semibold text-ink-900 hover:text-terracotta-600 no-underline transition-colors"
+            rel="noopener sponsored"
+            target="_blank"
+          >
+            {store.name}
+          </a>
+          <span class="text-ink-500"> — </span>
+          <span class="text-ink-700 leading-snug">
+            {store.tagline} {store.offer}; code <span class="font-mono text-[11px]">{store.code}</span>.
+            {' '}
+            <span class="text-ink-500">
+              ({store.badge.replace(/^[^\s]+\s/, '')})
+            </span>
+          </span>
+        </li>
+      );
+    })}
+  </ul>
+  <p class="text-[11px] text-ink-500 mt-3 !mb-0">
+    iPhone-focused:{' '}
+    <a href={`https://titancase.shop/?utm_source=${aff}&utm_medium=cross_promo_text&utm_content=${placement}_iphone`} class="text-terracotta-600 hover:underline no-underline" rel="noopener sponsored" target="_blank">titancase.shop</a>
+    {' '}· Samsung:{' '}
+    <a href={`https://galaxycaseco.com/?utm_source=${aff}&utm_medium=cross_promo_text&utm_content=${placement}_samsung`} class="text-terracotta-600 hover:underline no-underline" rel="noopener sponsored" target="_blank">galaxycaseco.com</a>
+  </p>
+</nav>

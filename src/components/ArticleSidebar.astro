@@ -1,0 +1,58 @@
+---
+import ArticleToC from '@/components/ArticleToC.astro';
+import CaseAdSlot from '@/components/CaseAdSlot.astro';
+---
+
+<aside
+  class="article-sidebar-rail w-full lg:w-56 xl:w-60 shrink-0 order-first lg:order-none lg:sticky lg:top-20 lg:self-start lg:z-30"
+  aria-label="Page map and phone case offer"
+>
+  <div class="article-sidebar-panel flex flex-col gap-3">
+    <section class="article-sidebar-toc min-h-0">
+      <ArticleToC embedded expanded />
+    </section>
+
+    <div class="article-sidebar-ad not-prose shrink-0">
+      <CaseAdSlot size="300x600" placement="longform-sidebar-sticky" />
+    </div>
+  </div>
+</aside>
+
+<style>
+  /* Sticky is on <aside> so the rail stays fixed for the full article scroll */
+  .article-sidebar-panel {
+    width: 100%;
+  }
+
+  @media (max-width: 1023px) {
+    .article-sidebar-panel {
+      margin-bottom: 0.75rem;
+      padding: 0.75rem;
+      border-radius: 0.75rem;
+      border: 1px solid #e8e0d4;
+      background: rgba(255, 255, 255, 0.97);
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .article-sidebar-toc {
+      max-height: min(38vh, 16rem);
+      overflow-y: auto;
+      overscroll-behavior: contain;
+    }
+  }
+
+  .article-sidebar-ad :global(.cad-wrap) {
+    margin: 0;
+    max-width: 100%;
+  }
+
+  .article-sidebar-ad :global(.cad-sky) {
+    max-width: 240px;
+  }
+
+  .article-sidebar-ad :global(.cad-sky-card) {
+    width: 100%;
+  }
+</style>
