@@ -3,15 +3,7 @@
  * Expects #case-ad-stores-json and [data-cad-slot] markup from CaseAdSlot.astro.
  */
 (function () {
-  var raw = document.getElementById('case-ad-stores-json');
-  if (!raw || !raw.textContent) return;
-
-  var STORES;
-  try {
-    STORES = JSON.parse(raw.textContent);
-  } catch (e) {
-    return;
-  }
+  function boot(STORES) {
   if (!Array.isArray(STORES) || !STORES.length) return;
 
   var slots = document.querySelectorAll('[data-cad-slot]');
@@ -22,7 +14,7 @@
   function pickStore(kidsOnly) {
     var pool = kidsOnly
       ? STORES.filter(function (s) {
-          return s.slug === 'phonecasegift';
+          return s.slug === 'phonecasegift' || s.slug === 'phonecasesforkids';
         })
       : STORES;
     if (!pool.length) pool = STORES;
@@ -52,9 +44,40 @@
     };
   }
 
-  function pickImage(store) {
+  function resolveAdImageUrl(store, imgFile) {
+    if (!imgFile) return '';
+    if (imgFile.charAt(0) === '/') {
+      return window.location.origin + imgFile;
+    }
+    if (imgFile.indexOf('ad-creatives/') === 0) {
+      return 'https://phonecasesforall.com/' + imgFile;
+    }
+    return 'https://phonecasesforall.com/hero-cases/' + imgFile;
+  }
+
+  function filterDispImages(imgs) {
+    var disp = imgs.filter(function (i) {
+      return i.indexOf('-disp-') !== -1;
+    });
+    var branded = disp.filter(function (i) {
+      return i.indexOf('RECOVERED') === -1;
+    });
+    return branded.length ? branded : disp;
+  }
+
+  function pickImage(store, size, composite) {
     var imgs = store.images || [];
     if (!imgs.length) return '';
+    if (composite) {
+      var pool = filterDispImages(imgs);
+      if (pool.length) {
+        return pool[Math.floor(Math.random() * pool.length)];
+      }
+      var want = size === '728x90' || size === '320x50' ? '-lb-' : '-disp-';
+      for (var i = 0; i < imgs.length; i++) {
+        if (imgs[i].indexOf(want) !== -1) return imgs[i];
+      }
+    }
     return imgs[Math.floor(Math.random() * imgs.length)];
   }
 
@@ -77,10 +100,9 @@
     var size = wrap.getAttribute('data-cad-size') || '300x250';
     var placement = wrap.getAttribute('data-cad-placement') || 'default';
     var urls = utmUrls(store, aff, size, placement);
-    var imgFile = pickImage(store);
-    var imgUrl = imgFile
-      ? 'https://phonecasesforall.com/hero-cases/' + imgFile
-      : '';
+    var composite = wrap.getAttribute('data-cad-composite') === 'true';
+    var imgFile = pickImage(store, size, composite);
+    var imgUrl = resolveAdImageUrl(store, imgFile);
 
     var badge = kids ? '🧒 Colorful cases kids love' : store.badge;
     var tagline = kids
@@ -95,7 +117,7 @@
     var link = wrap.querySelector('a');
     if (link) applyDeviceHref(link, urls);
 
-    wrap.querySelectorAll('img.cad-leader-img, img.cad-rect-img, img.cad-sky-img').forEach(
+    wrap.querySelectorAll('img.cad-composite-img, img.cad-leader-img, img.cad-rect-img, img.cad-sky-img').forEach(
       function (img) {
         if (imgUrl) {
           img.src = imgUrl;
@@ -130,4 +152,20 @@
     if (!store) store = pickStore(kids);
     applyStore(wrap, store, kids);
   });
+  }
+
+  var raw = document.getElementById('case-ad-stores-json');
+  if (raw && raw.textContent) {
+    try {
+      boot(JSON.parse(raw.textContent));
+      return;
+    } catch (e) {}
+  }
+  fetch('/data/case-ad-stores.json', { credentials: 'same-origin' })
+    .then(function (r) {
+      if (!r.ok) throw new Error('case-ad-stores.json missing');
+      return r.json();
+    })
+    .then(boot)
+    .catch(function () {});
 })();

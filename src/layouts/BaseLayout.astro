@@ -5,7 +5,6 @@ import SkipLink from '@/components/SkipLink.astro';
 import Footer from '@/components/Footer.astro';
 import CaseAdRotateInit from '@/components/CaseAdRotateInit.astro';
 import GlobalBottomAffiliateStrip from '@/components/GlobalBottomAffiliateStrip.astro';
-import StickyAdBar from '@/components/StickyAdBar.astro';
 import SiteSectionAds from '@/components/SiteSectionAds.astro';
 import type { SectionPage } from '@/lib/section-page';
 import home from '@/data/spawn-home.json';
@@ -38,6 +37,8 @@ export interface Props {
   sectionAds?: SectionPage | false;
   /** Tighter header ad on list/index pages (no ornament) */
   sectionAdsCompact?: boolean;
+  /** When false, only render header band (home keeps footer ad before newsletter) */
+  sectionAdsFooter?: boolean;
 }
 
 const {
@@ -55,10 +56,10 @@ const {
   ogTitle,
   sectionAds = false,
   sectionAdsCompact = false,
+  sectionAdsFooter = true,
 } = Astro.props;
 
-const SITE_ORIGIN = 'https://vtwinriderkit.org';
-const siteUrl = (import.meta.env.SITE as string | undefined)?.replace(/\/$/, '') || SITE_ORIGIN;
+const siteUrl = (import.meta.env.SITE as string | undefined)?.replace(/\/$/, '') || '';
 const hero = home.homepage.heroImageUrl;
 const defaultOg = (image && image.length) ? image : (hero && hero.length ? hero : '/og-default.png');
 const og = defaultOg;
@@ -127,16 +128,15 @@ const ogImageUrl = isAbs(og) ? og : siteUrl ? new URL(og, siteUrl + '/').toStrin
     <SkipLink />
     <Header />
     {sectionAds && (
-      <div class="site-top-ad-band hidden md:block border-b border-cream-200/70 bg-cream-50/95">
+      <div class="site-top-ad-band border-b border-cream-200/70 bg-cream-50/95 py-0">
         <SiteSectionAds page={sectionAds} variant="header" compact={sectionAdsCompact} />
       </div>
     )}
-    <main id="main-content" class="flex-1 pb-0 md:pb-0 has-mobile-main-pad" tabindex="-1">
+    <main id="main-content" class="flex-1" tabindex="-1">
       <slot />
-      {sectionAds && <SiteSectionAds page={sectionAds} variant="footer" />}
+      {sectionAds && sectionAdsFooter && <SiteSectionAds page={sectionAds} variant="footer" />}
     </main>
     <GlobalBottomAffiliateStrip />
-    <StickyAdBar />
     <CaseAdRotateInit />
     <Footer />
       <script is:inline>

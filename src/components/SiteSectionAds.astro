@@ -3,7 +3,6 @@
  * Section pages: one top leaderboard + text links (fast; no 3× heavy image ad stack).
  */
 import CaseAdSlot from '@/components/CaseAdSlot.astro';
-import ArticleOrnamentDivider from '@/components/ArticleOrnamentDivider.astro';
 import PhoneCaseFamilyTextLinks from '@/components/PhoneCaseFamilyTextLinks.astro';
 import type { SectionPage } from '@/lib/section-page';
 
@@ -26,15 +25,15 @@ const showFooter = variant === 'footer' || variant === 'both';
   <div
     class:list={[
       'max-w-site mx-auto px-4 sm:px-6 lg:px-8 not-prose section-ads-header',
-      compact ? 'py-2 md:py-3' : 'py-3 md:py-4',
+      compact ? 'py-1 md:py-1.5 section-ads-header--compact' : 'py-1.5 md:py-2',
     ]}
     role="complementary"
     aria-label="Sponsored phone case offer"
   >
-    <div class:list={['flex justify-center', compact ? 'min-h-0' : 'min-h-[5.5rem]']}>
-      <CaseAdSlot size="728x90" placement={`${page}-section-top`} />
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 justify-items-center max-w-[632px] mx-auto">
+      <CaseAdSlot size="300x250" placement={`${page}-section-top-a`} composite />
+      <CaseAdSlot size="300x250" placement={`${page}-section-top-b`} composite />
     </div>
-    {!compact && <ArticleOrnamentDivider />}
   </div>
 )}
 
@@ -47,7 +46,12 @@ const showFooter = variant === 'footer' || variant === 'both';
 )}
 
 <style>
-  .section-ads-header--compact :global(.cad-wrap) {
-    margin: 0.35rem 0 0.25rem;
+  .section-ads-header--compact :global(.cad-wrap),
+  .section-ads-header :global(.cad-wrap) {
+    margin: 0.25rem 0 0.15rem;
+  }
+  .section-ads-header :global(.cad-disc) {
+    margin-top: 0.15rem;
+    line-height: 1.2;
   }
 </style>

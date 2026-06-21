@@ -12,17 +12,43 @@ export interface Props {
   shop?: string;
   /** Kids / family gift copy overlay. */
   kids?: boolean;
+  /** Full composite JPG banner (no stretched text bar). */
+  composite?: boolean;
 }
 
-const { size, placement = 'default', shop, kids = false } = Astro.props;
+const { size, placement = 'default', shop, kids = false, composite = false } = Astro.props;
+
+function filterDispImages(images: string[]): string[] {
+  const disp = images.filter((i) => i.includes('-disp-'));
+  const branded = disp.filter((i) => !i.includes('RECOVERED'));
+  return branded.length ? branded : disp;
+}
+
+function pickStoreImage(images: string[], adSize: string, useComposite: boolean): string {
+  if (!images.length) return '';
+  if (useComposite) {
+    const pool = filterDispImages(images);
+    if (pool.length) return pool[0];
+    const want =
+      adSize === '728x90' || adSize === '320x50' ? '-lb-' : '-disp-';
+    const hit = images.find((i) => i.includes(want));
+    if (hit) return hit;
+  }
+  return images[0];
+}
 
 /** SSR placeholder — replaced client-side before paint (defer script runs quickly). */
 const store = shop
   ? (CASE_AD_STORES.find((s) => s.slug === shop) ?? CASE_AD_STORES[0])
   : CASE_AD_STORES[0];
 
-const img = store.images[0];
-const imgUrl = `https://phonecasesforall.com/hero-cases/${img}`;
+const img = pickStoreImage(store.images, size, composite);
+const siteOrigin = Astro.url.origin;
+const imgUrl = img.startsWith('/')
+  ? `${siteOrigin}${img}`
+  : img.startsWith('ad-creatives/')
+    ? `https://phonecasesforall.com/${img}`
+    : `https://phonecasesforall.com/hero-cases/${img}`;
 
 const displayBadge = kids ? '🧒 Colorful cases kids love' : store.badge;
 const displayTagline = kids
@@ -53,11 +79,37 @@ const wrapAttrs = {
   'data-cad-size': size,
   'data-cad-kids': kids ? 'true' : 'false',
   'data-aff-slug': affSlug,
+  ...(composite ? { 'data-cad-composite': 'true' } : {}),
   ...(shop ? { 'data-cad-pinned': shop } : {}),
 };
 ---
 
-{isLeader ? (
+{composite ? (
+  <div
+    id={slotId}
+    class="cad-wrap cad-composite cad-ready not-prose"
+    {...wrapAttrs}
+  >
+    <a
+      href={clickUrl}
+      target="_blank"
+      rel="noopener sponsored"
+      data-href-iphone={iphoneUrl}
+      data-href-samsung={samsungUrl}
+      class="cad-composite-link"
+    >
+      <img
+        src={imgUrl}
+        alt={store.name}
+        loading="lazy"
+        class="cad-composite-img"
+        width="300"
+        height="250"
+      />
+    </a>
+    <p class="cad-disc">Sponsored</p>
+  </div>
+) : isLeader ? (
   <div
     id={slotId}
     class="cad-wrap cad-leader cad-ready not-prose"
@@ -177,7 +229,29 @@ const wrapAttrs = {
   }
   .cad-wrap.cad-leader {
     width: 100%;
-    max-width: 100%;
+    max-width: 728px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .cad-wrap.cad-composite {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  .cad-composite-link {
+    display: block;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    line-height: 0;
+    aspect-ratio: 300 / 250;
+    background: #f8f8f8;
+  }
+  .cad-composite-img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
   }
   .cad-eyebrow {
     font-size: 9px;
