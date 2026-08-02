@@ -1,8 +1,8 @@
 ---
 asin: B0B3X85X4Q
-title: "Orion Motor Tech Motorcycle Lift, 1100lb Motorcycle Scissor Lift Jack with Wide Deck T Handle 3/8\" Socket, Motorbike Center Stand with Chain Brush, Crank Hoist Stand for ATV Dirt Bike Cruiser, Gray"
-seoTitle: "Orion Motor Tech Motorcycle Lift, 1100lb Motorcycle Scissor Lift Jack with Wide Deck T Handle 3/8\" Socket, Motorbike Center Stand with Chain Brush, Crank Hoist Stand for ATV Dirt Bike Cruiser, Gray \u2014 review"
-metaDescription: "Hands-on notes on Orion Motor Tech Motorcycle Lift, 1100lb Motorcycle Scissor Lift Jack with Wide Deck T Handle 3/8\" Socket, Motorbike Center Stand with Chain Brush, Crank Hoist Stand for ATV Dirt Bike Cruiser, Gray."
+title: 'Orion Motor Tech Motorcycle Lift, 1100lb Motorcycle Scissor Lift Jack with Wide Deck T Handle 3/8\" Socket, Motorbike Center Stand with Chain Brush, Crank Hoist Stand for ATV Dirt Bike Cruiser, Gray'
+seoTitle: 'Orion Motor Tech Motorcycle Lift, 1100lb Motorcycle Scissor Lift Jack with Wide Deck T Handle 3/8\" Socket, Motorbike Center Stand with Chain Brush, Crank Hoist Stand for ATV Dirt Bike Cruiser, Gray \u2014 review'
+metaDescription: 'Hands-on notes on Orion Motor Tech Motorcycle Lift, 1100lb Motorcycle Scissor Lift Jack with Wide Deck T Handle 3/8\" Socket, Motorbike Center Stand with Chain Brush, Crank Hoist Stand for ATV Dirt Bike Cruiser, Gray.'
 category: scissor-lift-jacks
 price: 69.99
 rating: 4.6
@@ -19,8 +19,9 @@ slug: b0b3x85x4q-orion-motor-tech-motorcycle-lift-1100lb-motorcycle-scissor-l
 cardTitle: Orion Motor Tech Motorcycle Lift, 1100lb Motorcycle Scissor Lift Jack with Wide 
 cardPick: Solid pick for most readers
 tags: []
+publishedAt: '2026-06-03'
+excerpt: 'Hands-on notes on Orion Motor Tech Motorcycle Lift, 1100lb Motorcycle Scissor Lift Jack with Wide Deck T Handle 3/8\\" Socket, Motorbike Center Stand with Chain '
 ---
-
 ## Overview
 
 **Orion Motor Tech Motorcycle Lift, 1100lb Motorcycle Scissor Lift Jack with Wide Deck T Handle 3/8" Socket, Motorbike Center Stand with Chain Brush, Crank Hoist Stand for ATV Dirt Bike Cruiser, Gray** is a scissor-lift-jacks pick we track for Calm, practical guides for beginner harps, lever harps, lap harps, strings, tuners, benches, covers, and practice-room setup — with honest checks on string count, tuning stability, and what Amazon is actually good for.. We do not claim hands-on lab testing on every SKU; we combine listing specs, pricing history signals, and how the product maps to common buyer mistakes in this niche.

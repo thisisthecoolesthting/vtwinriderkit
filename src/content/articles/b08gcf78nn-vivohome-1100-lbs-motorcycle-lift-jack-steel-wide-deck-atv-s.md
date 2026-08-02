@@ -19,8 +19,9 @@ slug: b08gcf78nn-vivohome-1100-lbs-motorcycle-lift-jack-steel-wide-deck-atv-s
 cardTitle: VIVOHOME 1100 Lbs Motorcycle Lift Jack, Steel Wide Deck ATV Scissor Lift with Do
 cardPick: Solid pick for most readers
 tags: []
+publishedAt: '2026-06-03'
+excerpt: "Hands-on notes on VIVOHOME 1100 Lbs Motorcycle Lift Jack, Steel Wide Deck ATV Scissor Lift with Dolly Wheels & Hand Crank, Bike Garage Repair Hoist Stand for Ma"
 ---
-
 ## Overview
 
 **VIVOHOME 1100 Lbs Motorcycle Lift Jack, Steel Wide Deck ATV Scissor Lift with Dolly Wheels & Hand Crank, Bike Garage Repair Hoist Stand for Maintenance, Black** is a scissor-lift-jacks pick we track for Calm, practical guides for beginner harps, lever harps, lap harps, strings, tuners, benches, covers, and practice-room setup — with honest checks on string count, tuning stability, and what Amazon is actually good for.. We do not claim hands-on lab testing on every SKU; we combine listing specs, pricing history signals, and how the product maps to common buyer mistakes in this niche.

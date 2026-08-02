@@ -1,8 +1,8 @@
 ---
 asin: B0C4KQGQ92
-title: "VEVOR Motorcycle Lift, 1100 LBS Motorcycle Scissor Lift Jack with Wide Deck & Safety Pin, 3.7\"-13.8\" Center Hoist Crank Stand, Steel Scissor Jack for Street Bikes, Cruiser Bikes, Touring Motorcycles"
-seoTitle: "VEVOR Motorcycle Lift, 1100 LBS Motorcycle Scissor Lift Jack with Wide Deck & Safety Pin, 3.7\"-13.8\" Center Hoist Crank Stand, Steel Scissor Jack for Street Bikes, Cruiser Bikes, Touring Motorcycles \u2014 review"
-metaDescription: "Hands-on notes on VEVOR Motorcycle Lift, 1100 LBS Motorcycle Scissor Lift Jack with Wide Deck & Safety Pin, 3.7\"-13.8\" Center Hoist Crank Stand, Steel Scissor Jack for Street Bikes, Cruiser Bikes, Touring Motorcycles."
+title: 'VEVOR Motorcycle Lift, 1100 LBS Motorcycle Scissor Lift Jack with Wide Deck & Safety Pin, 3.7\"-13.8\" Center Hoist Crank Stand, Steel Scissor Jack for Street Bikes, Cruiser Bikes, Touring Motorcycles'
+seoTitle: 'VEVOR Motorcycle Lift, 1100 LBS Motorcycle Scissor Lift Jack with Wide Deck & Safety Pin, 3.7\"-13.8\" Center Hoist Crank Stand, Steel Scissor Jack for Street Bikes, Cruiser Bikes, Touring Motorcycles \u2014 review'
+metaDescription: 'Hands-on notes on VEVOR Motorcycle Lift, 1100 LBS Motorcycle Scissor Lift Jack with Wide Deck & Safety Pin, 3.7\"-13.8\" Center Hoist Crank Stand, Steel Scissor Jack for Street Bikes, Cruiser Bikes, Touring Motorcycles.'
 category: scissor-lift-jacks
 price: 59.9
 rating: 4.7
@@ -19,8 +19,9 @@ slug: b0c4kqgq92-vevor-motorcycle-lift-1100-lbs-motorcycle-scissor-lift-jack-
 cardTitle: VEVOR Motorcycle Lift, 1100 LBS Motorcycle Scissor Lift Jack with Wide Deck & Sa
 cardPick: Solid pick for most readers
 tags: []
+publishedAt: '2026-06-03'
+excerpt: 'Hands-on notes on VEVOR Motorcycle Lift, 1100 LBS Motorcycle Scissor Lift Jack with Wide Deck & Safety Pin, 3.7\\"-13.8\\" Center Hoist Crank Stand, Steel Scissor'
 ---
-
 ## Overview
 
 **VEVOR Motorcycle Lift, 1100 LBS Motorcycle Scissor Lift Jack with Wide Deck & Safety Pin, 3.7"-13.8" Center Hoist Crank Stand, Steel Scissor Jack for Street Bikes, Cruiser Bikes, Touring Motorcycles** is a scissor-lift-jacks pick we track for Calm, practical guides for beginner harps, lever harps, lap harps, strings, tuners, benches, covers, and practice-room setup — with honest checks on string count, tuning stability, and what Amazon is actually good for.. We do not claim hands-on lab testing on every SKU; we combine listing specs, pricing history signals, and how the product maps to common buyer mistakes in this niche.
