@@ -1,22 +1,22 @@
 ---
 asin: B0D8TH35ND
-title: YeewayVeh 6PCS Motorcycle Cleaning Kit with Boar Hair Detailing Brush-Pro Safe for Chrome,Chain, Tire & Engine, Bendable
-seoTitle: YeewayVeh 6PCS Motorcycle Cleaning Kit with Boar Hair Detailing Brush-Pro Safe for Chrome,Chain, Tire & Engine, Bendable — review
-metaDescription: Hands-on notes on YeewayVeh 6PCS Motorcycle Cleaning Kit with Boar Hair Detailing Brush-Pro Safe for Chrome,Chain, Tire & Engine, Bendable.
+title: YeewayVeh 6PCS Motorcycle Cleaning Kit, Bendable Wheel Tire Brush,Black/Red
+seoTitle: YeewayVeh 6PCS Motorcycle Cleaning Kit, Bendable Wheel Tire Brush,Blac — Review
+metaDescription: Hands-on notes on YeewayVeh 6PCS Motorcycle Cleaning Kit, Bendable Wheel Tire Brush,Black/Red — what it's good for and where to check current pricing.
 category: general
 price: null
 rating: null
 bsr: 19768
 commissionPerSale: 0
 score: 0
-imageUrl: ""
-affiliateUrl: "https://www.amazon.com/dp/B0D8TH35ND?tag=vtwinriderkit-20"
+imageUrl: ''
+affiliateUrl: https://www.amazon.com/dp/B0D8TH35ND?tag=vtwinriderkit-20
 isPrime: false
 status: published
-firstSeen: "2026-06-02"
-lastSeen: "2026-06-02"
+firstSeen: '2026-06-02'
+lastSeen: '2026-08-03T15:32:29+00:00'
 slug: b0d8th35nd-product
-cardTitle: YeewayVeh 6PCS Motorcycle Cleaning Kit with Boar Hair Detailing Brush-Pro Safe f
+cardTitle: YeewayVeh 6PCS Motorcycle Cleaning Kit, Bendable Wheel Tire Brush,Blac
 cardPick: Solid pick for most readers
 tags: []
 ---

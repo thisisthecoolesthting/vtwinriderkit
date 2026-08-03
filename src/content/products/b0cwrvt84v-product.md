@@ -1,22 +1,22 @@
 ---
 asin: B0CWRVT84V
-title: KEMIMOTO Motorcycle Saddlebag Organizers 2 Pack Compatible with Touring Models 2014-2024 2025 Street Glide Road King 201
-seoTitle: KEMIMOTO Motorcycle Saddlebag Organizers 2 Pack Compatible with Touring Models 2014-2024 2025 Street Glide Road King 201 — review
-metaDescription: Hands-on notes on KEMIMOTO Motorcycle Saddlebag Organizers 2 Pack Compatible with Touring Models 2014-2024 2025 Street Glide Road King 201.
+title: KEMIMOTO Motorcycle Saddlebag Organizers 2 Pack Compatible with Touring
+seoTitle: KEMIMOTO Motorcycle Saddlebag Organizers 2 Pack Compatible with Tourin — Review
+metaDescription: Hands-on notes on KEMIMOTO Motorcycle Saddlebag Organizers 2 Pack Compatible with Touring — what it's good for and where to check current pricing.
 category: general
 price: null
 rating: null
 bsr: 11488
 commissionPerSale: 0
 score: 0
-imageUrl: ""
-affiliateUrl: "https://www.amazon.com/dp/B0CWRVT84V?tag=vtwinriderkit-20"
+imageUrl: ''
+affiliateUrl: https://www.amazon.com/dp/B0CWRVT84V?tag=vtwinriderkit-20
 isPrime: false
 status: published
-firstSeen: "2026-06-02"
-lastSeen: "2026-06-02"
+firstSeen: '2026-06-02'
+lastSeen: '2026-08-03T15:32:29+00:00'
 slug: b0cwrvt84v-product
-cardTitle: KEMIMOTO Motorcycle Saddlebag Organizers 2 Pack Compatible with Touring Models 2
+cardTitle: KEMIMOTO Motorcycle Saddlebag Organizers 2 Pack Compatible with Tourin
 cardPick: Solid pick for most readers
 tags: []
 ---

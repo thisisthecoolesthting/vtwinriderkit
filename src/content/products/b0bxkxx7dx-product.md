@@ -1,22 +1,22 @@
 ---
 asin: B0BXKXX7DX
-title: BRCOVAN Anti-Theft Motorcycle Phone Mount Holder with Vibration Dampener & High-Speed Secure Lock, Adjustable Size Handl
-seoTitle: BRCOVAN Anti-Theft Motorcycle Phone Mount Holder with Vibration Dampener & High-Speed Secure Lock, Adjustable Size Handl — review
-metaDescription: Hands-on notes on BRCOVAN Anti-Theft Motorcycle Phone Mount Holder with Vibration Dampener & High-Speed Secure Lock, Adjustable Size Handl.
+title: BRCOVAN Anti-Theft Motorcycle Phone Mount Holder with Vibration Dampener
+seoTitle: BRCOVAN Anti-Theft Motorcycle Phone Mount Holder with Vibration Dampen — Review
+metaDescription: Hands-on notes on BRCOVAN Anti-Theft Motorcycle Phone Mount Holder with Vibration Dampener — what it's good for and where to check current pricing.
 category: general
 price: null
 rating: null
 bsr: 1330
 commissionPerSale: 0
 score: 0
-imageUrl: ""
-affiliateUrl: "https://www.amazon.com/dp/B0BXKXX7DX?tag=vtwinriderkit-20"
+imageUrl: ''
+affiliateUrl: https://www.amazon.com/dp/B0BXKXX7DX?tag=vtwinriderkit-20
 isPrime: false
 status: published
-firstSeen: "2026-06-02"
-lastSeen: "2026-06-02"
+firstSeen: '2026-06-02'
+lastSeen: '2026-08-03T15:32:29+00:00'
 slug: b0bxkxx7dx-product
-cardTitle: BRCOVAN Anti-Theft Motorcycle Phone Mount Holder with Vibration Dampener & High-
+cardTitle: BRCOVAN Anti-Theft Motorcycle Phone Mount Holder with Vibration Dampen
 cardPick: Solid pick for most readers
 tags: []
 ---

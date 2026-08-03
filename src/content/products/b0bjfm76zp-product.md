@@ -1,22 +1,22 @@
 ---
 asin: B0BJFM76ZP
-title: ANASES Motorcycle Saddlebag Liner Bags Hard Saddle Bags Insert Storage Bag Luggage Bag Fit for 1993-2024 Harley Touring
-seoTitle: ANASES Motorcycle Saddlebag Liner Bags Hard Saddle Bags Insert Storage Bag Luggage Bag Fit for 1993-2024 Harley Touring — review
-metaDescription: Hands-on notes on ANASES Motorcycle Saddlebag Liner Bags Hard Saddle Bags Insert Storage Bag Luggage Bag Fit for 1993-2024 Harley Touring.
+title: ANASES Motorcycle Saddlebag Liner Bags Fit for Harley Touring 1993-2026
+seoTitle: ANASES Motorcycle Saddlebag Liner Bags Fit for Harley Touring 1993-202 — Review
+metaDescription: Hands-on notes on ANASES Motorcycle Saddlebag Liner Bags Fit for Harley Touring 1993-2026 — what it's good for and where to check current pricing.
 category: general
 price: null
 rating: null
 bsr: 41044
 commissionPerSale: 0
 score: 0
-imageUrl: ""
-affiliateUrl: "https://www.amazon.com/dp/B0BJFM76ZP?tag=vtwinriderkit-20"
+imageUrl: ''
+affiliateUrl: https://www.amazon.com/dp/B0BJFM76ZP?tag=vtwinriderkit-20
 isPrime: false
 status: published
-firstSeen: "2026-06-02"
-lastSeen: "2026-06-02"
+firstSeen: '2026-06-02'
+lastSeen: '2026-08-03T15:32:29+00:00'
 slug: b0bjfm76zp-product
-cardTitle: ANASES Motorcycle Saddlebag Liner Bags Hard Saddle Bags Insert Storage Bag Lugga
+cardTitle: ANASES Motorcycle Saddlebag Liner Bags Fit for Harley Touring 1993-202
 cardPick: Solid pick for most readers
 tags: []
 ---

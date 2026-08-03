@@ -9,18 +9,18 @@ rating: 4.2
 bsr: 16
 commissionPerSale: 0
 score: 0
-imageUrl: "https://m.media-amazon.com/images/I/41GKnsymETL.jpg"
-affiliateUrl: "https://www.amazon.com/dp/B0DBPHK2L6?tag=harproomguide-20"
+imageUrl: https://m.media-amazon.com/images/I/41GKnsymETL.jpg
+affiliateUrl: https://www.amazon.com/dp/B0DBPHK2L6?tag=harproomguide-20
 isPrime: false
 status: published
-firstSeen: "2026-06-03"
-lastSeen: "2026-06-03"
+firstSeen: '2026-06-03'
+lastSeen: '2026-06-03'
 slug: b0dbphk2l6-jack-boss-350-lbs-motorcycle-lift-jack-table-hydraulic-foot-
 cardTitle: Jack Boss 350 Lbs Motorcycle Lift Jack Table, Hydraulic Foot-Operated Scissor Li
 cardPick: Solid pick for most readers
 tags: []
 publishedAt: '2026-06-03'
-excerpt: "Hands-on notes on Jack Boss 350 Lbs Motorcycle Lift Jack Table, Hydraulic Foot-Operated Scissor Lift Jack for ATV Dirt Bike, Motorcycle Stand with 4 Wheels."
+excerpt: Hands-on notes on Jack Boss 350 Lbs Motorcycle Lift Jack Table, Hydraulic Foot-Operated Scissor Lift Jack for ATV Dirt Bike, Motorcycle Stand with 4 Wheels.
 ---
 ## Overview
 
@@ -63,3 +63,12 @@ Our desk scores **value**, **spec clarity**, and **review credibility** for stan
 ---
 
 *Affiliate disclosure: purchasing through our Amazon link may support this site at no extra cost to you.*
+
+## Our picks worth a closer look
+
+- **[Wizards Motorcycle Cleaning Kit - Bike Wash Foam and Rinse, Quick Detailer Spray](/products/b00t6j26z8-product/)** — see current price and specs.
+- **[URBAN UR6 Hi-Tech Motorcycle Disc Lock with Smart Alarm | Best Value | 120dB, LE](/products/b00yf051zu-product/)** — see current price and specs.
+- **[YOHOOLYO Alarm Disc Lock Motorcycle Disc Brake Lock Anti-Theft Waterproof 110 dB](/products/b01m4mg0yt-product/)** — see current price and specs.
+- **[FOBO Bike 2 TPMS (Black) - Wireless Tire Pressure Monitoring System with Bluetoo](/products/b07q21rnnb-product/)** — see current price and specs.
+- **[Lamicall Bike Phone Holder Motorcycle Mount - One-Hand Operation, Lockable](/products/b085dmv7xd-product/)** — see current price and specs.
+

@@ -1,22 +1,22 @@
 ---
 asin: B0D179XM89
-title: GRAND PITSTOP Foldable Motorcycle Gel Seat Cushion, Large 3D-Honeycomb Structure Shock Absorption & Breathable Motorcycl
-seoTitle: GRAND PITSTOP Foldable Motorcycle Gel Seat Cushion, Large 3D-Honeycomb Structure Shock Absorption & Breathable Motorcycl — review
-metaDescription: Hands-on notes on GRAND PITSTOP Foldable Motorcycle Gel Seat Cushion, Large 3D-Honeycomb Structure Shock Absorption & Breathable Motorcycl.
+title: GRAND PITSTOP Foldable Motorcycle Gel Seat Cushion, Large 3D-Honeycomb Structure Shock Absorption & Breathable Motorcycle Gel Seat Pad for Long Rides
+seoTitle: GRAND PITSTOP Foldable Motorcycle Gel Seat Cushion, Large 3D-Honeycomb — Review
+metaDescription: Hands-on notes on GRAND PITSTOP Foldable Motorcycle Gel Seat Cushion, Large 3D-Honeycomb Structure Shock Absorption &  — what it's good for and where to check current pricing.
 category: general
 price: null
 rating: null
 bsr: 47399
 commissionPerSale: 0
 score: 0
-imageUrl: ""
-affiliateUrl: "https://www.amazon.com/dp/B0D179XM89?tag=vtwinriderkit-20"
+imageUrl: ''
+affiliateUrl: https://www.amazon.com/dp/B0D179XM89?tag=vtwinriderkit-20
 isPrime: false
 status: published
-firstSeen: "2026-06-02"
-lastSeen: "2026-06-02"
+firstSeen: '2026-06-02'
+lastSeen: '2026-08-03T15:32:29+00:00'
 slug: b0d179xm89-product
-cardTitle: GRAND PITSTOP Foldable Motorcycle Gel Seat Cushion, Large 3D-Honeycomb Structure
+cardTitle: GRAND PITSTOP Foldable Motorcycle Gel Seat Cushion, Large 3D-Honeycomb
 cardPick: Solid pick for most readers
 tags: []
 ---

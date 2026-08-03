@@ -1,22 +1,22 @@
 ---
 asin: B0F1J5QHW3
 title: REV'IT! Pacific 4 H2O Motorcycle Rain Suit (Black/Neon Yellow - Medium)
-seoTitle: REV'IT! Pacific 4 H2O Motorcycle Rain Suit (Black/Neon Yellow - Medium) — review
-metaDescription: Hands-on notes on REV'IT! Pacific 4 H2O Motorcycle Rain Suit (Black/Neon Yellow - Medium).
+seoTitle: REV'IT! Pacific 4 H2O Motorcycle Rain Suit (Black/Neon Yellow - Medium — Review
+metaDescription: Hands-on notes on REV'IT! Pacific 4 H2O Motorcycle Rain Suit (Black/Neon Yellow - Medium) — what it's good for and where to check current pricing.
 category: general
 price: null
 rating: null
 bsr: 397240
 commissionPerSale: 0
 score: 0
-imageUrl: ""
-affiliateUrl: "https://www.amazon.com/dp/B0F1J5QHW3?tag=vtwinriderkit-20"
+imageUrl: ''
+affiliateUrl: https://www.amazon.com/dp/B0F1J5QHW3?tag=vtwinriderkit-20
 isPrime: false
 status: published
-firstSeen: "2026-06-02"
-lastSeen: "2026-06-02"
+firstSeen: '2026-06-02'
+lastSeen: '2026-08-03T15:32:29+00:00'
 slug: b0f1j5qhw3-product
-cardTitle: REV'IT! Pacific 4 H2O Motorcycle Rain Suit (Black/Neon Yellow - Medium)
+cardTitle: REV'IT! Pacific 4 H2O Motorcycle Rain Suit (Black/Neon Yellow - Medium
 cardPick: Solid pick for most readers
 tags: []
 ---

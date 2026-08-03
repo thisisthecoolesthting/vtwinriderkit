@@ -1,22 +1,22 @@
 ---
 asin: B00AHA1X40
-title: "JDC Motorcycle Waterproof Rain Suit Over Suit 1PC - SHIELD - Black - XXL - Regular Leg (32\")"
-seoTitle: "JDC Motorcycle Waterproof Rain Suit Over Suit 1PC - SHIELD - Black - XXL - Regular Leg (32\") \u2014 review"
-metaDescription: "Hands-on notes on JDC Motorcycle Waterproof Rain Suit Over Suit 1PC - SHIELD - Black - XXL - Regular Leg (32\")."
+title: JDC Motorcycle Waterproof Rain Suit Over Suit 1PC - SHIELD - Black - XXL - Regular Leg (32")
+seoTitle: JDC Motorcycle Waterproof Rain Suit Over Suit 1PC - SHIELD - Black - X — Review
+metaDescription: Hands-on notes on JDC Motorcycle Waterproof Rain Suit Over Suit 1PC - SHIELD - Black - XXL - Regular Leg (32") — what it's good for and where to check current pricing.
 category: general
 price: null
 rating: null
 bsr: 83700
 commissionPerSale: 0
 score: 0
-imageUrl: ""
-affiliateUrl: "https://www.amazon.com/dp/B00AHA1X40?tag=vtwinriderkit-20"
+imageUrl: ''
+affiliateUrl: https://www.amazon.com/dp/B00AHA1X40?tag=vtwinriderkit-20
 isPrime: false
 status: published
-firstSeen: "2026-06-02"
-lastSeen: "2026-06-02"
+firstSeen: '2026-06-02'
+lastSeen: '2026-08-03T15:32:29+00:00'
 slug: b00aha1x40-product
-cardTitle: JDC Motorcycle Waterproof Rain Suit Over Suit 1PC - SHIELD - Black - XXL - Regul
+cardTitle: JDC Motorcycle Waterproof Rain Suit Over Suit 1PC - SHIELD - Black - X
 cardPick: Solid pick for most readers
 tags: []
 ---

@@ -1,9 +1,9 @@
 ---
-title: "How to Clean and Maintain Your Leather Motorcycle Gear Properly"
-metaDescription: "Leather motorcycle gear—whether it’s a jacket, gloves, pants, or boots—is an investment in both style and safety. Proper cleaning and maintenance not"
+title: How to Clean and Maintain Your Leather Motorcycle Gear Properly
+metaDescription: Leather motorcycle gear—whether it’s a jacket, gloves, pants, or boots—is an investment in both style and safety. Proper cleaning and maintenance not
 publishedAt: 2026-06-22
 updatedAt: 2026-06-22
-excerpt: "Leather motorcycle gear—whether it’s a jacket, gloves, pants, or boots—is an investment in both style and safety. Proper cleaning and maintenance not"
+excerpt: Leather motorcycle gear—whether it’s a jacket, gloves, pants, or boots—is an investment in both style and safety. Proper cleaning and maintenance not
 author: jake-morales-vtwinriderkit
 tags: []
 site: vtwinriderkit
@@ -116,3 +116,12 @@ When shopping for cleaners, conditioners, or protectants:
 - **Rotate gear** if you own multiple pieces to extend lifespan.  
 
 By following these steps, your leather motorcycle gear will stay supple, protective, and stylish for countless rides ahead. Whether you’re on a V-twin cruiser or a sportbike, well-maintained leather enhances both safety and comfort on the road.
+
+## Our picks worth a closer look
+
+- **[Alpinestars Hurricane Rain v2 Waterproof Motorcycle Suit, Lightweight All-Weathe](/products/b0dr7ryp1m-product/)** — see current price and specs.
+- **[JDC Motorcycle Waterproof Rain Suit Over Suit 1PC - SHIELD - Black - XXL - Regul](/products/b00aha1x40-product/)** — see current price and specs.
+- **[Nelson-Rigg unisex adult Motorcross-motorcycles Nelson Rigg SR 6000 ORG 03 LG St](/products/b00rgq1kv4-product/)** — see current price and specs.
+- **[Wizards Motorcycle Cleaning Kit - Bike Wash Foam and Rinse, Quick Detailer Spray](/products/b00t6j26z8-product/)** — see current price and specs.
+- **[URBAN UR6 Hi-Tech Motorcycle Disc Lock with Smart Alarm | Best Value | 120dB, LE](/products/b00yf051zu-product/)** — see current price and specs.
+

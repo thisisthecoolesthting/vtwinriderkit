@@ -9,18 +9,18 @@ rating: 3.8
 bsr: 7
 commissionPerSale: 0
 score: 0
-imageUrl: "https://m.media-amazon.com/images/I/51dwjY9GV7L.jpg"
-affiliateUrl: "https://www.amazon.com/dp/B0FJ5SPWMS?tag=harproomguide-20"
+imageUrl: https://m.media-amazon.com/images/I/51dwjY9GV7L.jpg
+affiliateUrl: https://www.amazon.com/dp/B0FJ5SPWMS?tag=harproomguide-20
 isPrime: false
 status: published
-firstSeen: "2026-06-03"
-lastSeen: "2026-06-03"
+firstSeen: '2026-06-03'
+lastSeen: '2026-06-03'
 slug: b0fj5spwms-8pcs-motorcycle-rgb-led-light-kit-with-handlebar-switch-brak
 cardTitle: 8PCS Motorcycle RGB LED Light Kit with Handlebar Switch Brake Turn Signal, Multi
 cardPick: Solid pick for most readers
 tags: []
 publishedAt: '2026-06-03'
-excerpt: "Hands-on notes on 8PCS Motorcycle RGB LED Light Kit with Handlebar Switch Brake Turn Signal, Multicolor Underglow Lights with APP/RF Remote, Neon Strips 12V Wat"
+excerpt: Hands-on notes on 8PCS Motorcycle RGB LED Light Kit with Handlebar Switch Brake Turn Signal, Multicolor Underglow Lights with APP/RF Remote, Neon Strips 12V Wat
 ---
 ## Overview
 
@@ -63,3 +63,12 @@ Our desk scores **value**, **spec clarity**, and **review credibility** for acce
 ---
 
 *Affiliate disclosure: purchasing through our Amazon link may support this site at no extra cost to you.*
+
+## Our picks worth a closer look
+
+- **[URBAN UR6 Hi-Tech Motorcycle Disc Lock with Smart Alarm | Best Value | 120dB, LE](/products/b00yf051zu-product/)** — see current price and specs.
+- **[YOHOOLYO Alarm Disc Lock Motorcycle Disc Brake Lock Anti-Theft Waterproof 110 dB](/products/b01m4mg0yt-product/)** — see current price and specs.
+- **[CERITORN Motorcycle Seat Cushion, 3D Honeycomb Gel Pad, Pressure Relief Shock Ab](/products/b0b7wtd6gb-product/)** — see current price and specs.
+- **[Wizards Motorcycle Cleaning Kit - Bike Wash Foam and Rinse, Quick Detailer Spray](/products/b00t6j26z8-product/)** — see current price and specs.
+- **[JOYROOM Motorcycle Phone Mount, [1s Auto Lock][100mph Military Anti-Shake] Bike ](/products/b09pvfn7lg-product/)** — see current price and specs.
+

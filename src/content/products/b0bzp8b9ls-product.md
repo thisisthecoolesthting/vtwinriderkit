@@ -1,22 +1,22 @@
 ---
 asin: B0BZP8B9LS
-title: YIYEIE 50Pcs Master Bike Torque Wrench Set, 1/4 Inch Drive, 10-230 IN.LB (1-26.0 Nm), Inch Pound Click Torque Wrench wit
-seoTitle: YIYEIE 50Pcs Master Bike Torque Wrench Set, 1/4 Inch Drive, 10-230 IN.LB (1-26.0 Nm), Inch Pound Click Torque Wrench wit — review
-metaDescription: Hands-on notes on YIYEIE 50Pcs Master Bike Torque Wrench Set, 1/4 Inch Drive, 10-230 IN.LB (1-26.0 Nm), Inch Pound Click Torque Wrench wit.
+title: YIYEIE 50Pcs Master Bike Torque Wrench Set, 1/4 Inch Drive, 10-230 IN.LB (1-26.0 Nm), Inch Pound Click Torque Wrench with Bit Sockets, 0.1 Nm Micro, 3/8 Adapter, Pro Bicycle Tool Kit for MTB
+seoTitle: YIYEIE 50Pcs Master Bike Torque Wrench Set, 1/4 Inch Drive, 10-230 IN. — Review
+metaDescription: Hands-on notes on YIYEIE 50Pcs Master Bike Torque Wrench Set, 1/4 Inch Drive, 10-230 IN.LB (1-26.0 Nm), Inch Pound Cli — what it's good for and where to check current pricing.
 category: general
-price: null
+price: 54.59
 rating: null
 bsr: 6883
 commissionPerSale: 0
 score: 0
-imageUrl: ""
-affiliateUrl: "https://www.amazon.com/dp/B0BZP8B9LS?tag=vtwinriderkit-20"
+imageUrl: ''
+affiliateUrl: https://www.amazon.com/dp/B0BZP8B9LS?tag=vtwinriderkit-20
 isPrime: false
 status: published
-firstSeen: "2026-06-02"
-lastSeen: "2026-06-02"
+firstSeen: '2026-06-02'
+lastSeen: '2026-08-03T15:32:29+00:00'
 slug: b0bzp8b9ls-product
-cardTitle: YIYEIE 50Pcs Master Bike Torque Wrench Set, 1/4 Inch Drive, 10-230 IN.LB (1-26.0
+cardTitle: YIYEIE 50Pcs Master Bike Torque Wrench Set, 1/4 Inch Drive, 10-230 IN.
 cardPick: Solid pick for most readers
 tags: []
 ---

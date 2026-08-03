@@ -1,22 +1,22 @@
 ---
 asin: B0DSD1WZBM
-title: oesee 8 Pack Motorcycle Cleaning Kit - Professional Safe for Chrome/Engine/Tires, Hard Reach Brush, Microfiber Mitt, Det
-seoTitle: oesee 8 Pack Motorcycle Cleaning Kit - Professional Safe for Chrome/Engine/Tires, Hard Reach Brush, Microfiber Mitt, Det — review
-metaDescription: Hands-on notes on oesee 8 Pack Motorcycle Cleaning Kit - Professional Safe for Chrome/Engine/Tires, Hard Reach Brush, Microfiber Mitt, Det.
+title: oesee 8 Pack Motorcycle Cleaning Kit - Professional Safe for Chrome/Engine/Tires, Hard Reach Brush, Microfiber Mitt, Detailing Tools, Drying Towel & Wax Applicators
+seoTitle: oesee 8 Pack Motorcycle Cleaning Kit - Professional Safe for Chrome/En — Review
+metaDescription: Hands-on notes on oesee 8 Pack Motorcycle Cleaning Kit - Professional Safe for Chrome/Engine/Tires, Hard Reach Brush,  — what it's good for and where to check current pricing.
 category: general
 price: null
 rating: null
 bsr: 5245
 commissionPerSale: 0
 score: 0
-imageUrl: ""
-affiliateUrl: "https://www.amazon.com/dp/B0DSD1WZBM?tag=vtwinriderkit-20"
+imageUrl: ''
+affiliateUrl: https://www.amazon.com/dp/B0DSD1WZBM?tag=vtwinriderkit-20
 isPrime: false
 status: published
-firstSeen: "2026-06-02"
-lastSeen: "2026-06-02"
+firstSeen: '2026-06-02'
+lastSeen: '2026-08-03T15:32:29+00:00'
 slug: b0dsd1wzbm-product
-cardTitle: oesee 8 Pack Motorcycle Cleaning Kit - Professional Safe for Chrome/Engine/Tires
+cardTitle: oesee 8 Pack Motorcycle Cleaning Kit - Professional Safe for Chrome/En
 cardPick: Solid pick for most readers
 tags: []
 ---

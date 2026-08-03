@@ -1,26 +1,26 @@
 ---
 asin: B0DKSLZTQK
-title: '1300 LBS Motorcycle Jack, Thickened 0.48\" Rubber Pad Motorcycle Lift, Upgraded Anti-Slip Bottom Dirtbike Stand, Carbon Steel Motorcycle Center Stand with Wide Deck, Chain Brush, T-Handle for ATV Black'
-seoTitle: '1300 LBS Motorcycle Jack, Thickened 0.48\" Rubber Pad Motorcycle Lift, Upgraded Anti-Slip Bottom Dirtbike Stand, Carbon Steel Motorcycle Center Stand with Wide Deck, Chain Brush, T-Handle for ATV Black \u2014 review'
-metaDescription: 'Hands-on notes on 1300 LBS Motorcycle Jack, Thickened 0.48\" Rubber Pad Motorcycle Lift, Upgraded Anti-Slip Bottom Dirtbike Stand, Carbon Steel Motorcycle Center Stand with Wide Deck, Chain Brush, T-Handle for ATV Black.'
+title: 1300 LBS Motorcycle Jack, Thickened 0.48\" Rubber Pad Motorcycle Lift, Upgraded Anti-Slip Bottom Dirtbike Stand, Carbon Steel Motorcycle Center Stand with Wide Deck, Chain Brush, T-Handle for ATV Black
+seoTitle: 1300 LBS Motorcycle Jack, Thickened 0.48\" Rubber Pad Motorcycle Lift, Upgraded Anti-Slip Bottom Dirtbike Stand, Carbon Steel Motorcycle Center Stand with Wide Deck, Chain Brush, T-Handle for ATV Black \u2014 review
+metaDescription: Hands-on notes on 1300 LBS Motorcycle Jack, Thickened 0.48\" Rubber Pad Motorcycle Lift, Upgraded Anti-Slip Bottom Dirtbike Stand, Carbon Steel Motorcycle Center Stand with Wide Deck, Chain Brush, T-Handle for ATV Black.
 category: scissor-lift-jacks
 price: 83.99
 rating: 4.6
 bsr: 101
 commissionPerSale: 0
 score: 0
-imageUrl: "https://m.media-amazon.com/images/I/418ybwgycyL.jpg"
-affiliateUrl: "https://www.amazon.com/dp/B0DKSLZTQK?tag=harproomguide-20"
+imageUrl: https://m.media-amazon.com/images/I/418ybwgycyL.jpg
+affiliateUrl: https://www.amazon.com/dp/B0DKSLZTQK?tag=harproomguide-20
 isPrime: false
 status: published
-firstSeen: "2026-06-03"
-lastSeen: "2026-06-03"
+firstSeen: '2026-06-03'
+lastSeen: '2026-06-03'
 slug: b0dkslztqk-1300-lbs-motorcycle-jack-thickened-0-48-rubber-pad-motorcycl
-cardTitle: '1300 LBS Motorcycle Jack, Thickened 0.48\" Rubber Pad Motorcycle Lift, Upgraded A'
+cardTitle: 1300 LBS Motorcycle Jack, Thickened 0.48\" Rubber Pad Motorcycle Lift, Upgraded A
 cardPick: Solid pick for most readers
 tags: []
 publishedAt: '2026-06-03'
-excerpt: 'Hands-on notes on 1300 LBS Motorcycle Jack, Thickened 0.48\\" Rubber Pad Motorcycle Lift, Upgraded Anti-Slip Bottom Dirtbike Stand, Carbon Steel Motorcycle Cente'
+excerpt: Hands-on notes on 1300 LBS Motorcycle Jack, Thickened 0.48\\" Rubber Pad Motorcycle Lift, Upgraded Anti-Slip Bottom Dirtbike Stand, Carbon Steel Motorcycle Cente
 ---
 ## Overview
 
@@ -63,3 +63,12 @@ Our desk scores **value**, **spec clarity**, and **review credibility** for scis
 ---
 
 *Affiliate disclosure: purchasing through our Amazon link may support this site at no extra cost to you.*
+
+## Our picks worth a closer look
+
+- **[YOHOOLYO Alarm Disc Lock Motorcycle Disc Brake Lock Anti-Theft Waterproof 110 dB](/products/b01m4mg0yt-product/)** — see current price and specs.
+- **[URBAN UR14S Approved Motorcycle Disc Lock with Smart Alarm | 120dB, LED, Warning](/products/b01n2uc3r3-product/)** — see current price and specs.
+- **[CERITORN Motorcycle Seat Cushion, 3D Honeycomb Gel Pad, Pressure Relief Shock Ab](/products/b0b7wtd6gb-product/)** — see current price and specs.
+- **[ONVIAN Motorcycle Disc Brake Lock with 120dB Alarm, Rechargeable Waterproof Moto](/products/b0bjdssf19-product/)** — see current price and specs.
+- **[YeewayVeh 6PCS Motorcycle Cleaning Kit, Bendable Wheel Tire Brush,Black/Red](/products/b0d8th35nd-product/)** — see current price and specs.
+

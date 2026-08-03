@@ -1,22 +1,22 @@
 ---
 asin: B0BPM3G9DF
-title: OXWIND 12V Motorcycle Heated Grips Cover, Universal Handlebar Grip, 3 Temperature Settings, IP67 Waterproof, ATV Scooter
-seoTitle: OXWIND 12V Motorcycle Heated Grips Cover, Universal Handlebar Grip, 3 Temperature Settings, IP67 Waterproof, ATV Scooter — review
-metaDescription: Hands-on notes on OXWIND 12V Motorcycle Heated Grips Cover, Universal Handlebar Grip, 3 Temperature Settings, IP67 Waterproof, ATV Scooter.
+title: OXWIND 12V Motorcycle Heated Grips Cover, ATV Scooter Handlebar Warmer
+seoTitle: OXWIND 12V Motorcycle Heated Grips Cover, ATV Scooter Handlebar Warmer — Review
+metaDescription: Hands-on notes on OXWIND 12V Motorcycle Heated Grips Cover, ATV Scooter Handlebar Warmer — what it's good for and where to check current pricing.
 category: general
 price: null
 rating: null
 bsr: 516821
 commissionPerSale: 0
 score: 0
-imageUrl: ""
-affiliateUrl: "https://www.amazon.com/dp/B0BPM3G9DF?tag=vtwinriderkit-20"
+imageUrl: ''
+affiliateUrl: https://www.amazon.com/dp/B0BPM3G9DF?tag=vtwinriderkit-20
 isPrime: false
 status: published
-firstSeen: "2026-06-02"
-lastSeen: "2026-06-02"
+firstSeen: '2026-06-02'
+lastSeen: '2026-08-03T15:32:29+00:00'
 slug: b0bpm3g9df-product
-cardTitle: OXWIND 12V Motorcycle Heated Grips Cover, Universal Handlebar Grip, 3 Temperatur
+cardTitle: OXWIND 12V Motorcycle Heated Grips Cover, ATV Scooter Handlebar Warmer
 cardPick: Solid pick for most readers
 tags: []
 ---

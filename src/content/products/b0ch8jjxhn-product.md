@@ -1,22 +1,22 @@
 ---
 asin: B0CH8JJXHN
-title: HODRANT Motorcycle Saddlebag Liner Bag, Saddlebag Organizer with Orange Liner, Compatible with Harley Davidson 1993-2022
-seoTitle: HODRANT Motorcycle Saddlebag Liner Bag, Saddlebag Organizer with Orange Liner, Compatible with Harley Davidson 1993-2022 — review
-metaDescription: Hands-on notes on HODRANT Motorcycle Saddlebag Liner Bag, Saddlebag Organizer with Orange Liner, Compatible with Harley Davidson 1993-2022.
+title: HODRANT Motorcycle Saddlebag Liner Bag with Orange Liner
+seoTitle: HODRANT Motorcycle Saddlebag Liner Bag with Orange Liner — Review
+metaDescription: Hands-on notes on HODRANT Motorcycle Saddlebag Liner Bag with Orange Liner — what it's good for and where to check current pricing.
 category: general
 price: null
 rating: null
 bsr: 61204
 commissionPerSale: 0
 score: 0
-imageUrl: ""
-affiliateUrl: "https://www.amazon.com/dp/B0CH8JJXHN?tag=vtwinriderkit-20"
+imageUrl: ''
+affiliateUrl: https://www.amazon.com/dp/B0CH8JJXHN?tag=vtwinriderkit-20
 isPrime: false
 status: published
-firstSeen: "2026-06-02"
-lastSeen: "2026-06-02"
+firstSeen: '2026-06-02'
+lastSeen: '2026-08-03T15:32:29+00:00'
 slug: b0ch8jjxhn-product
-cardTitle: HODRANT Motorcycle Saddlebag Liner Bag, Saddlebag Organizer with Orange Liner, C
+cardTitle: HODRANT Motorcycle Saddlebag Liner Bag with Orange Liner
 cardPick: Solid pick for most readers
 tags: []
 ---

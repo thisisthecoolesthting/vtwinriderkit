@@ -1,22 +1,22 @@
 ---
 asin: B00T6J26Z8
-title: Wizards Motorcycle Cleaning Kit - Bike Wash Foam and Rinse, Quick Detailer Spray, and Bug Remover with Fiber Cloth and D
-seoTitle: Wizards Motorcycle Cleaning Kit - Bike Wash Foam and Rinse, Quick Detailer Spray, and Bug Remover with Fiber Cloth and D — review
-metaDescription: Hands-on notes on Wizards Motorcycle Cleaning Kit - Bike Wash Foam and Rinse, Quick Detailer Spray, and Bug Remover with Fiber Cloth and D.
+title: Wizards Motorcycle Cleaning Kit - Bike Wash Foam and Rinse, Quick Detailer Spray, and Bug Remover with Fiber Cloth and Detailing Bag - Portable Motorcycle Wash Kit with Accessories
+seoTitle: Wizards Motorcycle Cleaning Kit - Bike Wash Foam and Rinse, Quick Deta — Review
+metaDescription: Hands-on notes on Wizards Motorcycle Cleaning Kit - Bike Wash Foam and Rinse, Quick Detailer Spray, and Bug Remover wi — what it's good for and where to check current pricing.
 category: general
 price: null
 rating: null
 bsr: 70383
 commissionPerSale: 0
 score: 0
-imageUrl: ""
-affiliateUrl: "https://www.amazon.com/dp/B00T6J26Z8?tag=vtwinriderkit-20"
+imageUrl: ''
+affiliateUrl: https://www.amazon.com/dp/B00T6J26Z8?tag=vtwinriderkit-20
 isPrime: false
 status: published
-firstSeen: "2026-06-02"
-lastSeen: "2026-06-02"
+firstSeen: '2026-06-02'
+lastSeen: '2026-08-03T15:32:29+00:00'
 slug: b00t6j26z8-product
-cardTitle: Wizards Motorcycle Cleaning Kit - Bike Wash Foam and Rinse, Quick Detailer Spray
+cardTitle: Wizards Motorcycle Cleaning Kit - Bike Wash Foam and Rinse, Quick Deta
 cardPick: Solid pick for most readers
 tags: []
 ---

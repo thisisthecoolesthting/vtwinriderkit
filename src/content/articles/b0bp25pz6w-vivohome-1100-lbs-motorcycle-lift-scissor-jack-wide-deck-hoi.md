@@ -9,18 +9,18 @@ rating: 4.6
 bsr: 2
 commissionPerSale: 0
 score: 0
-imageUrl: "https://m.media-amazon.com/images/I/51kjjmj1qpL.jpg"
-affiliateUrl: "https://www.amazon.com/dp/B0BP25PZ6W?tag=harproomguide-20"
+imageUrl: https://m.media-amazon.com/images/I/51kjjmj1qpL.jpg
+affiliateUrl: https://www.amazon.com/dp/B0BP25PZ6W?tag=harproomguide-20
 isPrime: false
 status: published
-firstSeen: "2026-06-03"
-lastSeen: "2026-06-03"
+firstSeen: '2026-06-03'
+lastSeen: '2026-06-03'
 slug: b0bp25pz6w-vivohome-1100-lbs-motorcycle-lift-scissor-jack-wide-deck-hoi
 cardTitle: VIVOHOME 1100 LBS Motorcycle Lift Scissor Jack, Wide Deck Hoist Stand, Height Ad
 cardPick: Solid pick for most readers
 tags: []
 publishedAt: '2026-06-03'
-excerpt: "Hands-on notes on VIVOHOME 1100 LBS Motorcycle Lift Scissor Jack, Wide Deck Hoist Stand, Height Adjustable Center Stand with Crank, Steel Lift for Cruiser, Dirt"
+excerpt: Hands-on notes on VIVOHOME 1100 LBS Motorcycle Lift Scissor Jack, Wide Deck Hoist Stand, Height Adjustable Center Stand with Crank, Steel Lift for Cruiser, Dirt
 ---
 ## Overview
 
@@ -63,3 +63,12 @@ Our desk scores **value**, **spec clarity**, and **review credibility** for scis
 ---
 
 *Affiliate disclosure: purchasing through our Amazon link may support this site at no extra cost to you.*
+
+## Our picks worth a closer look
+
+- **[CERITORN Motorcycle Seat Cushion, 3D Honeycomb Gel Pad, Pressure Relief Shock Ab](/products/b0b7wtd6gb-product/)** — see current price and specs.
+- **[Wizards Motorcycle Cleaning Kit - Bike Wash Foam and Rinse, Quick Detailer Spray](/products/b00t6j26z8-product/)** — see current price and specs.
+- **[URBAN UR6 Hi-Tech Motorcycle Disc Lock with Smart Alarm | Best Value | 120dB, LE](/products/b00yf051zu-product/)** — see current price and specs.
+- **[YOHOOLYO Alarm Disc Lock Motorcycle Disc Brake Lock Anti-Theft Waterproof 110 dB](/products/b01m4mg0yt-product/)** — see current price and specs.
+- **[URBAN UR14S Approved Motorcycle Disc Lock with Smart Alarm | 120dB, LED, Warning](/products/b01n2uc3r3-product/)** — see current price and specs.
+

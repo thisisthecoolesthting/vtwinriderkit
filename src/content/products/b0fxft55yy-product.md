@@ -1,22 +1,22 @@
 ---
 asin: B0FXFT55YY
-title: LLAVETOR 71pcs Bike Torque Wrench Set, Inch Pound Torque Wrench 1/4 Inch Drive, Bike Tool Kit, Bike Torque Wrench Set 10
-seoTitle: LLAVETOR 71pcs Bike Torque Wrench Set, Inch Pound Torque Wrench 1/4 Inch Drive, Bike Tool Kit, Bike Torque Wrench Set 10 — review
-metaDescription: Hands-on notes on LLAVETOR 71pcs Bike Torque Wrench Set, Inch Pound Torque Wrench 1/4 Inch Drive, Bike Tool Kit, Bike Torque Wrench Set 10.
+title: LLAVETOR 71pcs Bike Torque Wrench Set, Inch Pound Torque Wrench 1/4 Inch Drive, Bike Tool Kit, Bike Torque Wrench Set 10-230 Lbf.in(1.1-25.9N.m) Pro Bicycle Tool Kit (71PCS 10-230 Lbf.in)
+seoTitle: LLAVETOR 71pcs Bike Torque Wrench Set, Inch Pound Torque Wrench 1/4 In — Review
+metaDescription: Hands-on notes on LLAVETOR 71pcs Bike Torque Wrench Set, Inch Pound Torque Wrench 1/4 Inch Drive, Bike Tool Kit, Bike  — what it's good for and where to check current pricing.
 category: general
 price: null
 rating: null
 bsr: 165859
 commissionPerSale: 0
 score: 0
-imageUrl: ""
-affiliateUrl: "https://www.amazon.com/dp/B0FXFT55YY?tag=vtwinriderkit-20"
+imageUrl: ''
+affiliateUrl: https://www.amazon.com/dp/B0FXFT55YY?tag=vtwinriderkit-20
 isPrime: false
 status: published
-firstSeen: "2026-06-02"
-lastSeen: "2026-06-02"
+firstSeen: '2026-06-02'
+lastSeen: '2026-08-03T15:32:29+00:00'
 slug: b0fxft55yy-product
-cardTitle: LLAVETOR 71pcs Bike Torque Wrench Set, Inch Pound Torque Wrench 1/4 Inch Drive, 
+cardTitle: LLAVETOR 71pcs Bike Torque Wrench Set, Inch Pound Torque Wrench 1/4 In
 cardPick: Solid pick for most readers
 tags: []
 ---

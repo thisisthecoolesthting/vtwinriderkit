@@ -1,22 +1,22 @@
 ---
 asin: B0FHTQN46D
-title: "XEIMILE 51Pcs Bike Torque Wrench Set,1/4\" Drive 20-260 In.Lb/2.3-29.4Nm,Inch Pound Click Torque Wrench,72T Dual Directio"
-seoTitle: "XEIMILE 51Pcs Bike Torque Wrench Set,1/4\" Drive 20-260 In.Lb/2.3-29.4Nm,Inch Pound Click Torque Wrench,72T Dual Directio \u2014 review"
-metaDescription: "Hands-on notes on XEIMILE 51Pcs Bike Torque Wrench Set,1/4\" Drive 20-260 In.Lb/2.3-29.4Nm,Inch Pound Click Torque Wrench,72T Dual Directio."
+title: XEIMILE 51Pc 1/4"Drive Torque Wrench Set 20-260In.Lb for Bicycle Motorcycle
+seoTitle: XEIMILE 51Pc 1/4"Drive Torque Wrench Set 20-260In.Lb for Bicycle Motor — Review
+metaDescription: Hands-on notes on XEIMILE 51Pc 1/4"Drive Torque Wrench Set 20-260In.Lb for Bicycle Motorcycle — what it's good for and where to check current pricing.
 category: general
 price: null
 rating: null
 bsr: 14378
 commissionPerSale: 0
 score: 0
-imageUrl: ""
-affiliateUrl: "https://www.amazon.com/dp/B0FHTQN46D?tag=vtwinriderkit-20"
+imageUrl: ''
+affiliateUrl: https://www.amazon.com/dp/B0FHTQN46D?tag=vtwinriderkit-20
 isPrime: false
 status: published
-firstSeen: "2026-06-02"
-lastSeen: "2026-06-02"
+firstSeen: '2026-06-02'
+lastSeen: '2026-08-03T15:32:29+00:00'
 slug: b0fhtqn46d-product
-cardTitle: "XEIMILE 51Pcs Bike Torque Wrench Set,1/4\" Drive 20-260 In.Lb/2.3-29.4Nm,Inch Pou"
+cardTitle: XEIMILE 51Pc 1/4"Drive Torque Wrench Set 20-260In.Lb for Bicycle Motor
 cardPick: Solid pick for most readers
 tags: []
 ---

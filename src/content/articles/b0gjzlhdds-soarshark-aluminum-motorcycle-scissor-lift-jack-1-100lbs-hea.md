@@ -9,18 +9,18 @@ rating: 4.3
 bsr: 48
 commissionPerSale: 0
 score: 0
-imageUrl: "https://m.media-amazon.com/images/I/41XGrguOscL.jpg"
-affiliateUrl: "https://www.amazon.com/dp/B0GJZLHDDS?tag=harproomguide-20"
+imageUrl: https://m.media-amazon.com/images/I/41XGrguOscL.jpg
+affiliateUrl: https://www.amazon.com/dp/B0GJZLHDDS?tag=harproomguide-20
 isPrime: false
 status: published
-firstSeen: "2026-06-03"
-lastSeen: "2026-06-03"
+firstSeen: '2026-06-03'
+lastSeen: '2026-06-03'
 slug: b0gjzlhdds-soarshark-aluminum-motorcycle-scissor-lift-jack-1-100lbs-hea
 cardTitle: SOARSHARK Aluminum Motorcycle Scissor Lift Jack, 1,100LBS Heavy Duty Dirt Bike S
 cardPick: Solid pick for most readers
 tags: []
 publishedAt: '2026-06-03'
-excerpt: "Hands-on notes on SOARSHARK Aluminum Motorcycle Scissor Lift Jack, 1,100LBS Heavy Duty Dirt Bike Stand with Upgraded M16 Screw & Double Reinforcement Shafts, No"
+excerpt: Hands-on notes on SOARSHARK Aluminum Motorcycle Scissor Lift Jack, 1,100LBS Heavy Duty Dirt Bike Stand with Upgraded M16 Screw & Double Reinforcement Shafts, No
 ---
 ## Overview
 
@@ -63,3 +63,12 @@ Our desk scores **value**, **spec clarity**, and **review credibility** for scis
 ---
 
 *Affiliate disclosure: purchasing through our Amazon link may support this site at no extra cost to you.*
+
+## Our picks worth a closer look
+
+- **[CERITORN Motorcycle Seat Cushion, 3D Honeycomb Gel Pad, Pressure Relief Shock Ab](/products/b0b7wtd6gb-product/)** — see current price and specs.
+- **[Kryptonite Heavy Duty Motorcycle Alarm Disc Lock – Anti-Theft Powersport Brake L](/products/b08c5j63rq-product/)** — see current price and specs.
+- **[Wizards Motorcycle Cleaning Kit - Bike Wash Foam and Rinse, Quick Detailer Spray](/products/b00t6j26z8-product/)** — see current price and specs.
+- **[URBAN UR6 Hi-Tech Motorcycle Disc Lock with Smart Alarm | Best Value | 120dB, LE](/products/b00yf051zu-product/)** — see current price and specs.
+- **[YOHOOLYO Alarm Disc Lock Motorcycle Disc Brake Lock Anti-Theft Waterproof 110 dB](/products/b01m4mg0yt-product/)** — see current price and specs.
+

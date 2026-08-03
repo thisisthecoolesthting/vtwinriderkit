@@ -1,22 +1,22 @@
 ---
 asin: B078N57HDW
-title: KEMIMOTO Saddlebag Liners 1 Pair Motorcycle Saddle Liner Bag 32L Hard Saddle Insert Travel Storage Bag Compatible with T
-seoTitle: KEMIMOTO Saddlebag Liners 1 Pair Motorcycle Saddle Liner Bag 32L Hard Saddle Insert Travel Storage Bag Compatible with T — review
-metaDescription: Hands-on notes on KEMIMOTO Saddlebag Liners 1 Pair Motorcycle Saddle Liner Bag 32L Hard Saddle Insert Travel Storage Bag Compatible with T.
+title: KEMIMOTO Saddlebag Liners 1 Pair Motorcycle Saddle Liner Bag 32L
+seoTitle: KEMIMOTO Saddlebag Liners 1 Pair Motorcycle Saddle Liner Bag 32L — Review
+metaDescription: Hands-on notes on KEMIMOTO Saddlebag Liners 1 Pair Motorcycle Saddle Liner Bag 32L — what it's good for and where to check current pricing.
 category: general
 price: null
 rating: null
 bsr: 38780
 commissionPerSale: 0
 score: 0
-imageUrl: ""
-affiliateUrl: "https://www.amazon.com/dp/B078N57HDW?tag=vtwinriderkit-20"
+imageUrl: ''
+affiliateUrl: https://www.amazon.com/dp/B078N57HDW?tag=vtwinriderkit-20
 isPrime: false
 status: published
-firstSeen: "2026-06-02"
-lastSeen: "2026-06-02"
+firstSeen: '2026-06-02'
+lastSeen: '2026-08-03T15:32:29+00:00'
 slug: b078n57hdw-product
-cardTitle: KEMIMOTO Saddlebag Liners 1 Pair Motorcycle Saddle Liner Bag 32L Hard Saddle Ins
+cardTitle: KEMIMOTO Saddlebag Liners 1 Pair Motorcycle Saddle Liner Bag 32L
 cardPick: Solid pick for most readers
 tags: []
 ---

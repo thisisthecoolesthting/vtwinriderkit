@@ -9,18 +9,18 @@ rating: 4.4
 bsr: 2
 commissionPerSale: 0
 score: 0
-imageUrl: "https://m.media-amazon.com/images/I/41lwZArSrRL.jpg"
-affiliateUrl: "https://www.amazon.com/dp/B0C4KS7PJR?tag=harproomguide-20"
+imageUrl: https://m.media-amazon.com/images/I/41lwZArSrRL.jpg
+affiliateUrl: https://www.amazon.com/dp/B0C4KS7PJR?tag=harproomguide-20
 isPrime: false
 status: published
-firstSeen: "2026-06-03"
-lastSeen: "2026-06-03"
+firstSeen: '2026-06-03'
+lastSeen: '2026-06-03'
 slug: b0c4ks7pjr-vevor-motorcycle-lift-1100-lbs-motorcycle-lift-atv-scissor-l
 cardTitle: VEVOR Motorcycle Lift, 1100 LBS Motorcycle Lift ATV Scissor Lift Jack with Dolly
 cardPick: Solid pick for most readers
 tags: []
 publishedAt: '2026-06-03'
-excerpt: "Hands-on notes on VEVOR Motorcycle Lift, 1100 LBS Motorcycle Lift ATV Scissor Lift Jack with Dolly & Hand Crank, Center Hoist Crank Stand with Wide Deck & Tool "
+excerpt: 'Hands-on notes on VEVOR Motorcycle Lift, 1100 LBS Motorcycle Lift ATV Scissor Lift Jack with Dolly & Hand Crank, Center Hoist Crank Stand with Wide Deck & Tool '
 ---
 ## Overview
 
@@ -63,3 +63,12 @@ Our desk scores **value**, **spec clarity**, and **review credibility** for scis
 ---
 
 *Affiliate disclosure: purchasing through our Amazon link may support this site at no extra cost to you.*
+
+## Our picks worth a closer look
+
+- **[CERITORN Motorcycle Seat Cushion, 3D Honeycomb Gel Pad, Pressure Relief Shock Ab](/products/b0b7wtd6gb-product/)** — see current price and specs.
+- **[Nelson-Rigg unisex adult Motorcross-motorcycles Nelson Rigg SR 6000 ORG 03 LG St](/products/b00rgq1kv4-product/)** — see current price and specs.
+- **[YOHOOLYO Alarm Disc Lock Motorcycle Disc Brake Lock Anti-Theft Waterproof 110 dB](/products/b01m4mg0yt-product/)** — see current price and specs.
+- **[Lamicall Bike Phone Holder Motorcycle Mount - One-Hand Operation, Lockable](/products/b085dmv7xd-product/)** — see current price and specs.
+- **[Kryptonite Heavy Duty Motorcycle Alarm Disc Lock – Anti-Theft Powersport Brake L](/products/b08c5j63rq-product/)** — see current price and specs.
+

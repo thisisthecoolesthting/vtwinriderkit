@@ -1,22 +1,22 @@
 ---
 asin: B0GKXZGHMS
-title: YeewayVeh 7PCS Motorcycle Cleaning & Polishing Kit - Ultimate All-in-One Care with Wax Applicator Pads, Detailing Brush
-seoTitle: YeewayVeh 7PCS Motorcycle Cleaning & Polishing Kit - Ultimate All-in-One Care with Wax Applicator Pads, Detailing Brush — review
-metaDescription: Hands-on notes on YeewayVeh 7PCS Motorcycle Cleaning & Polishing Kit - Ultimate All-in-One Care with Wax Applicator Pads, Detailing Brush.
+title: YeewayVeh 7PCS Motorcycle Cleaning & Polishing Kit, All-in-One, Purple
+seoTitle: YeewayVeh 7PCS Motorcycle Cleaning & Polishing Kit, All-in-One, Purple — Review
+metaDescription: Hands-on notes on YeewayVeh 7PCS Motorcycle Cleaning & Polishing Kit, All-in-One, Purple — what it's good for and where to check current pricing.
 category: general
 price: null
 rating: null
 bsr: 14426
 commissionPerSale: 0
 score: 0
-imageUrl: ""
-affiliateUrl: "https://www.amazon.com/dp/B0GKXZGHMS?tag=vtwinriderkit-20"
+imageUrl: ''
+affiliateUrl: https://www.amazon.com/dp/B0GKXZGHMS?tag=vtwinriderkit-20
 isPrime: false
 status: published
-firstSeen: "2026-06-02"
-lastSeen: "2026-06-02"
+firstSeen: '2026-06-02'
+lastSeen: '2026-08-03T15:32:29+00:00'
 slug: b0gkxzghms-product
-cardTitle: YeewayVeh 7PCS Motorcycle Cleaning & Polishing Kit - Ultimate All-in-One Care wi
+cardTitle: YeewayVeh 7PCS Motorcycle Cleaning & Polishing Kit, All-in-One, Purple
 cardPick: Solid pick for most readers
 tags: []
 ---

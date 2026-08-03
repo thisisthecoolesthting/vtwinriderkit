@@ -1,22 +1,22 @@
 ---
 asin: B01N2UC3R3
-title: URBAN UR14S Approved Motorcycle Disc Lock with Smart Alarm | 120dB, LED, Warning, A+ Sensitivity, X2 ON | SRA & Sold Sec
-seoTitle: URBAN UR14S Approved Motorcycle Disc Lock with Smart Alarm | 120dB, LED, Warning, A+ Sensitivity, X2 ON | SRA & Sold Sec — review
-metaDescription: Hands-on notes on URBAN UR14S Approved Motorcycle Disc Lock with Smart Alarm | 120dB, LED, Warning, A+ Sensitivity, X2 ON | SRA & Sold Sec.
+title: URBAN UR14S Approved Motorcycle Disc Lock with Smart Alarm | 120dB, LED, Warning, A+ Sensitivity, X2 ON | SRA & Sold Secure Gold Tested Anti-Theft for Motorbike | 14mm Double Locking, Stainless Steel
+seoTitle: URBAN UR14S Approved Motorcycle Disc Lock with Smart Alarm | 120dB, LE — Review
+metaDescription: Hands-on notes on URBAN UR14S Approved Motorcycle Disc Lock with Smart Alarm | 120dB, LED, Warning, A+ Sensitivity, X2 — what it's good for and where to check current pricing.
 category: general
 price: null
 rating: null
 bsr: 39582
 commissionPerSale: 0
 score: 0
-imageUrl: ""
-affiliateUrl: "https://www.amazon.com/dp/B01N2UC3R3?tag=vtwinriderkit-20"
+imageUrl: ''
+affiliateUrl: https://www.amazon.com/dp/B01N2UC3R3?tag=vtwinriderkit-20
 isPrime: false
 status: published
-firstSeen: "2026-06-02"
-lastSeen: "2026-06-02"
+firstSeen: '2026-06-02'
+lastSeen: '2026-08-03T15:32:29+00:00'
 slug: b01n2uc3r3-product
-cardTitle: URBAN UR14S Approved Motorcycle Disc Lock with Smart Alarm | 120dB, LED, Warning
+cardTitle: URBAN UR14S Approved Motorcycle Disc Lock with Smart Alarm | 120dB, LE
 cardPick: Solid pick for most readers
 tags: []
 ---

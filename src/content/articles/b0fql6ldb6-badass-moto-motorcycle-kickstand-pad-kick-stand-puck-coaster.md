@@ -9,18 +9,18 @@ rating: 4.6
 bsr: 5
 commissionPerSale: 0
 score: 0
-imageUrl: "https://m.media-amazon.com/images/I/51pOFe+9WJL.jpg"
-affiliateUrl: "https://www.amazon.com/dp/B0FQL6LDB6?tag=viclabaggerguide-20"
+imageUrl: https://m.media-amazon.com/images/I/51pOFe+9WJL.jpg
+affiliateUrl: https://www.amazon.com/dp/B0FQL6LDB6?tag=viclabaggerguide-20
 isPrime: false
 status: published
-firstSeen: "2026-06-02"
-lastSeen: "2026-06-02"
+firstSeen: '2026-06-02'
+lastSeen: '2026-06-02'
 slug: b0fql6ldb6-badass-moto-motorcycle-kickstand-pad-kick-stand-puck-coaster
 cardTitle: Badass Moto Motorcycle Kickstand Pad - Kick Stand Puck, Coaster Plate for Harley
 cardPick: Solid pick for most readers
 tags: []
 publishedAt: '2026-06-02'
-excerpt: "Hands-on notes on Badass Moto Motorcycle Kickstand Pad - Kick Stand Puck, Coaster Plate for Harley Davidson, Touring & Sport Bikes - Motorcycle Accessories for "
+excerpt: 'Hands-on notes on Badass Moto Motorcycle Kickstand Pad - Kick Stand Puck, Coaster Plate for Harley Davidson, Touring & Sport Bikes - Motorcycle Accessories for '
 ---
 ## Overview
 
@@ -63,3 +63,12 @@ Our desk scores **value**, **spec clarity**, and **review credibility** for kick
 ---
 
 *Affiliate disclosure: purchasing through our Amazon link may support this site at no extra cost to you.*
+
+## Our picks worth a closer look
+
+- **[CERITORN Motorcycle Seat Cushion, 3D Honeycomb Gel Pad, Pressure Relief Shock Ab](/products/b0b7wtd6gb-product/)** — see current price and specs.
+- **[ANASES Motorcycle Saddlebag Liner Bags Fit for Harley Touring 1993-2026](/products/b0bjfm76zp-product/)** — see current price and specs.
+- **[PhyiFlbey Motorcycle Seat Cushion Gel Pad Foldable Soft Seats with Pressure Reli](/products/b0c827l9t5-product/)** — see current price and specs.
+- **[KEMIMOTO Motorcycle Saddlebag Organizers 2 Pack Compatible with Touring](/products/b0cwrvt84v-product/)** — see current price and specs.
+- **[JDC Motorcycle Waterproof Rain Suit Over Suit 1PC - SHIELD - Black - XXL - Regul](/products/b00aha1x40-product/)** — see current price and specs.
+

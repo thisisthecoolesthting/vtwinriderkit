@@ -1,22 +1,22 @@
 ---
 asin: B08C5J63RQ
-title: Kryptonite Heavy Duty Motorcycle Alarm Disc Lock – Anti-Theft Powersport Brake Lock with 120dB Siren, Weather-Resistant
-seoTitle: Kryptonite Heavy Duty Motorcycle Alarm Disc Lock – Anti-Theft Powersport Brake Lock with 120dB Siren, Weather-Resistant — review
-metaDescription: Hands-on notes on Kryptonite Heavy Duty Motorcycle Alarm Disc Lock – Anti-Theft Powersport Brake Lock with 120dB Siren, Weather-Resistant.
+title: Kryptonite Heavy Duty Motorcycle Alarm Disc Lock – Anti-Theft Powersport Brake Lock with 120dB Siren, Weather-Resistant Security for Motorcycles & Scooters
+seoTitle: Kryptonite Heavy Duty Motorcycle Alarm Disc Lock – Anti-Theft Powerspo — Review
+metaDescription: Hands-on notes on Kryptonite Heavy Duty Motorcycle Alarm Disc Lock – Anti-Theft Powersport Brake Lock with 120dB Siren — what it's good for and where to check current pricing.
 category: general
-price: null
+price: 49.96
 rating: null
 bsr: -1
 commissionPerSale: 0
 score: 0
-imageUrl: ""
-affiliateUrl: "https://www.amazon.com/dp/B08C5J63RQ?tag=vtwinriderkit-20"
+imageUrl: ''
+affiliateUrl: https://www.amazon.com/dp/B08C5J63RQ?tag=vtwinriderkit-20
 isPrime: false
 status: published
-firstSeen: "2026-06-02"
-lastSeen: "2026-06-02"
+firstSeen: '2026-06-02'
+lastSeen: '2026-08-03T15:32:29+00:00'
 slug: b08c5j63rq-product
-cardTitle: Kryptonite Heavy Duty Motorcycle Alarm Disc Lock – Anti-Theft Powersport Brake L
+cardTitle: Kryptonite Heavy Duty Motorcycle Alarm Disc Lock – Anti-Theft Powerspo
 cardPick: Solid pick for most readers
 tags: []
 ---

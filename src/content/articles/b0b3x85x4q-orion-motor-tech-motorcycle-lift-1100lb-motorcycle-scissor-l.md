@@ -1,22 +1,22 @@
 ---
 asin: B0B3X85X4Q
-title: 'Orion Motor Tech Motorcycle Lift, 1100lb Motorcycle Scissor Lift Jack with Wide Deck T Handle 3/8\" Socket, Motorbike Center Stand with Chain Brush, Crank Hoist Stand for ATV Dirt Bike Cruiser, Gray'
-seoTitle: 'Orion Motor Tech Motorcycle Lift, 1100lb Motorcycle Scissor Lift Jack with Wide Deck T Handle 3/8\" Socket, Motorbike Center Stand with Chain Brush, Crank Hoist Stand for ATV Dirt Bike Cruiser, Gray \u2014 review'
-metaDescription: 'Hands-on notes on Orion Motor Tech Motorcycle Lift, 1100lb Motorcycle Scissor Lift Jack with Wide Deck T Handle 3/8\" Socket, Motorbike Center Stand with Chain Brush, Crank Hoist Stand for ATV Dirt Bike Cruiser, Gray.'
+title: Orion Motor Tech Motorcycle Lift, 1100lb Motorcycle Scissor Lift Jack with Wide Deck T Handle 3/8\" Socket, Motorbike Center Stand with Chain Brush, Crank Hoist Stand for ATV Dirt Bike Cruiser, Gray
+seoTitle: Orion Motor Tech Motorcycle Lift, 1100lb Motorcycle Scissor Lift Jack with Wide Deck T Handle 3/8\" Socket, Motorbike Center Stand with Chain Brush, Crank Hoist Stand for ATV Dirt Bike Cruiser, Gray \u2014 review
+metaDescription: Hands-on notes on Orion Motor Tech Motorcycle Lift, 1100lb Motorcycle Scissor Lift Jack with Wide Deck T Handle 3/8\" Socket, Motorbike Center Stand with Chain Brush, Crank Hoist Stand for ATV Dirt Bike Cruiser, Gray.
 category: scissor-lift-jacks
 price: 69.99
 rating: 4.6
 bsr: 12
 commissionPerSale: 0
 score: 0
-imageUrl: "https://m.media-amazon.com/images/I/41iHR1TBIfL.jpg"
-affiliateUrl: "https://www.amazon.com/dp/B0B3X85X4Q?tag=harproomguide-20"
+imageUrl: https://m.media-amazon.com/images/I/41iHR1TBIfL.jpg
+affiliateUrl: https://www.amazon.com/dp/B0B3X85X4Q?tag=harproomguide-20
 isPrime: false
 status: published
-firstSeen: "2026-06-03"
-lastSeen: "2026-06-03"
+firstSeen: '2026-06-03'
+lastSeen: '2026-06-03'
 slug: b0b3x85x4q-orion-motor-tech-motorcycle-lift-1100lb-motorcycle-scissor-l
-cardTitle: Orion Motor Tech Motorcycle Lift, 1100lb Motorcycle Scissor Lift Jack with Wide 
+cardTitle: Orion Motor Tech Motorcycle Lift, 1100lb Motorcycle Scissor Lift Jack with Wide
 cardPick: Solid pick for most readers
 tags: []
 publishedAt: '2026-06-03'
@@ -63,3 +63,12 @@ Our desk scores **value**, **spec clarity**, and **review credibility** for scis
 ---
 
 *Affiliate disclosure: purchasing through our Amazon link may support this site at no extra cost to you.*
+
+## Our picks worth a closer look
+
+- **[URBAN UR6 Hi-Tech Motorcycle Disc Lock with Smart Alarm | Best Value | 120dB, LE](/products/b00yf051zu-product/)** — see current price and specs.
+- **[CERITORN Motorcycle Seat Cushion, 3D Honeycomb Gel Pad, Pressure Relief Shock Ab](/products/b0b7wtd6gb-product/)** — see current price and specs.
+- **[Wizards Motorcycle Cleaning Kit - Bike Wash Foam and Rinse, Quick Detailer Spray](/products/b00t6j26z8-product/)** — see current price and specs.
+- **[YOHOOLYO Alarm Disc Lock Motorcycle Disc Brake Lock Anti-Theft Waterproof 110 dB](/products/b01m4mg0yt-product/)** — see current price and specs.
+- **[URBAN UR14S Approved Motorcycle Disc Lock with Smart Alarm | 120dB, LED, Warning](/products/b01n2uc3r3-product/)** — see current price and specs.
+

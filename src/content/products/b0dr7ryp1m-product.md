@@ -1,22 +1,22 @@
 ---
 asin: B0DR7RYP1M
-title: Alpinestars Hurricane Rain v2 Waterproof Motorcycle Suit, Lightweight All-Weather Rain Gear with Reflective Safety Featu
-seoTitle: Alpinestars Hurricane Rain v2 Waterproof Motorcycle Suit, Lightweight All-Weather Rain Gear with Reflective Safety Featu — review
-metaDescription: Hands-on notes on Alpinestars Hurricane Rain v2 Waterproof Motorcycle Suit, Lightweight All-Weather Rain Gear with Reflective Safety Featu.
+title: Alpinestars Hurricane Rain v2 Waterproof Motorcycle Suit, Lightweight All-Weather Rain Gear with Reflective Safety Features, Durable Compact Design for Riders, L, Black
+seoTitle: Alpinestars Hurricane Rain v2 Waterproof Motorcycle Suit, Lightweight  — Review
+metaDescription: Hands-on notes on Alpinestars Hurricane Rain v2 Waterproof Motorcycle Suit, Lightweight All-Weather Rain Gear with Ref — what it's good for and where to check current pricing.
 category: general
 price: null
 rating: null
 bsr: 601172
 commissionPerSale: 0
 score: 0
-imageUrl: ""
-affiliateUrl: "https://www.amazon.com/dp/B0DR7RYP1M?tag=vtwinriderkit-20"
+imageUrl: ''
+affiliateUrl: https://www.amazon.com/dp/B0DR7RYP1M?tag=vtwinriderkit-20
 isPrime: false
 status: published
-firstSeen: "2026-06-02"
-lastSeen: "2026-06-02"
+firstSeen: '2026-06-02'
+lastSeen: '2026-08-03T15:32:29+00:00'
 slug: b0dr7ryp1m-product
-cardTitle: Alpinestars Hurricane Rain v2 Waterproof Motorcycle Suit, Lightweight All-Weathe
+cardTitle: 'Alpinestars Hurricane Rain v2 Waterproof Motorcycle Suit, Lightweight '
 cardPick: Solid pick for most readers
 tags: []
 ---

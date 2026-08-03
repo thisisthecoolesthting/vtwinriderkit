@@ -9,18 +9,18 @@ rating: 4.1
 bsr: 45
 commissionPerSale: 0
 score: 0
-imageUrl: "https://m.media-amazon.com/images/I/5123quhGoML.jpg"
-affiliateUrl: "https://www.amazon.com/dp/B0C1MWTXGG?tag=harproomguide-20"
+imageUrl: https://m.media-amazon.com/images/I/5123quhGoML.jpg
+affiliateUrl: https://www.amazon.com/dp/B0C1MWTXGG?tag=harproomguide-20
 isPrime: false
 status: published
-firstSeen: "2026-06-03"
-lastSeen: "2026-06-03"
+firstSeen: '2026-06-03'
+lastSeen: '2026-06-03'
 slug: b0c1mwtxgg-18pcs-rgb-motorcycle-led-light-kit-waterproof-motorcycle-und
 cardTitle: 18Pcs RGB Motorcycle LED Light Kit, Waterproof Motorcycle Underglow Kit with APP
 cardPick: Solid pick for most readers
 tags: []
 publishedAt: '2026-06-03'
-excerpt: "Hands-on notes on 18Pcs RGB Motorcycle LED Light Kit, Waterproof Motorcycle Underglow Kit with APP/RF Brake Trun Signal, Motorcycle Cruiser Underbody Strip Ligh"
+excerpt: Hands-on notes on 18Pcs RGB Motorcycle LED Light Kit, Waterproof Motorcycle Underglow Kit with APP/RF Brake Trun Signal, Motorcycle Cruiser Underbody Strip Ligh
 ---
 ## Overview
 
@@ -63,3 +63,12 @@ Our desk scores **value**, **spec clarity**, and **review credibility** for acce
 ---
 
 *Affiliate disclosure: purchasing through our Amazon link may support this site at no extra cost to you.*
+
+## Our picks worth a closer look
+
+- **[URBAN UR6 Hi-Tech Motorcycle Disc Lock with Smart Alarm | Best Value | 120dB, LE](/products/b00yf051zu-product/)** — see current price and specs.
+- **[YOHOOLYO Alarm Disc Lock Motorcycle Disc Brake Lock Anti-Theft Waterproof 110 dB](/products/b01m4mg0yt-product/)** — see current price and specs.
+- **[ONVIAN Motorcycle Disc Brake Lock with 120dB Alarm, Rechargeable Waterproof Moto](/products/b0bjdssf19-product/)** — see current price and specs.
+- **[JDC Motorcycle Waterproof Rain Suit Over Suit 1PC - SHIELD - Black - XXL - Regul](/products/b00aha1x40-product/)** — see current price and specs.
+- **[Wizards Motorcycle Cleaning Kit - Bike Wash Foam and Rinse, Quick Detailer Spray](/products/b00t6j26z8-product/)** — see current price and specs.
+

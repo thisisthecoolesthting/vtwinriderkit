@@ -1,22 +1,22 @@
 ---
 asin: B01M4MG0YT
-title: YOHOOLYO Alarm Disc Lock Motorcycle Disc Brake Lock Anti-Theft Waterproof 110 dB 7mm Pin 5ft Reminder Cable for Motorcyc
-seoTitle: YOHOOLYO Alarm Disc Lock Motorcycle Disc Brake Lock Anti-Theft Waterproof 110 dB 7mm Pin 5ft Reminder Cable for Motorcyc — review
-metaDescription: Hands-on notes on YOHOOLYO Alarm Disc Lock Motorcycle Disc Brake Lock Anti-Theft Waterproof 110 dB 7mm Pin 5ft Reminder Cable for Motorcyc.
+title: YOHOOLYO Alarm Disc Lock Motorcycle Disc Brake Lock Anti-Theft Waterproof 110 dB 7mm Pin 5ft Reminder Cable for Motorcycles Bike Scooter Carry Pouch (Black)
+seoTitle: YOHOOLYO Alarm Disc Lock Motorcycle Disc Brake Lock Anti-Theft Waterpr — Review
+metaDescription: Hands-on notes on YOHOOLYO Alarm Disc Lock Motorcycle Disc Brake Lock Anti-Theft Waterproof 110 dB 7mm Pin 5ft Reminde — what it's good for and where to check current pricing.
 category: general
 price: null
 rating: null
 bsr: 1556
 commissionPerSale: 0
 score: 0
-imageUrl: ""
-affiliateUrl: "https://www.amazon.com/dp/B01M4MG0YT?tag=vtwinriderkit-20"
+imageUrl: ''
+affiliateUrl: https://www.amazon.com/dp/B01M4MG0YT?tag=vtwinriderkit-20
 isPrime: false
 status: published
-firstSeen: "2026-06-02"
-lastSeen: "2026-06-02"
+firstSeen: '2026-06-02'
+lastSeen: '2026-08-03T15:32:29+00:00'
 slug: b01m4mg0yt-product
-cardTitle: YOHOOLYO Alarm Disc Lock Motorcycle Disc Brake Lock Anti-Theft Waterproof 110 dB
+cardTitle: YOHOOLYO Alarm Disc Lock Motorcycle Disc Brake Lock Anti-Theft Waterpr
 cardPick: Solid pick for most readers
 tags: []
 ---

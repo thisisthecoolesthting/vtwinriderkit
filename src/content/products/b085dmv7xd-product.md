@@ -1,22 +1,22 @@
 ---
 asin: B085DMV7XD
-title: Lamicall Bike Phone Holder, Motorcycle Mount - Motorcycle Phone Holder, Handlebar Cell Phone Clamp, E-Bike Scooter Phone
-seoTitle: Lamicall Bike Phone Holder, Motorcycle Mount - Motorcycle Phone Holder, Handlebar Cell Phone Clamp, E-Bike Scooter Phone — review
-metaDescription: Hands-on notes on Lamicall Bike Phone Holder, Motorcycle Mount - Motorcycle Phone Holder, Handlebar Cell Phone Clamp, E-Bike Scooter Phone.
+title: Lamicall Bike Phone Holder Motorcycle Mount - One-Hand Operation, Lockable
+seoTitle: Lamicall Bike Phone Holder Motorcycle Mount - One-Hand Operation, Lock — Review
+metaDescription: Hands-on notes on Lamicall Bike Phone Holder Motorcycle Mount - One-Hand Operation, Lockable — what it's good for and where to check current pricing.
 category: general
 price: null
 rating: null
 bsr: -1
 commissionPerSale: 0
 score: 0
-imageUrl: ""
-affiliateUrl: "https://www.amazon.com/dp/B085DMV7XD?tag=vtwinriderkit-20"
+imageUrl: ''
+affiliateUrl: https://www.amazon.com/dp/B085DMV7XD?tag=vtwinriderkit-20
 isPrime: false
 status: published
-firstSeen: "2026-06-02"
-lastSeen: "2026-06-02"
+firstSeen: '2026-06-02'
+lastSeen: '2026-08-03T15:32:29+00:00'
 slug: b085dmv7xd-product
-cardTitle: Lamicall Bike Phone Holder, Motorcycle Mount - Motorcycle Phone Holder, Handleba
+cardTitle: Lamicall Bike Phone Holder Motorcycle Mount - One-Hand Operation, Lock
 cardPick: Solid pick for most readers
 tags: []
 ---

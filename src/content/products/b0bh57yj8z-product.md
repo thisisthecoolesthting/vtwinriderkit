@@ -1,22 +1,22 @@
 ---
 asin: B0BH57YJ8Z
-title: LEXIVON Bike Torque Wrench 1/4-Inch Dr. 15-Piece Kit | 72-Tooth Gear, Dual-Direction Click Type 2~26 Nm / 17.7~230.1 in-
-seoTitle: LEXIVON Bike Torque Wrench 1/4-Inch Dr. 15-Piece Kit | 72-Tooth Gear, Dual-Direction Click Type 2~26 Nm / 17.7~230.1 in- — review
-metaDescription: Hands-on notes on LEXIVON Bike Torque Wrench 1/4-Inch Dr. 15-Piece Kit | 72-Tooth Gear, Dual-Direction Click Type 2~26 Nm / 17.7~230.1 in-.
+title: LEXIVON Bike Torque Wrench 1/4-Inch Dr. 15-Piece Kit | 72-Tooth Gear, Dual-Direction Click Type 2~26 Nm / 17.7~230.1 in-lb (LX-191)
+seoTitle: LEXIVON Bike Torque Wrench 1/4-Inch Dr. 15-Piece Kit | 72-Tooth Gear,  — Review
+metaDescription: Hands-on notes on LEXIVON Bike Torque Wrench 1/4-Inch Dr. 15-Piece Kit | 72-Tooth Gear, Dual-Direction Click Type 2~26 — what it's good for and where to check current pricing.
 category: general
 price: null
 rating: null
 bsr: 3332
 commissionPerSale: 0
 score: 0
-imageUrl: ""
-affiliateUrl: "https://www.amazon.com/dp/B0BH57YJ8Z?tag=vtwinriderkit-20"
+imageUrl: ''
+affiliateUrl: https://www.amazon.com/dp/B0BH57YJ8Z?tag=vtwinriderkit-20
 isPrime: false
 status: published
-firstSeen: "2026-06-02"
-lastSeen: "2026-06-02"
+firstSeen: '2026-06-02'
+lastSeen: '2026-08-03T15:32:29+00:00'
 slug: b0bh57yj8z-product
-cardTitle: LEXIVON Bike Torque Wrench 1/4-Inch Dr. 15-Piece Kit | 72-Tooth Gear, Dual-Direc
+cardTitle: 'LEXIVON Bike Torque Wrench 1/4-Inch Dr. 15-Piece Kit | 72-Tooth Gear, '
 cardPick: Solid pick for most readers
 tags: []
 ---

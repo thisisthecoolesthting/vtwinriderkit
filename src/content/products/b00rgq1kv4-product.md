@@ -1,22 +1,22 @@
 ---
 asin: B00RGQ1KV4
-title: Nelson-Rigg unisex adult Motorcross-motorcycles Nelson Rigg SR 6000 ORG 03 LG Stormrider Motorcycle Rain Suit 2 Piece Or
-seoTitle: Nelson-Rigg unisex adult Motorcross-motorcycles Nelson Rigg SR 6000 ORG 03 LG Stormrider Motorcycle Rain Suit 2 Piece Or — review
-metaDescription: Hands-on notes on Nelson-Rigg unisex adult Motorcross-motorcycles Nelson Rigg SR 6000 ORG 03 LG Stormrider Motorcycle Rain Suit 2 Piece Or.
+title: Nelson-Rigg unisex adult Motorcross-motorcycles Nelson Rigg SR 6000 ORG 03 LG Stormrider Motorcycle Rain Suit 2 Piece Orange Black LG , Orange/Black, Large US
+seoTitle: Nelson-Rigg unisex adult Motorcross-motorcycles Nelson Rigg SR 6000 OR — Review
+metaDescription: Hands-on notes on Nelson-Rigg unisex adult Motorcross-motorcycles Nelson Rigg SR 6000 ORG 03 LG Stormrider Motorcycle  — what it's good for and where to check current pricing.
 category: general
-price: null
+price: 62.22
 rating: null
 bsr: 3559
 commissionPerSale: 0
 score: 0
-imageUrl: ""
-affiliateUrl: "https://www.amazon.com/dp/B00RGQ1KV4?tag=vtwinriderkit-20"
+imageUrl: ''
+affiliateUrl: https://www.amazon.com/dp/B00RGQ1KV4?tag=vtwinriderkit-20
 isPrime: false
 status: published
-firstSeen: "2026-06-02"
-lastSeen: "2026-06-02"
+firstSeen: '2026-06-02'
+lastSeen: '2026-08-03T15:32:29+00:00'
 slug: b00rgq1kv4-product
-cardTitle: Nelson-Rigg unisex adult Motorcross-motorcycles Nelson Rigg SR 6000 ORG 03 LG St
+cardTitle: Nelson-Rigg unisex adult Motorcross-motorcycles Nelson Rigg SR 6000 OR
 cardPick: Solid pick for most readers
 tags: []
 ---

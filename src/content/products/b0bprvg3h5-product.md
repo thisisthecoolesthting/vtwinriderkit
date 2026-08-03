@@ -1,22 +1,22 @@
 ---
 asin: B0BPRVG3H5
-title: HODRANT Saddlebag Liners Bag, Travel Motorcycle Saddlebag Organizer Compatible with Harley Davidson 1993-2022 Touring Ro
-seoTitle: HODRANT Saddlebag Liners Bag, Travel Motorcycle Saddlebag Organizer Compatible with Harley Davidson 1993-2022 Touring Ro — review
-metaDescription: Hands-on notes on HODRANT Saddlebag Liners Bag, Travel Motorcycle Saddlebag Organizer Compatible with Harley Davidson 1993-2022 Touring Ro.
+title: HODRANT Motorcycle Saddlebag Liners Bag, Travel Saddlebag Organizer
+seoTitle: HODRANT Motorcycle Saddlebag Liners Bag, Travel Saddlebag Organizer — Review
+metaDescription: Hands-on notes on HODRANT Motorcycle Saddlebag Liners Bag, Travel Saddlebag Organizer — what it's good for and where to check current pricing.
 category: general
 price: null
 rating: null
 bsr: 107004
 commissionPerSale: 0
 score: 0
-imageUrl: ""
-affiliateUrl: "https://www.amazon.com/dp/B0BPRVG3H5?tag=vtwinriderkit-20"
+imageUrl: ''
+affiliateUrl: https://www.amazon.com/dp/B0BPRVG3H5?tag=vtwinriderkit-20
 isPrime: false
 status: published
-firstSeen: "2026-06-02"
-lastSeen: "2026-06-02"
+firstSeen: '2026-06-02'
+lastSeen: '2026-08-03T15:32:29+00:00'
 slug: b0bprvg3h5-product
-cardTitle: HODRANT Saddlebag Liners Bag, Travel Motorcycle Saddlebag Organizer Compatible w
+cardTitle: HODRANT Motorcycle Saddlebag Liners Bag, Travel Saddlebag Organizer
 cardPick: Solid pick for most readers
 tags: []
 ---

@@ -1,22 +1,22 @@
 ---
 asin: B07YXDGNR6
 title: Oxford - Heaterz Premium Sports (Temperature controlled Motorcycle Grips)
-seoTitle: Oxford - Heaterz Premium Sports (Temperature controlled Motorcycle Grips) — review
-metaDescription: Hands-on notes on Oxford - Heaterz Premium Sports (Temperature controlled Motorcycle Grips).
+seoTitle: Oxford - Heaterz Premium Sports (Temperature controlled Motorcycle Gri — Review
+metaDescription: Hands-on notes on Oxford - Heaterz Premium Sports (Temperature controlled Motorcycle Grips) — what it's good for and where to check current pricing.
 category: general
 price: null
 rating: null
 bsr: 223109
 commissionPerSale: 0
 score: 0
-imageUrl: ""
-affiliateUrl: "https://www.amazon.com/dp/B07YXDGNR6?tag=vtwinriderkit-20"
+imageUrl: ''
+affiliateUrl: https://www.amazon.com/dp/B07YXDGNR6?tag=vtwinriderkit-20
 isPrime: false
 status: published
-firstSeen: "2026-06-02"
-lastSeen: "2026-06-02"
+firstSeen: '2026-06-02'
+lastSeen: '2026-08-03T15:32:29+00:00'
 slug: b07yxdgnr6-product
-cardTitle: Oxford - Heaterz Premium Sports (Temperature controlled Motorcycle Grips)
+cardTitle: Oxford - Heaterz Premium Sports (Temperature controlled Motorcycle Gri
 cardPick: Solid pick for most readers
 tags: []
 ---

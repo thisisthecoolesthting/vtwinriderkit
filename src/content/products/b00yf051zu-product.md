@@ -1,22 +1,22 @@
 ---
 asin: B00YF051ZU
-title: URBAN UR6 Hi-Tech Motorcycle Disc Lock with Smart Alarm | Best Value | 120dB, LED, Warning, A+ Sensitivity, Truly Waterp
-seoTitle: URBAN UR6 Hi-Tech Motorcycle Disc Lock with Smart Alarm | Best Value | 120dB, LED, Warning, A+ Sensitivity, Truly Waterp — review
-metaDescription: Hands-on notes on URBAN UR6 Hi-Tech Motorcycle Disc Lock with Smart Alarm | Best Value | 120dB, LED, Warning, A+ Sensitivity, Truly Waterp.
+title: URBAN UR6 Hi-Tech Motorcycle Disc Lock with Smart Alarm | Best Value | 120dB, LED, Warning, A+ Sensitivity, Truly Waterproof, Long-Life CR2 Battery, Carried Locked, Bike Anti Theft Wheel Brake Locks
+seoTitle: URBAN UR6 Hi-Tech Motorcycle Disc Lock with Smart Alarm | Best Value | — Review
+metaDescription: Hands-on notes on URBAN UR6 Hi-Tech Motorcycle Disc Lock with Smart Alarm | Best Value | 120dB, LED, Warning, A+ Sensi — what it's good for and where to check current pricing.
 category: general
 price: null
 rating: null
 bsr: -1
 commissionPerSale: 0
 score: 0
-imageUrl: ""
-affiliateUrl: "https://www.amazon.com/dp/B00YF051ZU?tag=vtwinriderkit-20"
+imageUrl: ''
+affiliateUrl: https://www.amazon.com/dp/B00YF051ZU?tag=vtwinriderkit-20
 isPrime: false
 status: published
-firstSeen: "2026-06-02"
-lastSeen: "2026-06-02"
+firstSeen: '2026-06-02'
+lastSeen: '2026-08-03T15:32:29+00:00'
 slug: b00yf051zu-product
-cardTitle: URBAN UR6 Hi-Tech Motorcycle Disc Lock with Smart Alarm | Best Value | 120dB, LE
+cardTitle: URBAN UR6 Hi-Tech Motorcycle Disc Lock with Smart Alarm | Best Value |
 cardPick: Solid pick for most readers
 tags: []
 ---

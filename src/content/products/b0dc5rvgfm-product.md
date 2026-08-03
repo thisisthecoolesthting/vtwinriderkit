@@ -1,22 +1,22 @@
 ---
 asin: B0DC5RVGFM
-title: "JDC Motorcycle Waterproof Rain Suit Over Suit 1PC - SHIELD - Yellow/Black - 3XL - Regular Leg (32\")"
-seoTitle: "JDC Motorcycle Waterproof Rain Suit Over Suit 1PC - SHIELD - Yellow/Black - 3XL - Regular Leg (32\") \u2014 review"
-metaDescription: "Hands-on notes on JDC Motorcycle Waterproof Rain Suit Over Suit 1PC - SHIELD - Yellow/Black - 3XL - Regular Leg (32\")."
+title: JDC Motorcycle Waterproof Rain Suit Over Suit 1PC - SHIELD - Yellow/Black - 3XL - Regular Leg (32")
+seoTitle: JDC Motorcycle Waterproof Rain Suit Over Suit 1PC - SHIELD - Yellow/Bl — Review
+metaDescription: Hands-on notes on JDC Motorcycle Waterproof Rain Suit Over Suit 1PC - SHIELD - Yellow/Black - 3XL - Regular Leg (32") — what it's good for and where to check current pricing.
 category: general
 price: null
 rating: null
 bsr: 83700
 commissionPerSale: 0
 score: 0
-imageUrl: ""
-affiliateUrl: "https://www.amazon.com/dp/B0DC5RVGFM?tag=vtwinriderkit-20"
+imageUrl: ''
+affiliateUrl: https://www.amazon.com/dp/B0DC5RVGFM?tag=vtwinriderkit-20
 isPrime: false
 status: published
-firstSeen: "2026-06-02"
-lastSeen: "2026-06-02"
+firstSeen: '2026-06-02'
+lastSeen: '2026-08-03T15:32:29+00:00'
 slug: b0dc5rvgfm-product
-cardTitle: JDC Motorcycle Waterproof Rain Suit Over Suit 1PC - SHIELD - Yellow/Black - 3XL 
+cardTitle: JDC Motorcycle Waterproof Rain Suit Over Suit 1PC - SHIELD - Yellow/Bl
 cardPick: Solid pick for most readers
 tags: []
 ---

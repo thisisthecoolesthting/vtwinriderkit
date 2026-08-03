@@ -1,22 +1,22 @@
 ---
 asin: B07Q21RNNB
-title: FOBO Bike 2 TPMS (Black) - Wireless Tire Pressure Monitoring System with Bluetooth 5.0 | Real-Time Tire Pressure Sensor
-seoTitle: FOBO Bike 2 TPMS (Black) - Wireless Tire Pressure Monitoring System with Bluetooth 5.0 | Real-Time Tire Pressure Sensor — review
-metaDescription: Hands-on notes on FOBO Bike 2 TPMS (Black) - Wireless Tire Pressure Monitoring System with Bluetooth 5.0 | Real-Time Tire Pressure Sensor.
+title: FOBO Bike 2 TPMS (Black) - Wireless Tire Pressure Monitoring System with Bluetooth 5.0 | Real-Time Tire Pressure Sensor | Easy DIY Installation for Motorcycle | Compatible with iOS & Android
+seoTitle: FOBO Bike 2 TPMS (Black) - Wireless Tire Pressure Monitoring System wi — Review
+metaDescription: Hands-on notes on FOBO Bike 2 TPMS (Black) - Wireless Tire Pressure Monitoring System with Bluetooth 5.0 | Real-Time T — what it's good for and where to check current pricing.
 category: general
 price: null
 rating: null
 bsr: -1
 commissionPerSale: 0
 score: 0
-imageUrl: ""
-affiliateUrl: "https://www.amazon.com/dp/B07Q21RNNB?tag=vtwinriderkit-20"
+imageUrl: ''
+affiliateUrl: https://www.amazon.com/dp/B07Q21RNNB?tag=vtwinriderkit-20
 isPrime: false
 status: published
-firstSeen: "2026-06-02"
-lastSeen: "2026-06-02"
+firstSeen: '2026-06-02'
+lastSeen: '2026-08-03T15:32:29+00:00'
 slug: b07q21rnnb-product
-cardTitle: FOBO Bike 2 TPMS (Black) - Wireless Tire Pressure Monitoring System with Bluetoo
+cardTitle: FOBO Bike 2 TPMS (Black) - Wireless Tire Pressure Monitoring System wi
 cardPick: Solid pick for most readers
 tags: []
 ---

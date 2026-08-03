@@ -1,9 +1,9 @@
 ---
-title: "V-Twin Shifters and Linkages: Smooth Gear Changes and Custom Looks"
-metaDescription: "When it comes to V-twin motorcycles, the shifter and linkage system plays a crucial role in both performance and aesthetics. Whether you're cruising o"
+title: 'V-Twin Shifters and Linkages: Smooth Gear Changes and Custom Looks'
+metaDescription: When it comes to V-twin motorcycles, the shifter and linkage system plays a crucial role in both performance and aesthetics. Whether you're cruising o
 publishedAt: 2026-06-22
 updatedAt: 2026-06-22
-excerpt: "When it comes to V-twin motorcycles, the shifter and linkage system plays a crucial role in both performance and aesthetics. Whether you're cruising o"
+excerpt: When it comes to V-twin motorcycles, the shifter and linkage system plays a crucial role in both performance and aesthetics. Whether you're cruising o
 author: jake-morales-vtwinriderkit
 tags: []
 site: vtwinriderkit
@@ -82,3 +82,9 @@ When shopping for a new shifter or linkage, consider these key factors:
 ## Conclusion  
 
 Upgrading your V-twin’s shifter and linkage is one of the most impactful yet often overlooked modifications. Whether you’re chasing smoother shifts, better ergonomics, or a custom look, the right setup can transform your ride. By focusing on quality materials, adjustability, and compatibility, you’ll enjoy sharper gear changes and a setup tailored to your riding style.
+
+## Our picks worth a closer look
+
+- **[LEXIVON Bike Torque Wrench 1/4-Inch Dr. 15-Piece Kit | 72-Tooth Gear, Dual-Direc](/products/b0bh57yj8z-product/)** — see current price and specs.
+- **[Alpinestars Hurricane Rain v2 Waterproof Motorcycle Suit, Lightweight All-Weathe](/products/b0dr7ryp1m-product/)** — see current price and specs.
+

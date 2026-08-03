@@ -1,22 +1,22 @@
 ---
 asin: B0FDQ4Q7B8
-title: "WAXTRON Bike Torque Wrench Set, 32-Piece Bicycle Tool Kit, 1/4\" Click Torque Wrench and Bit Set, 2-20Nm Metric Micromete"
-seoTitle: "WAXTRON Bike Torque Wrench Set, 32-Piece Bicycle Tool Kit, 1/4\" Click Torque Wrench and Bit Set, 2-20Nm Metric Micromete \u2014 review"
-metaDescription: "Hands-on notes on WAXTRON Bike Torque Wrench Set, 32-Piece Bicycle Tool Kit, 1/4\" Click Torque Wrench and Bit Set, 2-20Nm Metric Micromete."
+title: WAXTRON Bike Torque Wrench Tool Kit with Bits, 1/4-Inch Drive, Ratcheting Click-Type, 2-20 Nm, 35-Piece Set
+seoTitle: WAXTRON Bike Torque Wrench Tool Kit with Bits, 1/4-Inch Drive, Ratchet — Review
+metaDescription: Hands-on notes on WAXTRON Bike Torque Wrench Tool Kit with Bits, 1/4-Inch Drive, Ratcheting Click-Type, 2-20 Nm, 35-Pi — what it's good for and where to check current pricing.
 category: general
 price: null
 rating: null
 bsr: 25252
 commissionPerSale: 0
 score: 0
-imageUrl: ""
-affiliateUrl: "https://www.amazon.com/dp/B0FDQ4Q7B8?tag=vtwinriderkit-20"
+imageUrl: ''
+affiliateUrl: https://www.amazon.com/dp/B0FDQ4Q7B8?tag=vtwinriderkit-20
 isPrime: false
 status: published
-firstSeen: "2026-06-02"
-lastSeen: "2026-06-02"
+firstSeen: '2026-06-02'
+lastSeen: '2026-08-03T15:32:29+00:00'
 slug: b0fdq4q7b8-product
-cardTitle: "WAXTRON Bike Torque Wrench Set, 32-Piece Bicycle Tool Kit, 1/4\" Click Torque Wre"
+cardTitle: WAXTRON Bike Torque Wrench Tool Kit with Bits, 1/4-Inch Drive, Ratchet
 cardPick: Solid pick for most readers
 tags: []
 ---

@@ -1,22 +1,22 @@
 ---
 asin: B07K7SLSPB
 title: Oxford - Heaterz Premium Adventure (Temperature controlled Motorcycle Grips)
-seoTitle: Oxford - Heaterz Premium Adventure (Temperature controlled Motorcycle Grips) — review
-metaDescription: Hands-on notes on Oxford - Heaterz Premium Adventure (Temperature controlled Motorcycle Grips).
+seoTitle: Oxford - Heaterz Premium Adventure (Temperature controlled Motorcycle  — Review
+metaDescription: Hands-on notes on Oxford - Heaterz Premium Adventure (Temperature controlled Motorcycle Grips) — what it's good for and where to check current pricing.
 category: general
 price: null
 rating: null
 bsr: -1
 commissionPerSale: 0
 score: 0
-imageUrl: ""
-affiliateUrl: "https://www.amazon.com/dp/B07K7SLSPB?tag=vtwinriderkit-20"
+imageUrl: ''
+affiliateUrl: https://www.amazon.com/dp/B07K7SLSPB?tag=vtwinriderkit-20
 isPrime: false
 status: published
-firstSeen: "2026-06-02"
-lastSeen: "2026-06-02"
+firstSeen: '2026-06-02'
+lastSeen: '2026-08-03T15:32:29+00:00'
 slug: b07k7slspb-product
-cardTitle: Oxford - Heaterz Premium Adventure (Temperature controlled Motorcycle Grips)
+cardTitle: 'Oxford - Heaterz Premium Adventure (Temperature controlled Motorcycle '
 cardPick: Solid pick for most readers
 tags: []
 ---
