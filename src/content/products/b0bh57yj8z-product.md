@@ -14,7 +14,7 @@ affiliateUrl: https://www.amazon.com/dp/B0BH57YJ8Z?tag=vtwinriderkit-20
 isPrime: false
 status: published
 firstSeen: '2026-06-02'
-lastSeen: '2026-08-03T15:32:29+00:00'
+lastSeen: '2026-08-03T15:33:58+00:00'
 slug: b0bh57yj8z-product
 cardTitle: 'LEXIVON Bike Torque Wrench 1/4-Inch Dr. 15-Piece Kit | 72-Tooth Gear, '
 cardPick: Solid pick for most readers

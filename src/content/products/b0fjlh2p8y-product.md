@@ -14,7 +14,7 @@ affiliateUrl: https://www.amazon.com/dp/B0FJLH2P8Y?tag=vtwinriderkit-20
 isPrime: false
 status: published
 firstSeen: '2026-06-02'
-lastSeen: '2026-08-03T15:32:29+00:00'
+lastSeen: '2026-08-03T15:33:58+00:00'
 slug: b0fjlh2p8y-product
 cardTitle: Motorcycle Tire Pressure Monitoring Alarm System with Solar Charge, Mo
 cardPick: Solid pick for most readers

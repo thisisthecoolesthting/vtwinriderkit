@@ -14,7 +14,7 @@ affiliateUrl: https://www.amazon.com/dp/B09PVFN7LG?tag=vtwinriderkit-20
 isPrime: false
 status: published
 firstSeen: '2026-06-02'
-lastSeen: '2026-08-03T15:32:29+00:00'
+lastSeen: '2026-08-03T15:33:58+00:00'
 slug: b09pvfn7lg-product
 cardTitle: JOYROOM Motorcycle Phone Mount, [1s Auto Lock][100mph Military Anti-Sh
 cardPick: Solid pick for most readers

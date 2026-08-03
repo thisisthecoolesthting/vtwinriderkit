@@ -14,7 +14,7 @@ affiliateUrl: https://www.amazon.com/dp/B0C827L9T5?tag=vtwinriderkit-20
 isPrime: false
 status: published
 firstSeen: '2026-06-02'
-lastSeen: '2026-08-03T15:32:29+00:00'
+lastSeen: '2026-08-03T15:33:58+00:00'
 slug: b0c827l9t5-product
 cardTitle: PhyiFlbey Motorcycle Seat Cushion Gel Pad Foldable Soft Seats with Pre
 cardPick: Solid pick for most readers

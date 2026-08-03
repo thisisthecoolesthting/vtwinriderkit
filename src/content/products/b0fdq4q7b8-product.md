@@ -14,7 +14,7 @@ affiliateUrl: https://www.amazon.com/dp/B0FDQ4Q7B8?tag=vtwinriderkit-20
 isPrime: false
 status: published
 firstSeen: '2026-06-02'
-lastSeen: '2026-08-03T15:32:29+00:00'
+lastSeen: '2026-08-03T15:33:58+00:00'
 slug: b0fdq4q7b8-product
 cardTitle: WAXTRON Bike Torque Wrench Tool Kit with Bits, 1/4-Inch Drive, Ratchet
 cardPick: Solid pick for most readers

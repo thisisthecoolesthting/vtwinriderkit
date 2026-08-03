@@ -14,7 +14,7 @@ affiliateUrl: https://www.amazon.com/dp/B0F1J5QHW3?tag=vtwinriderkit-20
 isPrime: false
 status: published
 firstSeen: '2026-06-02'
-lastSeen: '2026-08-03T15:32:29+00:00'
+lastSeen: '2026-08-03T15:33:58+00:00'
 slug: b0f1j5qhw3-product
 cardTitle: REV'IT! Pacific 4 H2O Motorcycle Rain Suit (Black/Neon Yellow - Medium
 cardPick: Solid pick for most readers

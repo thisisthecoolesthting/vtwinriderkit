@@ -14,7 +14,7 @@ affiliateUrl: https://www.amazon.com/dp/B0DR7RYP1M?tag=vtwinriderkit-20
 isPrime: false
 status: published
 firstSeen: '2026-06-02'
-lastSeen: '2026-08-03T15:32:29+00:00'
+lastSeen: '2026-08-03T15:33:58+00:00'
 slug: b0dr7ryp1m-product
 cardTitle: 'Alpinestars Hurricane Rain v2 Waterproof Motorcycle Suit, Lightweight '
 cardPick: Solid pick for most readers

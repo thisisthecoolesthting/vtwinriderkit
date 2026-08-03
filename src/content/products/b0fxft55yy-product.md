@@ -14,7 +14,7 @@ affiliateUrl: https://www.amazon.com/dp/B0FXFT55YY?tag=vtwinriderkit-20
 isPrime: false
 status: published
 firstSeen: '2026-06-02'
-lastSeen: '2026-08-03T15:32:29+00:00'
+lastSeen: '2026-08-03T15:33:58+00:00'
 slug: b0fxft55yy-product
 cardTitle: LLAVETOR 71pcs Bike Torque Wrench Set, Inch Pound Torque Wrench 1/4 In
 cardPick: Solid pick for most readers

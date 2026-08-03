@@ -14,7 +14,7 @@ affiliateUrl: https://www.amazon.com/dp/B0DPLZGS51?tag=vtwinriderkit-20
 isPrime: false
 status: published
 firstSeen: '2026-06-02'
-lastSeen: '2026-08-03T15:32:29+00:00'
+lastSeen: '2026-08-03T15:33:58+00:00'
 slug: b0dplzgs51-product
 cardTitle: JOYROOM Motorcycle Phone Mount Holder - [Dual Vibration Dampener] 150m
 cardPick: Solid pick for most readers

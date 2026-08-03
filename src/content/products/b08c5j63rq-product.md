@@ -14,7 +14,7 @@ affiliateUrl: https://www.amazon.com/dp/B08C5J63RQ?tag=vtwinriderkit-20
 isPrime: false
 status: published
 firstSeen: '2026-06-02'
-lastSeen: '2026-08-03T15:32:29+00:00'
+lastSeen: '2026-08-03T15:33:58+00:00'
 slug: b08c5j63rq-product
 cardTitle: Kryptonite Heavy Duty Motorcycle Alarm Disc Lock – Anti-Theft Powerspo
 cardPick: Solid pick for most readers

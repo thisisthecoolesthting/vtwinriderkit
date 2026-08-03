@@ -14,7 +14,7 @@ affiliateUrl: https://www.amazon.com/dp/B0BZP8B9LS?tag=vtwinriderkit-20
 isPrime: false
 status: published
 firstSeen: '2026-06-02'
-lastSeen: '2026-08-03T15:32:29+00:00'
+lastSeen: '2026-08-03T15:33:58+00:00'
 slug: b0bzp8b9ls-product
 cardTitle: YIYEIE 50Pcs Master Bike Torque Wrench Set, 1/4 Inch Drive, 10-230 IN.
 cardPick: Solid pick for most readers

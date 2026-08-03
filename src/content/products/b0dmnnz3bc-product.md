@@ -14,7 +14,7 @@ affiliateUrl: https://www.amazon.com/dp/B0DMNNZ3BC?tag=vtwinriderkit-20
 isPrime: false
 status: published
 firstSeen: '2026-06-02'
-lastSeen: '2026-08-03T15:32:29+00:00'
+lastSeen: '2026-08-03T15:33:58+00:00'
 slug: b0dmnnz3bc-product
 cardTitle: Motorcycle Tire Pressure Monitoring System, Motorcycle TPMS System
 cardPick: Solid pick for most readers

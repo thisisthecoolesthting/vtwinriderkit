@@ -14,7 +14,7 @@ affiliateUrl: https://www.amazon.com/dp/B0D179XM89?tag=vtwinriderkit-20
 isPrime: false
 status: published
 firstSeen: '2026-06-02'
-lastSeen: '2026-08-03T15:32:29+00:00'
+lastSeen: '2026-08-03T15:33:58+00:00'
 slug: b0d179xm89-product
 cardTitle: GRAND PITSTOP Foldable Motorcycle Gel Seat Cushion, Large 3D-Honeycomb
 cardPick: Solid pick for most readers

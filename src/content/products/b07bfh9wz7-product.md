@@ -14,7 +14,7 @@ affiliateUrl: https://www.amazon.com/dp/B07BFH9WZ7?tag=vtwinriderkit-20
 isPrime: false
 status: published
 firstSeen: '2026-06-02'
-lastSeen: '2026-08-03T15:32:29+00:00'
+lastSeen: '2026-08-03T15:33:58+00:00'
 slug: b07bfh9wz7-product
 cardTitle: Sykik Rider SRTP300 Wireless tire Pressure Monitoring System for Motor
 cardPick: Solid pick for most readers

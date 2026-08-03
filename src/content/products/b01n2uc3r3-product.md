@@ -14,7 +14,7 @@ affiliateUrl: https://www.amazon.com/dp/B01N2UC3R3?tag=vtwinriderkit-20
 isPrime: false
 status: published
 firstSeen: '2026-06-02'
-lastSeen: '2026-08-03T15:32:29+00:00'
+lastSeen: '2026-08-03T15:33:58+00:00'
 slug: b01n2uc3r3-product
 cardTitle: URBAN UR14S Approved Motorcycle Disc Lock with Smart Alarm | 120dB, LE
 cardPick: Solid pick for most readers

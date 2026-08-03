@@ -14,7 +14,7 @@ affiliateUrl: https://www.amazon.com/dp/B009Z1KQ2M?tag=vtwinriderkit-20
 isPrime: false
 status: published
 firstSeen: '2026-06-02'
-lastSeen: '2026-08-03T15:32:29+00:00'
+lastSeen: '2026-08-03T15:33:58+00:00'
 slug: b009z1kq2m-product
 cardTitle: BikeMaster Heated Grips 7/8 120mm Black
 cardPick: Solid pick for most readers

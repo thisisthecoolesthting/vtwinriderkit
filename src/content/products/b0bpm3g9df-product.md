@@ -14,7 +14,7 @@ affiliateUrl: https://www.amazon.com/dp/B0BPM3G9DF?tag=vtwinriderkit-20
 isPrime: false
 status: published
 firstSeen: '2026-06-02'
-lastSeen: '2026-08-03T15:32:29+00:00'
+lastSeen: '2026-08-03T15:33:58+00:00'
 slug: b0bpm3g9df-product
 cardTitle: OXWIND 12V Motorcycle Heated Grips Cover, ATV Scooter Handlebar Warmer
 cardPick: Solid pick for most readers

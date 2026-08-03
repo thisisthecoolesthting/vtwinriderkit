@@ -14,7 +14,7 @@ affiliateUrl: https://www.amazon.com/dp/B0B7WTD6GB?tag=vtwinriderkit-20
 isPrime: false
 status: published
 firstSeen: '2026-06-02'
-lastSeen: '2026-08-03T15:32:29+00:00'
+lastSeen: '2026-08-03T15:33:58+00:00'
 slug: b0b7wtd6gb-product
 cardTitle: CERITORN Motorcycle Seat Cushion, 3D Honeycomb Gel Pad, Pressure Relie
 cardPick: Solid pick for most readers
