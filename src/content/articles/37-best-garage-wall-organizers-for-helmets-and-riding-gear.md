@@ -5,7 +5,7 @@ metaDescription: Best garage wall organizers for helmets and riding gear. Practi
 publishedAt: '2026-06-02'
 updatedAt: '2026-06-02'
 excerpt: Best garage wall organizers for helmets and riding gear
-author: miguel-vega-viclabaggerguide
+author: jake-morales-vtwinriderkit
 tags:
 - garage
 - wall

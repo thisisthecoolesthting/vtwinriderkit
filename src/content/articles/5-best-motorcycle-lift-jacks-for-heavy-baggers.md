@@ -5,7 +5,7 @@ metaDescription: Best motorcycle lift jacks for heavy baggers. Practical guide c
 publishedAt: '2026-06-02'
 updatedAt: '2026-06-02'
 excerpt: Best motorcycle lift jacks for heavy baggers
-author: miguel-vega-viclabaggerguide
+author: jake-morales-vtwinriderkit
 tags:
 - motorcycle
 - lift

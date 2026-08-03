@@ -19,6 +19,8 @@ slug: b092lmzqz9-kemimoto-motorcycle-saddlebags-30l-large-capacity-saddle-bag
 cardTitle: KEMIMOTO Motorcycle Saddlebags, 30L Large Capacity Saddle Bags Motorcycles, PU L
 cardPick: Solid pick for most readers
 tags: []
+publishedAt: '2026-06-02'
+excerpt: '**KEMIMOTO Motorcycle Saddlebags, 30L Large Capacity Saddle Bags Motorcycles, PU Leather Motorcycle Luggage Bag for Sportster Softail Dyna V-star Shadow, Universal Motorcycle Ac...'
 ---
 
 ## Overview

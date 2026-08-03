@@ -19,6 +19,8 @@ slug: b0dknwf4fn-12pcs-rgb-ic-chasing-motorcycle-led-lights-for-harley-davids
 cardTitle: 12Pcs RGB+IC Chasing Motorcycle LED Lights for Harley Davidson Yamaha Kawasaki G
 cardPick: Solid pick for most readers
 tags: []
+publishedAt: '2026-06-03'
+excerpt: '**12Pcs RGB+IC Chasing Motorcycle LED Lights for Harley Davidson Yamaha Kawasaki Golf Cart ATV, Motorcycle LED Underglow Kit with App/RF Remote, Brake & Turn Signal, Waterproof...'
 ---
 
 ## Overview

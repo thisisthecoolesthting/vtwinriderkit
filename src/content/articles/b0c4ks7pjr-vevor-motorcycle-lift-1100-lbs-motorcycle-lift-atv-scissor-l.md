@@ -19,6 +19,8 @@ slug: b0c4ks7pjr-vevor-motorcycle-lift-1100-lbs-motorcycle-lift-atv-scissor-l
 cardTitle: VEVOR Motorcycle Lift, 1100 LBS Motorcycle Lift ATV Scissor Lift Jack with Dolly
 cardPick: Solid pick for most readers
 tags: []
+publishedAt: '2026-06-03'
+excerpt: '**VEVOR Motorcycle Lift, 1100 LBS Motorcycle Lift ATV Scissor Lift Jack with Dolly & Hand Crank, Center Hoist Crank Stand with Wide Deck & Tool Tray for Street Bikes, Cruiser Bi...'
 ---
 
 ## Overview

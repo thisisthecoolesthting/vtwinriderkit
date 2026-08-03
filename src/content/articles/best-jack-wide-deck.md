@@ -2,13 +2,16 @@
 title: Best jack wide deck in 2026
 description: best jack wide deck
 pubDate: '2026-07-13'
-author: editor
+author: jake-morales-vtwinriderkit
 tags:
 - best motorcycle lift
 - lift jack
 - best wide deck
 status: published
 heroImage: ''
+metaDescription: best jack wide deck
+publishedAt: '2026-07-13'
+excerpt: 'Alright, let''s talk about getting your V-Twin off the ground safely and stably. If you''ve spent any time wrenching on a Harley, Indian, or any other cruiser, you know that a goo...'
 ---
 
 Alright, let's talk about getting your V-Twin off the ground safely and stably. If you've spent any time wrenching on a Harley, Indian, or any other cruiser, you know that a good jack isn't just a convenience; it's a necessity. And for our bikes, "good" often means "wide deck."

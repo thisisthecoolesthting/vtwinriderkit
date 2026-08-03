@@ -19,6 +19,8 @@ slug: b0bmyvvqmr-ld-darkeagle-8pcs-motorcycle-rgb-led-light-kits-with-app-rf-
 cardTitle: LD DARKEAGLE 8PCS Motorcycle RGB LED Light Kits with APP/RF Remote, Multicolor U
 cardPick: Solid pick for most readers
 tags: []
+publishedAt: '2026-06-03'
+excerpt: '**LD DARKEAGLE 8PCS Motorcycle RGB LED Light Kits with APP/RF Remote, Multicolor Underglow Lights with Brake Turn Signal, 12V Waterproof Dual Zone Strip for Sport Bike, Cruiser,...'
 ---
 
 ## Overview

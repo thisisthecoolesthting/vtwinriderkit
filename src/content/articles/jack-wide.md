@@ -2,13 +2,16 @@
 title: Jack wide
 description: jack wide
 pubDate: '2026-07-13'
-author: editor
+author: jake-morales-vtwinriderkit
 tags:
 - best motorcycle lift
 - lift jack
 - best wide deck
 status: published
 heroImage: ''
+metaDescription: jack wide
+publishedAt: '2026-07-13'
+excerpt: 'When you''re wrenching on your Harley, you know that stability is paramount. A wobbly bike on a cheap stand isn''t just an inconvenience; it''s a hazard. That''s where a "jack wide"...'
 ---
 
 When you're wrenching on your Harley, you know that stability is paramount. A wobbly bike on a cheap stand isn't just an inconvenience; it's a hazard. That's where a "jack wide" comes into play – not a specific product called "jack wide," but rather the concept of a motorcycle jack designed with a wider stance for enhanced stability. This isn't about marketing jargon; it's about practical safety and functionality in your garage.

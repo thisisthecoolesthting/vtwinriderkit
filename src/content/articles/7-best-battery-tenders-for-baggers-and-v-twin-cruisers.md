@@ -5,7 +5,7 @@ metaDescription: Best battery tenders for baggers and V-twin cruisers. Practical
 publishedAt: '2026-06-02'
 updatedAt: '2026-06-02'
 excerpt: Best battery tenders for baggers and V-twin cruisers
-author: miguel-vega-viclabaggerguide
+author: jake-morales-vtwinriderkit
 tags:
 - battery
 - tenders

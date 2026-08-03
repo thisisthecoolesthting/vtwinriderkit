@@ -5,7 +5,7 @@ metaDescription: Best chrome polish for motorcycle baggers. Practical guide cove
 publishedAt: '2026-06-02'
 updatedAt: '2026-06-02'
 excerpt: Best chrome polish for motorcycle baggers
-author: miguel-vega-viclabaggerguide
+author: jake-morales-vtwinriderkit
 tags:
 - chrome
 - polish

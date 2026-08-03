@@ -19,6 +19,8 @@ slug: b07lf44c4n-vivohome-motorcycle-lift-1100-lbs-motorcycle-atv-scissor-lif
 cardTitle: VIVOHOME Motorcycle Lift 1100 LBS, Motorcycle ATV Scissor Lift Jack with Saddle 
 cardPick: Solid pick for most readers
 tags: []
+publishedAt: '2026-06-03'
+excerpt: '**VIVOHOME Motorcycle Lift 1100 LBS, Motorcycle ATV Scissor Lift Jack with Saddle and Safety Pins, Center Scissor Lift Jack for Dirt Bikes, Cruiser Bikes, Touring Motorcycles**...'
 ---
 
 ## Overview

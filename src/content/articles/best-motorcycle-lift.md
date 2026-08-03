@@ -2,13 +2,16 @@
 title: Best motorcycle lift in 2026
 description: best motorcycle lift
 pubDate: '2026-07-11'
-author: editor
+author: jake-morales-vtwinriderkit
 tags:
 - best motorcycle lift
 - lift jack
 - best wide deck
 status: published
 heroImage: ''
+metaDescription: best motorcycle lift
+publishedAt: '2026-07-11'
+excerpt: 'When you’ve been wrenching on bikes for as long as I have, you learn a few truths. One of the most fundamental is this: your back will thank you for a good motorcycle lift. Forg...'
 ---
 
 When you’ve been wrenching on bikes for as long as I have, you learn a few truths. One of the most fundamental is this: your back will thank you for a good motorcycle lift. Forget crawling around on a cold concrete floor; a proper lift elevates your work, literally and figuratively, making maintenance, cleaning, and custom work not just easier, but safer and more enjoyable.

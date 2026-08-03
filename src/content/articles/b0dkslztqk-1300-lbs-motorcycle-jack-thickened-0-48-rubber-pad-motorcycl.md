@@ -19,6 +19,8 @@ slug: b0dkslztqk-1300-lbs-motorcycle-jack-thickened-0-48-rubber-pad-motorcycl
 cardTitle: "1300 LBS Motorcycle Jack, Thickened 0.48\" Rubber Pad Motorcycle Lift, Upgraded A"
 cardPick: Solid pick for most readers
 tags: []
+publishedAt: '2026-06-03'
+excerpt: '**1300 LBS Motorcycle Jack, Thickened 0.48" Rubber Pad Motorcycle Lift, Upgraded Anti-Slip Bottom Dirtbike Stand, Carbon Steel Motorcycle Center Stand with Wide Deck, Chain Brus...'
 ---
 
 ## Overview

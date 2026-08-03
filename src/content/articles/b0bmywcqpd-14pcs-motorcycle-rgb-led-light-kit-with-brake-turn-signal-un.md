@@ -19,6 +19,8 @@ slug: b0bmywcqpd-14pcs-motorcycle-rgb-led-light-kit-with-brake-turn-signal-un
 cardTitle: 14PCS Motorcycle RGB LED Light Kit with Brake Turn Signal, Underglow Lights with
 cardPick: Solid pick for most readers
 tags: []
+publishedAt: '2026-06-03'
+excerpt: '**14PCS Motorcycle RGB LED Light Kit with Brake Turn Signal, Underglow Lights with APP/RF Remote,Neon Accent Light MultiColor Dual Zone Waterproof 12V for Sport Bike, Cruiser, S...'
 ---
 
 ## Overview

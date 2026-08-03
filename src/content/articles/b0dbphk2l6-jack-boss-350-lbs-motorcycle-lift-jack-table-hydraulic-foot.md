@@ -19,6 +19,8 @@ slug: b0dbphk2l6-jack-boss-350-lbs-motorcycle-lift-jack-table-hydraulic-foot-
 cardTitle: Jack Boss 350 Lbs Motorcycle Lift Jack Table, Hydraulic Foot-Operated Scissor Li
 cardPick: Solid pick for most readers
 tags: []
+publishedAt: '2026-06-03'
+excerpt: '**Jack Boss 350 Lbs Motorcycle Lift Jack Table, Hydraulic Foot-Operated Scissor Lift Jack for ATV Dirt Bike, Motorcycle Stand with 4 Wheels** is a stands pick we track for Calm,...'
 ---
 
 ## Overview

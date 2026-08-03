@@ -2,13 +2,16 @@
 title: Lbs motorcycle lift
 description: lbs motorcycle lift
 pubDate: '2026-07-12'
-author: editor
+author: jake-morales-vtwinriderkit
 tags:
 - best motorcycle lift
 - lift jack
 - best wide deck
 status: published
 heroImage: ''
+metaDescription: lbs motorcycle lift
+publishedAt: '2026-07-12'
+excerpt: "When you’re wrenching on your Harley, Indian, or any other V-twin, getting the bike off the ground safely and stably is non-negotiable. Forget balancing acts with floor jacks an..."
 ---
 
 When you’re wrenching on your Harley, Indian, or any other V-twin, getting the bike off the ground safely and stably is non-negotiable. Forget balancing acts with floor jacks and wood blocks – that’s a recipe for disaster. A proper motorcycle lift isn't just a convenience; it's a fundamental piece of shop equipment that protects your back, your bike, and your sanity.

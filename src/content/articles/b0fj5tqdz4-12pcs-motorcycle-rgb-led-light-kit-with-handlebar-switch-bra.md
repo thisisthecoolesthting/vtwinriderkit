@@ -19,6 +19,8 @@ slug: b0fj5tqdz4-12pcs-motorcycle-rgb-led-light-kit-with-handlebar-switch-bra
 cardTitle: 12PCS Motorcycle RGB LED Light Kit with Handlebar Switch Brake Turn Signal, Mult
 cardPick: Solid pick for most readers
 tags: []
+publishedAt: '2026-06-03'
+excerpt: '**12PCS Motorcycle RGB LED Light Kit with Handlebar Switch Brake Turn Signal, Multicolor Underglow Lights with APP/RF Remote, Neon Strips 12V Waterproof for Sport Bike,Cruiser,S...'
 ---
 
 ## Overview

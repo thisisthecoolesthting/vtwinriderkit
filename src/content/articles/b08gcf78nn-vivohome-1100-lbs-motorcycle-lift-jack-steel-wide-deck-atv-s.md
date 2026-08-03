@@ -19,6 +19,8 @@ slug: b08gcf78nn-vivohome-1100-lbs-motorcycle-lift-jack-steel-wide-deck-atv-s
 cardTitle: VIVOHOME 1100 Lbs Motorcycle Lift Jack, Steel Wide Deck ATV Scissor Lift with Do
 cardPick: Solid pick for most readers
 tags: []
+publishedAt: '2026-06-03'
+excerpt: '**VIVOHOME 1100 Lbs Motorcycle Lift Jack, Steel Wide Deck ATV Scissor Lift with Dolly Wheels & Hand Crank, Bike Garage Repair Hoist Stand for Maintenance, Black** is a scissor-l...'
 ---
 
 ## Overview

@@ -148,9 +148,96 @@ const latestSixWithDedupe = latestSix.map((a) => {
   }
   return { entry: a, imageUrl: pickPoolImage(a.slug) };
 });
+
+const pageTitle = 'Battery Maintainer vs Charger for V-Twin Cruisers';
+const pageDescription =
+  (h as { metaDescription?: string }).metaDescription?.trim() ||
+  dmeta ||
+  'Battery maintainer vs charger explained for V-twin cruisers: when to use a smart maintainer, how it differs from a trickle charger, plus disc-lock and garage gear guides.';
+
+// Visible FAQ copy — FAQPage JSON-LD must match these strings exactly.
+const homepageFaqs: { question: string; answer: string }[] = [
+  {
+    question: 'What is the difference between a battery maintainer and a charger?',
+    answer:
+      'A battery maintainer uses smart circuitry to monitor voltage and switch into float mode once the battery is full, so it can stay connected during storage without overcharging. A basic charger or trickle charger typically feeds a constant low current and does not regulate the same way — leave it hooked up too long and you risk heat, electrolyte loss, and a shorter battery life. For seasonal V-twin storage, a maintainer is usually the safer choice.',
+  },
+  {
+    question: 'Battery maintainer vs trickle charger — which should cruiser riders use?',
+    answer:
+      'Frequent riders who only need a short top-off can sometimes get by with a simple trickle charger. Infrequent or winter-storage riders are better served by a smart maintainer, especially on AGM, gel, or lithium batteries that need regulated charging. Our garage guides treat maintainers as the default for American cruisers that sit between weekend rides.',
+  },
+  {
+    question: 'Are motorcycle disc locks effective?',
+    answer:
+      'Yes — as a visible first layer. A disc lock immobilizes the brake rotor so the bike cannot roll away, which stops most opportunistic theft. They are not foolproof alone; our security guides recommend pairing a hardened, preferably alarmed disc lock with a cover, garage practices, and other deterrents for layered protection.',
+  },
+  {
+    question: 'What makes the best disc lock for a motorcycle or motorbike?',
+    answer:
+      'Look for hardened steel construction, a fit that matches your rotor, weather-resistant finishes, and — when possible — an audible alarm around 100 dB or louder. Compact size matters for cruiser rotors and saddlebag storage. Bright color or a reminder cable helps you avoid riding off with the lock still on.',
+  },
+  {
+    question: 'What is the Xena XX14+ disc lock used for?',
+    answer:
+      'In our garage security guide, the Oxford Xena XX14+ appears as an alarm disc lock paired with a breathable motorcycle cover for indoor storage. It is positioned for high-security stationary use: immobilize the rotor, deter tampering with an alarm, and shield paint and chrome under a fitted cover. Always remove any disc lock before you ride.',
+  },
+  {
+    question: 'What is the best chrome cleaner for motorcycles?',
+    answer:
+      'Choose a polish made for motorcycle or automotive chrome — ideally micro-abrasive, low-residue, and free of silicone if you may repaint or replate later. Pair it with clean microfiber cloths and dedicated motorcycle wash soap rather than dish detergent. Regular light polishing beats aggressive restoration after chrome has already pitted.',
+  },
+  {
+    question: 'Do motorcycle dash cams help commuting riders?',
+    answer:
+      'They can. Motorcycle dash cams need compact, weatherproof housings and mounts that handle wind and vibration. Useful features include wide-angle lenses, loop recording, and reliable power from USB or the bike’s charging system. Budget units still provide crash evidence; higher-end models add clearer video and extras like GPS for longer tour and commute use.',
+  },
+];
+
+const relatedGuides = [
+  {
+    href: '/articles/37-best-battery-maintainers-vs-trickle-chargers-cruiser-garage-guide',
+    label: 'Battery maintainers vs trickle chargers',
+    blurb: 'Side-by-side comparison for cruiser garage storage.',
+  },
+  {
+    href: '/pillars/garage-maintenance',
+    label: 'Garage and maintenance pillar',
+    blurb: 'Battery tenders, lifts, tools, and cleaning gear.',
+  },
+  {
+    href: '/articles/13-best-motorcycle-disc-locks-and-cover-combos-for-garages',
+    label: 'Disc locks and cover combos',
+    blurb: 'Garage security picks, including XX14+ style alarm locks.',
+  },
+  {
+    href: '/pillars/security-storage',
+    label: 'Security and storage pillar',
+    blurb: 'Locks, covers, trackers, and layered theft deterrence.',
+  },
+  {
+    href: '/articles/20-best-motorcycle-cleaning-kits-for-chrome-and-matte-black',
+    label: 'Chrome and matte cleaning kits',
+    blurb: 'Finish-safe cleaners for baggers and V-twins.',
+  },
+];
+
+const faqJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: homepageFaqs.map((item) => ({
+    '@type': 'Question',
+    name: item.question,
+    acceptedAnswer: {
+      '@type': 'Answer',
+      text: item.answer,
+    },
+  })),
+};
 ---
 
-<BaseLayout title={b.fullName} description={dmeta} sectionAds="home" sectionAdsCompact>
+<BaseLayout title={pageTitle} description={pageDescription} sectionAds="home" sectionAdsCompact>
+  <script slot="head" type="application/ld+json" set:html={JSON.stringify(faqJsonLd)} />
 
   {/* ============================================================
       1. HERO — 2-col on desktop, headline left + 2:3 portrait image right.
@@ -434,7 +521,69 @@ const latestSixWithDedupe = latestSix.map((a) => {
   )}
 
   {/* ============================================================
-      6. AUTHOR TRUST BLOCK — Full-bleed dark ink. The E-E-A-T spine slot
+      6. RELATED GUIDES — internal links to real published pages that
+      match Search Console queries (battery, disc locks, chrome).
+  ============================================================ */}
+  <section class="max-w-6xl mx-auto px-5 py-20 border-t border-cream-200" aria-labelledby="related-guides-heading">
+    <div class="flex flex-col md:flex-row md:items-end md:justify-between gap-5 mb-10">
+      <div>
+        <p class="font-mono text-[11px] tracking-[0.18em] uppercase text-terracotta-600 font-medium mb-2">Related guides</p>
+        <h2 id="related-guides-heading" class="font-display text-3xl md:text-4xl text-ink-900 !mt-0 leading-tight max-w-[22ch]">
+          Keep reading on battery care, disc locks, and garage gear.
+        </h2>
+      </div>
+      <a href="/articles" class="font-mono text-[11.5px] tracking-[0.08em] uppercase text-ink-900 border-b border-terracotta-500 pb-0.5 no-underline hover:text-terracotta-600 whitespace-nowrap">
+        All articles →
+      </a>
+    </div>
+    <ul class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 list-none p-0 m-0">
+      {relatedGuides.map((g) => (
+        <li>
+          <a href={g.href} class="group no-underline block h-full rounded-xl border border-cream-200 bg-cream-50 px-5 py-5 hover:border-terracotta-400 hover:shadow-soft transition-all">
+            <h3 class="font-display text-lg text-ink-900 !mt-0 leading-snug group-hover:text-terracotta-600">
+              {g.label}
+            </h3>
+            <p class="text-sm text-ink-700 mt-2 leading-relaxed">{g.blurb}</p>
+            <span class="font-mono text-[11px] tracking-[0.1em] uppercase text-terracotta-600 mt-4 inline-block">
+              Read guide →
+            </span>
+          </a>
+        </li>
+      ))}
+    </ul>
+  </section>
+
+  {/* ============================================================
+      7. FAQ — visible Q&A grounded in published guides; JSON-LD in head
+      mirrors this copy exactly for FAQPage rich results.
+  ============================================================ */}
+  <section class="bg-gradient-to-b from-cream-50 to-cream-100 border-y border-cream-200" aria-labelledby="homepage-faq-heading">
+    <div class="max-w-3xl mx-auto px-5 py-20">
+      <p class="font-mono text-[11px] tracking-[0.18em] uppercase text-terracotta-600 font-medium mb-2">Common questions</p>
+      <h2 id="homepage-faq-heading" class="font-display text-3xl md:text-4xl text-ink-900 !mt-0 leading-tight max-w-[24ch]">
+        Battery maintainers, disc locks, and chrome care — answered.
+      </h2>
+      <p class="text-sm text-ink-700 mt-4 mb-10 max-w-[52ch] leading-relaxed">
+        Straight answers from our published cruiser guides. No invented specs — just the distinctions riders actually search for.
+      </p>
+      <div class="space-y-4">
+        {homepageFaqs.map((item) => (
+          <details class="group rounded-xl border border-cream-200 bg-cream-50 open:bg-white open:shadow-soft transition-colors">
+            <summary class="cursor-pointer list-none font-display text-lg text-ink-900 px-5 py-4 flex items-start justify-between gap-4 [&::-webkit-details-marker]:hidden">
+              <span>{item.question}</span>
+              <span aria-hidden="true" class="font-mono text-terracotta-600 text-sm mt-1 shrink-0 group-open:rotate-45 transition-transform">+</span>
+            </summary>
+            <p class="px-5 pb-5 text-[15px] text-ink-700 leading-relaxed !mt-0">
+              {item.answer}
+            </p>
+          </details>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  {/* ============================================================
+      8. AUTHOR TRUST BLOCK — Full-bleed dark ink. The E-E-A-T spine slot
       Pinterest's classifier looks for: named editor, named credentials,
       methodology link.
   ============================================================ */}
@@ -503,7 +652,7 @@ const latestSixWithDedupe = latestSix.map((a) => {
   </section>
 
   {/* ============================================================
-      7. NEWSLETTER — kept lean; uses existing NewsletterForm component
+      9. NEWSLETTER — kept lean; uses existing NewsletterForm component
       so Beehiiv / native form / placeholder logic stays consistent.
   ============================================================ */}
   <section class="max-w-3xl mx-auto px-5 py-20">
@@ -511,7 +660,7 @@ const latestSixWithDedupe = latestSix.map((a) => {
   </section>
 
   {/* ============================================================
-      8. METHODOLOGY DISCLOSURE STRIP — single-row sage band, the link
+      10. METHODOLOGY DISCLOSURE STRIP — single-row sage band, the link
       Pinterest's anti-spam classifier specifically looks for.
   ============================================================ */}
   <section class="bg-sage-400/15 border-y border-cream-200 py-12">

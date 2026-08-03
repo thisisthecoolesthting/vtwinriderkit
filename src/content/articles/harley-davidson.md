@@ -2,13 +2,16 @@
 title: Harley davidson
 description: harley davidson
 pubDate: '2026-07-13'
-author: editor
+author: jake-morales-vtwinriderkit
 tags:
 - best motorcycle lift
 - lift jack
 - best wide deck
 status: published
 heroImage: ''
+metaDescription: harley davidson
+publishedAt: '2026-07-13'
+excerpt: "As an Amazon Associate, I earn from qualifying purchases."
 ---
 
 As an Amazon Associate, I earn from qualifying purchases.

@@ -10,7 +10,7 @@ tags:
   - cardio
   - value
   - home gym
-author: marcus-webb
+author: jake-morales-vtwinriderkit
 ---
 
 ## Compare on sessions per year

@@ -5,7 +5,7 @@ metaDescription: Best helmet locks and quick-security add-ons. Practical guide c
 publishedAt: '2026-06-02'
 updatedAt: '2026-06-02'
 excerpt: Best helmet locks and quick-security add-ons
-author: miguel-vega-viclabaggerguide
+author: jake-morales-vtwinriderkit
 tags:
 - helmet
 - locks

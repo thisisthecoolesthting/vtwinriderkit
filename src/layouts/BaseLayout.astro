@@ -123,6 +123,7 @@ const ogImageUrl = isAbs(og) ? og : siteUrl ? new URL(og, siteUrl + '/').toStrin
         <script set:html={`window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', '${gaMeasurementId}', { 'anonymize_ip': true });`}></script>
       </>
     )}
+    <slot name="head" />
   </head>
   <body class="min-h-screen flex flex-col site-page-bg texture-paper">
     <SkipLink />

@@ -5,7 +5,7 @@ metaDescription: Best microfiber kits for whitewall and paint-safe wiping. Pract
 publishedAt: '2026-06-02'
 updatedAt: '2026-06-02'
 excerpt: Best microfiber kits for whitewall and paint-safe wiping
-author: miguel-vega-viclabaggerguide
+author: jake-morales-vtwinriderkit
 tags:
 - microfiber
 - kits

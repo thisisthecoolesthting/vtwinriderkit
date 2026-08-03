@@ -2,13 +2,16 @@
 title: Dirt bike
 description: dirt bike
 pubDate: '2026-07-12'
-author: editor
+author: jake-morales-vtwinriderkit
 tags:
 - best motorcycle lift
 - lift jack
 - best wide deck
 status: published
 heroImage: ''
+metaDescription: dirt bike
+publishedAt: '2026-07-12'
+excerpt: 'Alright, let''s talk dirt bikes. Not just any dirt bikes, but the kind of machines that scratch that primal itch for two-wheeled adventure off the beaten path. I''ve been slinging...'
 ---
 
 Alright, let's talk dirt bikes. Not just any dirt bikes, but the kind of machines that scratch that primal itch for two-wheeled adventure off the beaten path. I've been slinging a leg over these things for decades, from the early days of two-strokes spitting oil and defiance, to the refined four-stroke beasts that dominate the trails and tracks today. This isn't about marketing hype; it's about what actually works, what breaks, and what you need to know to get the most out of your ride.

@@ -19,6 +19,8 @@ slug: b0c1mwtxgg-18pcs-rgb-motorcycle-led-light-kit-waterproof-motorcycle-und
 cardTitle: 18Pcs RGB Motorcycle LED Light Kit, Waterproof Motorcycle Underglow Kit with APP
 cardPick: Solid pick for most readers
 tags: []
+publishedAt: '2026-06-03'
+excerpt: '**18Pcs RGB Motorcycle LED Light Kit, Waterproof Motorcycle Underglow Kit with APP/RF Brake Trun Signal, Motorcycle Cruiser Underbody Strip Light for Harley Davidson Kawasaki Su...'
 ---
 
 ## Overview

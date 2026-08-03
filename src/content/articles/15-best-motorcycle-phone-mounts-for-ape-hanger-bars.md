@@ -5,7 +5,7 @@ metaDescription: Best motorcycle phone mounts for ape hanger bars. Practical gui
 publishedAt: '2026-06-02'
 updatedAt: '2026-06-02'
 excerpt: Best motorcycle phone mounts for ape hanger bars
-author: miguel-vega-viclabaggerguide
+author: jake-morales-vtwinriderkit
 tags:
 - motorcycle
 - phone

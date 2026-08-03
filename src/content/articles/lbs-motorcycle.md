@@ -2,13 +2,16 @@
 title: Lbs motorcycle
 description: lbs motorcycle
 pubDate: '2026-07-12'
-author: editor
+author: jake-morales-vtwinriderkit
 tags:
 - best motorcycle lift
 - lift jack
 - best wide deck
 status: published
 heroImage: ''
+metaDescription: lbs motorcycle
+publishedAt: '2026-07-12'
+excerpt: 'I''ve been riding motorcycles for decades, long enough to remember when a 750cc bike was considered a big machine. Now, with engines twice that size and more commonplace, the wei...'
 ---
 
 I've been riding motorcycles for decades, long enough to remember when a 750cc bike was considered a big machine. Now, with engines twice that size and more commonplace, the weight of these machines has become a serious consideration for many riders. When we talk about "lbs motorcycle," we're diving into a topic that affects everything from handling and performance to comfort and even safety. Understanding the weight of your motorcycle, and what that weight means in practical terms, is crucial for any rider, new or experienced.

@@ -5,7 +5,7 @@ metaDescription: Best motorcycle dollies for tight garage spaces. Practical guid
 publishedAt: '2026-06-02'
 updatedAt: '2026-06-02'
 excerpt: Best motorcycle dollies for tight garage spaces
-author: miguel-vega-viclabaggerguide
+author: jake-morales-vtwinriderkit
 tags:
 - motorcycle
 - dollies

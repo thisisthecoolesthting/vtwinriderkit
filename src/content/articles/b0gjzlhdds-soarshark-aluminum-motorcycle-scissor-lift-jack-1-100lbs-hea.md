@@ -19,6 +19,8 @@ slug: b0gjzlhdds-soarshark-aluminum-motorcycle-scissor-lift-jack-1-100lbs-hea
 cardTitle: SOARSHARK Aluminum Motorcycle Scissor Lift Jack, 1,100LBS Heavy Duty Dirt Bike S
 cardPick: Solid pick for most readers
 tags: []
+publishedAt: '2026-06-03'
+excerpt: '**SOARSHARK Aluminum Motorcycle Scissor Lift Jack, 1,100LBS Heavy Duty Dirt Bike Stand with Upgraded M16 Screw & Double Reinforcement Shafts, Non-Slip Rubber Pad Saddle for ATV...'
 ---
 
 ## Overview

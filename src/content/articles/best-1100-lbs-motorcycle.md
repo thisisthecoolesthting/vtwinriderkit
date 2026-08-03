@@ -2,13 +2,16 @@
 title: Best 1100 lbs motorcycle in 2026
 description: best 1100 lbs motorcycle
 pubDate: '2026-07-12'
-author: editor
+author: jake-morales-vtwinriderkit
 tags:
 - best motorcycle lift
 - lift jack
 - best wide deck
 status: published
 heroImage: ''
+metaDescription: best 1100 lbs motorcycle
+publishedAt: '2026-07-12'
+excerpt: 'When we talk about an "1100 lbs motorcycle," we''re not discussing a specific displacement or model, but rather a class of heavyweight cruisers. These aren''t your nimble sportbik...'
 ---
 
 When we talk about an "1100 lbs motorcycle," we're not discussing a specific displacement or model, but rather a class of heavyweight cruisers. These aren't your nimble sportbikes or even middleweight tourers. We're getting into serious iron, machines built for eating miles, carrying significant loads, and projecting an undeniable presence. For riders who value stability, torque, and a commanding road feel, these heavyweights are often the ultimate expression of motorcycling.

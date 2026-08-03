@@ -19,6 +19,8 @@ slug: b0fqllypjs-badass-moto-motorcycle-kickstand-pad-kick-stand-puck-coaster
 cardTitle: Badass Moto Motorcycle Kickstand Pad - Kick Stand Puck, Coaster Plate for Harley
 cardPick: Solid pick for most readers
 tags: []
+publishedAt: '2026-06-02'
+excerpt: '**Badass Moto Motorcycle Kickstand Pad - Kick Stand Puck, Coaster Plate for Harley Davidson, Touring & Sport Bikes - Motorcycle Accessories for Grass, Dirt, Hot Pavement Parking...'
 ---
 
 ## Overview

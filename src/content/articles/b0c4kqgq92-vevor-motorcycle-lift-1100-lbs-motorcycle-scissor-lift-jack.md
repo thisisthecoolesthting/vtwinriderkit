@@ -19,6 +19,8 @@ slug: b0c4kqgq92-vevor-motorcycle-lift-1100-lbs-motorcycle-scissor-lift-jack-
 cardTitle: VEVOR Motorcycle Lift, 1100 LBS Motorcycle Scissor Lift Jack with Wide Deck & Sa
 cardPick: Solid pick for most readers
 tags: []
+publishedAt: '2026-06-03'
+excerpt: '**VEVOR Motorcycle Lift, 1100 LBS Motorcycle Scissor Lift Jack with Wide Deck & Safety Pin, 3.7"-13.8" Center Hoist Crank Stand, Steel Scissor Jack for Street Bikes, Cruiser Bik...'
 ---
 
 ## Overview

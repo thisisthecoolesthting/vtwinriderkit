@@ -5,7 +5,7 @@ metaDescription: Best motorcycle covers for chrome-heavy baggers. Practical guid
 publishedAt: '2026-06-02'
 updatedAt: '2026-06-02'
 excerpt: Best motorcycle covers for chrome-heavy baggers
-author: miguel-vega-viclabaggerguide
+author: jake-morales-vtwinriderkit
 tags:
 - motorcycle
 - covers

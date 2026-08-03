@@ -19,6 +19,8 @@ slug: b0h117bq3n-motorcycle-dash-cam-mount-mount-anti-theft-support-motorbike
 cardTitle: Motorcycle Dash Cam Mount - Mount Anti-Theft Support - Motorbike Mirror Dash Cam
 cardPick: Solid pick for most readers
 tags: []
+publishedAt: '2026-06-03'
+excerpt: '**Motorcycle Dash Cam Mount - Mount Anti-Theft Support - Motorbike Mirror Dash Cam Holder Kit - for Outdoor Daily Travel Road Trip Night Riding Highway Cruise Mountain Road** is...'
 ---
 
 ## Overview

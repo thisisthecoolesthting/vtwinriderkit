@@ -19,6 +19,8 @@ slug: b0cq2dmk86-vevor-hydraulic-motorcycle-lift-table-350-lbs-capacity-motor
 cardTitle: VEVOR Hydraulic Motorcycle Lift Table, 350 lbs Capacity Motorcycle Scissor Jack 
 cardPick: Solid pick for most readers
 tags: []
+publishedAt: '2026-06-03'
+excerpt: '**VEVOR Hydraulic Motorcycle Lift Table, 350 lbs Capacity Motorcycle Scissor Jack Lift with Wide Deck, J-Hooks, 4 Wheels, Hydraulic Foot-Operated Jack Stand for ATV Dirt Bikes**...'
 ---
 
 ## Overview

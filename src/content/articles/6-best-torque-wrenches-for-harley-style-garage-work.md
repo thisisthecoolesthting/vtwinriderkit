@@ -5,7 +5,7 @@ metaDescription: Best torque wrenches for Harley-style garage work. Practical gu
 publishedAt: '2026-06-02'
 updatedAt: '2026-06-02'
 excerpt: Best torque wrenches for Harley-style garage work
-author: miguel-vega-viclabaggerguide
+author: jake-morales-vtwinriderkit
 tags:
 - torque
 - wrenches

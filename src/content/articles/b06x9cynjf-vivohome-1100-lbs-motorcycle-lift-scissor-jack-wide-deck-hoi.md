@@ -19,6 +19,8 @@ slug: b06x9cynjf-vivohome-1100-lbs-motorcycle-lift-scissor-jack-wide-deck-hoi
 cardTitle: VIVOHOME 1100 LBS Motorcycle Lift Scissor Jack, Wide Deck Hoist Stand, Height Ad
 cardPick: Solid pick for most readers
 tags: []
+publishedAt: '2026-06-03'
+excerpt: '**VIVOHOME 1100 LBS Motorcycle Lift Scissor Jack, Wide Deck Hoist Stand, Height Adjustable Center Stand with Crank, Steel Lift for Cruiser, Dirt Bike, ATV - Red** is a scissor-l...'
 ---
 
 ## Overview

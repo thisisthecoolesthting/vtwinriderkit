@@ -2,13 +2,16 @@
 title: Lift jack
 description: lift jack
 pubDate: '2026-07-11'
-author: editor
+author: jake-morales-vtwinriderkit
 tags:
 - best motorcycle lift
 - lift jack
 - best wide deck
 status: published
 heroImage: ''
+metaDescription: lift jack
+publishedAt: '2026-07-11'
+excerpt: 'When you''ve been wrenching on bikes as long as I have, you learn pretty quickly that a good lift jack isn''t a luxury – it''s a necessity. Trying to muscle a 700-pound V-twin arou...'
 ---
 
 When you've been wrenching on bikes as long as I have, you learn pretty quickly that a good lift jack isn't a luxury – it's a necessity. Trying to muscle a 700-pound V-twin around on the garage floor, or worse, trying to get it stable on a flimsy kickstand for anything beyond a simple oil change, is a recipe for frustration, damage, and potentially, injury. A proper lift jack elevates your bike, secures it, and makes virtually every maintenance task safer and more efficient.

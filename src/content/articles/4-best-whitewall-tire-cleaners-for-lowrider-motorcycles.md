@@ -5,7 +5,7 @@ metaDescription: Best whitewall tire cleaners for lowrider motorcycles. Practica
 publishedAt: '2026-06-02'
 updatedAt: '2026-06-02'
 excerpt: Best whitewall tire cleaners for lowrider motorcycles
-author: miguel-vega-viclabaggerguide
+author: jake-morales-vtwinriderkit
 tags:
 - whitewall
 - tire

@@ -19,6 +19,8 @@ slug: b0b8d7b6mm-cxrcy-1200-lbs-motorcycle-lift-scissor-jack-upgraded-dirt-bi
 cardTitle: CXRCY 1200 LBS Motorcycle Lift Scissor Jack Upgraded Dirt Bike ATV Steel Motorcy
 cardPick: Solid pick for most readers
 tags: []
+publishedAt: '2026-06-03'
+excerpt: '**CXRCY 1200 LBS Motorcycle Lift Scissor Jack Upgraded Dirt Bike ATV Steel Motorcycle Hoist Stand with Ratchet Wrench,Crank Handle,Thickened Rubber Pad,Wide Deck** is a scissor-...'
 ---
 
 ## Overview

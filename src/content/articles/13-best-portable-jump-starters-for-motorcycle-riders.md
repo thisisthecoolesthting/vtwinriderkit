@@ -5,7 +5,7 @@ metaDescription: Best portable jump starters for motorcycle riders. Practical gu
 publishedAt: '2026-06-02'
 updatedAt: '2026-06-02'
 excerpt: Best portable jump starters for motorcycle riders
-author: miguel-vega-viclabaggerguide
+author: jake-morales-vtwinriderkit
 tags:
 - portable
 - jump
