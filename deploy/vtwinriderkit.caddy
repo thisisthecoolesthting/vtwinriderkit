@@ -1,0 +1,15 @@
+
+# vtwinriderkit (Bendita Fiesta) - appended by deploy/go-live.sh
+__DOMAIN__, www.__DOMAIN__ {
+	@www host www.__DOMAIN__
+	redir @www https://__DOMAIN__{uri} permanent
+	log {
+		output file /var/log/caddy/vtwinriderkit.log {
+			roll_size 20mb
+			roll_keep 30
+		}
+		format json
+	}
+	encode zstd gzip
+	reverse_proxy 127.0.0.1:3126
+}

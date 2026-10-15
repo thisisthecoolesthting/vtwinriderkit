@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Ride in Memory Tees, Hoodies &amp; Flags | Biker Memorial Gear | V-Twin Rider Kit</title>
+<meta name="description" content="Personalized biker memorial gear: Ride in Memory tees, hoodies, mugs, prints and flags with a rider's name, dates and a cruiser, touring or sport silhouette. Made to order in the USA.">
+<link rel="canonical" href="{{SITE_URL}}/">
+<meta name="theme-color" content="#0b0908">
+<meta property="og:type" content="website"><meta property="og:site_name" content="{{BRAND}}"><meta property="og:url" content="{{SITE_URL}}/">
+<meta property="og:title" content="Ride in Memory: personalized biker memorial tees, hoodies and flags">
+<meta property="og:description" content="Type a name and dates, pick a bike silhouette, see it before you order. Memorial tees, hoodies, mugs, prints and club run flags.">
+<meta property="og:image" content="{{OG_IMAGE}}"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:alt" content="Ride in Memory personalized tee and memorial print with wings, roses and a sunset road">
+<meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Ride in Memory: personalized biker memorial gear"><meta name="twitter:description" content="Memorial tees, hoodies, mugs, prints and club run flags with the rider's name and dates."><meta name="twitter:image" content="{{OG_IMAGE}}">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="preload" href="/fonts/BebasNeue-Regular.ttf" as="font" type="font/ttf" crossorigin>
+<link rel="stylesheet" href="/styles.css">
+<script type="application/ld+json">{{JSONLD}}</script>
+{{PIXELS}}
+</head>
+<body id="top">
+<a class="skip" href="#items">Skip to the gear</a>
+<header class="bar">
+  <a class="brand" href="#top" aria-label="V-Twin Rider Kit home"><svg width="30" height="30" viewBox="0 0 64 64" aria-hidden="true"><use href="/favicon.svg#m"/></svg><span>V-TWIN <b>RIDER KIT</b></span></a>
+  <nav class="nav" aria-label="Main"><a href="#items">Gear</a><a href="#how">How it works</a><a href="#faq">FAQ</a></nav>
+  <button class="cart-btn" id="openCart" type="button" aria-label="Open cart"><span>Cart</span><b id="cartCount" hidden>0</b></button>
+</header>
+
+<main>
+<section class="hero" aria-labelledby="h1">
+  <div class="hero-bg" aria-hidden="true"></div>
+  <div class="wrap hero-grid">
+    <div class="hero-copy">
+      <p class="eyebrow">Memorial and club ride gear</p>
+      <h1 id="h1">RIDE IN <em>MEMORY</em></h1>
+      <p class="lead">Tees, hoodies, mugs and flags for the rider you are remembering, or the club and run keeping their name on the road. Type the name, pick the bike, see it before you order.</p>
+    </div>
+
+    <form class="builder" id="builder" autocomplete="off" onsubmit="return false" aria-label="Personalize your design">
+      <div class="seg" role="radiogroup" aria-label="Design type">
+        <label><input type="radio" name="mode" value="memorial" checked><span>In memory of a rider</span></label>
+        <label><input type="radio" name="mode" value="club"><span>Club or run</span></label>
+      </div>
+      <div class="field"><label for="fName" id="lName">Rider's name</label><input id="fName" maxlength="28" placeholder="Dale Ruiz" enterkeyhint="done" autocapitalize="words"></div>
+      <div class="field row2" id="datesMemorial"><div><label for="fFrom">Born</label><input id="fFrom" maxlength="14" inputmode="numeric" placeholder="1961"></div><div><label for="fTo">Rode on</label><input id="fTo" maxlength="14" inputmode="numeric" placeholder="2025"></div></div>
+      <div class="field" id="datesClub" hidden><label for="fRun">Run, event or year</label><input id="fRun" maxlength="32" placeholder="Memorial Run 2027"></div>
+      <div class="field"><label for="fTag">Banner line</label><select id="fTag"></select></div>
+      <fieldset class="bikes"><legend>Bike silhouette <small>generic shapes, no brand logos</small></legend>
+        <label><input type="radio" name="bike" value="cruiser" checked><span><i class="bk" style="--m:url(/img/art/bike_cruiser.webp)"></i>Cruiser</span></label>
+        <label><input type="radio" name="bike" value="touring"><span><i class="bk" style="--m:url(/img/art/bike_touring.webp)"></i>Touring</span></label>
+        <label><input type="radio" name="bike" value="sport"><span><i class="bk" style="--m:url(/img/art/bike_sport.webp)"></i>Sport</span></label>
+      </fieldset>
+      <a class="btn big" href="#items">Choose your gear</a>
+    </form>
+
+    <div class="stage" id="stage">
+      <div class="tabs" role="tablist" aria-label="Preview on">
+        <button type="button" role="tab" data-pv="tee" aria-selected="true">Tee</button><button type="button" role="tab" data-pv="hoodie" aria-selected="false">Hoodie</button><button type="button" role="tab" data-pv="poster" aria-selected="false">Print</button><button type="button" role="tab" data-pv="flag" aria-selected="false">Flag</button><button type="button" role="tab" data-pv="mug" aria-selected="false">Mug</button>
+      </div>
+      <div class="pv" data-kind="tee" id="pv"><img id="pvImg" src="/api/preview.png?p=tee&amp;mode=memorial&amp;name=Dale%20Ruiz&amp;line2=1961%20%E2%80%93%202025&amp;tag=ride-in-memory&amp;bike=cruiser" width="640" height="725" alt="Live preview of the print file for your design"></div>
+      <p class="pv-note">Sample shown until you type a name. This is the print file we send to the printer, drawn live. Real photos of every item are below.</p>
+    </div>
+  </div>
+</section>
+
+<section class="items" id="items" aria-labelledby="h2items">
+  <div class="wrap">
+    <h2 id="h2items">THE GEAR</h2>
+    <p class="sub">Every item below prints your design from the builder above. Dark garments, so the ember and chrome glow.</p>
+    <div class="grid" id="grid">
+{{PRODUCTS}}
+    </div>
+  </div>
+</section>
+
+<section class="how" id="how" aria-labelledby="h2how">
+  <div class="wrap">
+    <h2 id="h2how">HOW IT WORKS</h2>
+    <ol class="steps">
+      <li><b>1</b><h3>Make it theirs</h3><p>Type the rider's name and years, or your club and run. Pick cruiser, touring or sport and a banner line.</p></li>
+      <li><b>2</b><h3>Pick the gear</h3><p>Choose a tee, hoodie, mug, print or flag, then color and size. Your words go straight onto the print file.</p></li>
+      <li><b>3</b><h3>We print and ship</h3><p>Each order is printed on demand and shipped from a US print partner. Expect about 7 to 12 business days door to door.</p></li>
+    </ol>
+  </div>
+</section>
+
+<section class="faqs" id="faq" aria-labelledby="h2faq">
+  <div class="wrap narrow">
+    <h2 id="h2faq">QUESTIONS</h2>
+{{FAQ}}
+  </div>
+</section>
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <div class="legal-grid">
+      <section id="shipping"><h3>Shipping</h3><p>Everything is made to order and ships from US print partners to US addresses. Production takes 2 to 5 business days, then 3 to 8 business days in transit. Shipping is Printify's own rate for your items and is shown at checkout before you pay; we do not mark it up. If you need something by a service date, order at least three weeks ahead and email us first.</p></section>
+      <section id="returns"><h3>Returns</h3><p>Because each item is printed for you, we cannot take back an order for size or a change of mind. If it arrives damaged, misprinted or with text that differs from what you submitted, email us within 30 days with a photo and we will reprint or refund it. Check the spelling in the preview before you pay: what you see is what prints.</p></section>
+      <section id="privacy"><h3>Privacy</h3><p>We collect your name, email, shipping address and the personalization text only to make and ship your order. Payment is handled by Stripe; we never see your card number. Your details go to Stripe and to our print partner and carrier, and nowhere else. We do not sell data. Ad pixels, if enabled, only measure visits and purchases.</p></section>
+      <section id="contact"><h3>Contact</h3><p>Questions, club orders of 12 or more, or a design you cannot find? Email <a href="mailto:{{CONTACT_EMAIL}}">{{CONTACT_EMAIL}}</a>. We answer within two business days.</p></section>
+    </div>
+    <p class="fine">{{BRAND}} is an independent shop. Not affiliated with or endorsed by any motorcycle manufacturer. All artwork is original and bike silhouettes are generic. Made to order, printed and shipped in the USA.</p>
+  </div>
+</footer>
+
+<div class="buybar" id="buybar"><div><b id="buybarName">Dale Ruiz</b><small id="buybarSub">Ride in memory</small></div><a class="btn" href="#items">Gear</a><button type="button" id="buybarCart" class="btn ghost">Cart <b id="buybarCount">0</b></button></div>
+
+<aside class="drawer" id="drawer" aria-hidden="true" aria-label="Cart">
+  <div class="scrim" data-close></div>
+  <div class="panel"><div class="ph"><h3>Your order</h3><button type="button" data-close aria-label="Close cart">&times;</button></div><div id="cartLines" class="lines"></div><div id="cartFoot" class="foot-tot"></div></div>
+</aside>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<script src="/qtext.js"></script>
+<script src="/app.js" defer></script>
+</body>
+</html>

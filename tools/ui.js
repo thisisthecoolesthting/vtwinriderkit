@@ -1,0 +1,21 @@
+const puppeteer = require('puppeteer-core'); const EDGE = 'C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe'; const U = 'http://localhost:3047';
+(async () => {
+  const br = await puppeteer.launch({ executablePath: EDGE, headless: 'new', args: ['--no-sandbox'] }); const errs = [];
+  const pg = await br.newPage(); pg.on('console', m => { if (m.type() === 'error') errs.push(m.text()); }); pg.on('pageerror', e => errs.push('PAGEERR ' + e.message));
+  await pg.setViewport({ width: 390, height: 844, deviceScaleFactor: 2, isMobile: true, hasTouch: true });
+  await pg.goto(U + '/', { waitUntil: 'networkidle0' });
+  console.log('overflowX', await pg.evaluate(() => document.documentElement.scrollWidth - window.innerWidth));
+  await pg.click('input[name=event][value=comunion] + span'); await pg.type('#fName', 'Sofía'); await pg.$eval('#fDate', e => { e.value = '2027-05-08'; e.dispatchEvent(new Event('input', { bubbles: true })); });
+  await pg.select('#fRole', 'familia'); await new Promise(r => setTimeout(r, 400));
+  await pg.screenshot({ path: 'shots/m-hero.png' });
+  console.log('preview', await pg.evaluate(() => [$('#pvHead').textContent, $('#pvName').textContent, $('#pvBot').textContent].join(' | ').replace(/\$/g, '')).catch(() => ''));
+  await pg.evaluate(() => document.querySelector('#item-crew-tee').scrollIntoView()); await pg.click('#item-crew-tee .add'); await pg.click('#item-kids-tee .add').catch(() => {}); await new Promise(r => setTimeout(r, 300));
+  await pg.click('#buybarCart'); await new Promise(r => setTimeout(r, 500)); await pg.screenshot({ path: 'shots/m-cart.png' });
+  const cartTxt = await pg.evaluate(() => document.querySelector('#cartLines').innerText); console.log('CART:', cartTxt.replace(/\n+/g, ' / ').slice(0, 300));
+  await pg.goto(U + '/checkout', { waitUntil: 'networkidle0' }); await pg.screenshot({ path: 'shots/m-checkout.png', fullPage: true });
+  await pg.goto(U + '/', { waitUntil: 'networkidle0' }); await pg.click('.lang button[data-lang=en]'); await new Promise(r => setTimeout(r, 400)); await pg.screenshot({ path: 'shots/m-en.png' });
+  console.log('overflowX(en)', await pg.evaluate(() => document.documentElement.scrollWidth - window.innerWidth));
+  await pg.evaluate(() => localStorage.clear()); await pg.setViewport({ width: 1366, height: 900 }); await pg.goto(U + '/', { waitUntil: 'networkidle0' }); await pg.screenshot({ path: 'shots/d-hero.png' });
+  await pg.evaluate(() => document.querySelector('#item-paquete-fiesta').scrollIntoView()); await new Promise(r => setTimeout(r, 300)); await pg.screenshot({ path: 'shots/d-bundle.png' });
+  console.log('console errors:', errs.length ? errs.join(' ; ') : 'none'); await br.close();
+})().catch(e => { console.error('UI FAIL', e.message); process.exit(1); });

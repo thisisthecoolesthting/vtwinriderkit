@@ -1,0 +1,1023 @@
+{
+ "memorial-tee": {
+  "printify_id": "6ad0174890ab0eb26d083f31",
+  "variants": [
+   {
+    "id": 18100,
+    "title": "Black / S",
+    "color": "Black",
+    "sizeLabel": "S",
+    "size": [
+     3319,
+     3761
+    ],
+    "cost": 1177,
+    "price": 1799
+   },
+   {
+    "id": 18101,
+    "title": "Black / M",
+    "color": "Black",
+    "sizeLabel": "M",
+    "size": [
+     3909,
+     4431
+    ],
+    "cost": 1177,
+    "price": 1799
+   },
+   {
+    "id": 18102,
+    "title": "Black / L",
+    "color": "Black",
+    "sizeLabel": "L",
+    "size": [
+     4500,
+     5100
+    ],
+    "cost": 1177,
+    "price": 1799
+   },
+   {
+    "id": 18103,
+    "title": "Black / XL",
+    "color": "Black",
+    "sizeLabel": "XL",
+    "size": [
+     4500,
+     5100
+    ],
+    "cost": 1177,
+    "price": 1799
+   },
+   {
+    "id": 18104,
+    "title": "Black / 2XL",
+    "color": "Black",
+    "sizeLabel": "2XL",
+    "size": [
+     4500,
+     5100
+    ],
+    "cost": 1438,
+    "price": 2099
+   },
+   {
+    "id": 18105,
+    "title": "Black / 3XL",
+    "color": "Black",
+    "sizeLabel": "3XL",
+    "size": [
+     4500,
+     5100
+    ],
+    "cost": 1677,
+    "price": 2499
+   },
+   {
+    "id": 18148,
+    "title": "Dark Grey Heather / S",
+    "color": "Dark Grey Heather",
+    "sizeLabel": "S",
+    "size": [
+     3319,
+     3761
+    ],
+    "cost": 1177,
+    "price": 1799
+   },
+   {
+    "id": 18149,
+    "title": "Dark Grey Heather / M",
+    "color": "Dark Grey Heather",
+    "sizeLabel": "M",
+    "size": [
+     3909,
+     4431
+    ],
+    "cost": 1177,
+    "price": 1799
+   },
+   {
+    "id": 18150,
+    "title": "Dark Grey Heather / L",
+    "color": "Dark Grey Heather",
+    "sizeLabel": "L",
+    "size": [
+     4500,
+     5100
+    ],
+    "cost": 1177,
+    "price": 1799
+   },
+   {
+    "id": 18151,
+    "title": "Dark Grey Heather / XL",
+    "color": "Dark Grey Heather",
+    "sizeLabel": "XL",
+    "size": [
+     4500,
+     5100
+    ],
+    "cost": 1177,
+    "price": 1799
+   },
+   {
+    "id": 18152,
+    "title": "Dark Grey Heather / 2XL",
+    "color": "Dark Grey Heather",
+    "sizeLabel": "2XL",
+    "size": [
+     4500,
+     5100
+    ],
+    "cost": 1438,
+    "price": 2099
+   },
+   {
+    "id": 18153,
+    "title": "Dark Grey Heather / 3XL",
+    "color": "Dark Grey Heather",
+    "sizeLabel": "3XL",
+    "size": [
+     4500,
+     5100
+    ],
+    "cost": 1677,
+    "price": 2499
+   }
+  ],
+  "images": [
+   {
+    "file": "memorial-tee-0.webp",
+    "position": "other",
+    "is_default": true,
+    "variant_ids": [
+     18100,
+     18101,
+     18102,
+     18103,
+     18104,
+     18105
+    ],
+    "printify_src": "https://images-api.printify.com/mockup/6ad0174890ab0eb26d083f31/18102/102044/ride-in-memory-tee-personalized-biker-memorial-t-shirt.jpg?camera_label=front-2"
+   },
+   {
+    "file": "memorial-tee-1.webp",
+    "position": "other",
+    "is_default": false,
+    "variant_ids": [
+     18100,
+     18101,
+     18102,
+     18103,
+     18104,
+     18105
+    ],
+    "printify_src": "https://images-api.printify.com/mockup/6ad0174890ab0eb26d083f31/18102/102045/ride-in-memory-tee-personalized-biker-memorial-t-shirt.jpg?camera_label=back-2"
+   },
+   {
+    "file": "memorial-tee-2.webp",
+    "position": "other",
+    "is_default": false,
+    "variant_ids": [
+     18100,
+     18101,
+     18102,
+     18103,
+     18104,
+     18105
+    ],
+    "printify_src": "https://images-api.printify.com/mockup/6ad0174890ab0eb26d083f31/18102/102046/ride-in-memory-tee-personalized-biker-memorial-t-shirt.jpg?camera_label=folded"
+   },
+   {
+    "file": "memorial-tee-3.webp",
+    "position": "other",
+    "is_default": false,
+    "variant_ids": [
+     18100,
+     18101,
+     18102,
+     18103,
+     18104,
+     18105
+    ],
+    "printify_src": "https://images-api.printify.com/mockup/6ad0174890ab0eb26d083f31/18102/102048/ride-in-memory-tee-personalized-biker-memorial-t-shirt.jpg?camera_label=hanging-1"
+   },
+   {
+    "file": "memorial-tee-4.webp",
+    "position": "other",
+    "is_default": true,
+    "variant_ids": [
+     18148,
+     18149,
+     18150,
+     18151,
+     18152,
+     18153
+    ],
+    "printify_src": "https://images-api.printify.com/mockup/6ad0174890ab0eb26d083f31/18150/102044/ride-in-memory-tee-personalized-biker-memorial-t-shirt.jpg?camera_label=front-2"
+   },
+   {
+    "file": "memorial-tee-5.webp",
+    "position": "other",
+    "is_default": false,
+    "variant_ids": [
+     18148,
+     18149,
+     18150,
+     18151,
+     18152,
+     18153
+    ],
+    "printify_src": "https://images-api.printify.com/mockup/6ad0174890ab0eb26d083f31/18150/102045/ride-in-memory-tee-personalized-biker-memorial-t-shirt.jpg?camera_label=back-2"
+   },
+   {
+    "file": "memorial-tee-6.webp",
+    "position": "other",
+    "is_default": false,
+    "variant_ids": [
+     18148,
+     18149,
+     18150,
+     18151,
+     18152,
+     18153
+    ],
+    "printify_src": "https://images-api.printify.com/mockup/6ad0174890ab0eb26d083f31/18150/102046/ride-in-memory-tee-personalized-biker-memorial-t-shirt.jpg?camera_label=folded"
+   },
+   {
+    "file": "memorial-tee-7.webp",
+    "position": "other",
+    "is_default": false,
+    "variant_ids": [
+     18148,
+     18149,
+     18150,
+     18151,
+     18152,
+     18153
+    ],
+    "printify_src": "https://images-api.printify.com/mockup/6ad0174890ab0eb26d083f31/18150/102048/ride-in-memory-tee-personalized-biker-memorial-t-shirt.jpg?camera_label=hanging-1"
+   }
+  ],
+  "min_price": 1799,
+  "min_cost": 1177
+ },
+ "memorial-hoodie": {
+  "printify_id": "6ad01753e59f52a3c604aff9",
+  "variants": [
+   {
+    "id": 32878,
+    "title": "Dark Heather / S",
+    "color": "Dark Heather",
+    "sizeLabel": "S",
+    "size": [
+     2894,
+     2368
+    ],
+    "cost": 2759,
+    "price": 4099
+   },
+   {
+    "id": 32879,
+    "title": "Dark Heather / M",
+    "color": "Dark Heather",
+    "sizeLabel": "M",
+    "size": [
+     3071,
+     2512
+    ],
+    "cost": 2759,
+    "price": 4099
+   },
+   {
+    "id": 32880,
+    "title": "Dark Heather / L",
+    "color": "Dark Heather",
+    "sizeLabel": "L",
+    "size": [
+     3300,
+     2700
+    ],
+    "cost": 2759,
+    "price": 4099
+   },
+   {
+    "id": 32881,
+    "title": "Dark Heather / XL",
+    "color": "Dark Heather",
+    "sizeLabel": "XL",
+    "size": [
+     3300,
+     2700
+    ],
+    "cost": 2759,
+    "price": 4099
+   },
+   {
+    "id": 32882,
+    "title": "Dark Heather / 2XL",
+    "color": "Dark Heather",
+    "sizeLabel": "2XL",
+    "size": [
+     3300,
+     2700
+    ],
+    "cost": 3786,
+    "price": 5499
+   },
+   {
+    "id": 32883,
+    "title": "Dark Heather / 3XL",
+    "color": "Dark Heather",
+    "sizeLabel": "3XL",
+    "size": [
+     3300,
+     2700
+    ],
+    "cost": 4267,
+    "price": 6199
+   },
+   {
+    "id": 32894,
+    "title": "Navy / S",
+    "color": "Navy",
+    "sizeLabel": "S",
+    "size": [
+     2894,
+     2368
+    ],
+    "cost": 2759,
+    "price": 4099
+   },
+   {
+    "id": 32895,
+    "title": "Navy / M",
+    "color": "Navy",
+    "sizeLabel": "M",
+    "size": [
+     3071,
+     2512
+    ],
+    "cost": 2759,
+    "price": 4099
+   },
+   {
+    "id": 32896,
+    "title": "Navy / L",
+    "color": "Navy",
+    "sizeLabel": "L",
+    "size": [
+     3300,
+     2700
+    ],
+    "cost": 2759,
+    "price": 4099
+   },
+   {
+    "id": 32897,
+    "title": "Navy / XL",
+    "color": "Navy",
+    "sizeLabel": "XL",
+    "size": [
+     3300,
+     2700
+    ],
+    "cost": 2759,
+    "price": 4099
+   },
+   {
+    "id": 32898,
+    "title": "Navy / 2XL",
+    "color": "Navy",
+    "sizeLabel": "2XL",
+    "size": [
+     3300,
+     2700
+    ],
+    "cost": 3786,
+    "price": 5499
+   },
+   {
+    "id": 32899,
+    "title": "Navy / 3XL",
+    "color": "Navy",
+    "sizeLabel": "3XL",
+    "size": [
+     3300,
+     2700
+    ],
+    "cost": 4267,
+    "price": 6199
+   },
+   {
+    "id": 32918,
+    "title": "Black / S",
+    "color": "Black",
+    "sizeLabel": "S",
+    "size": [
+     2894,
+     2368
+    ],
+    "cost": 2759,
+    "price": 4099
+   },
+   {
+    "id": 32919,
+    "title": "Black / M",
+    "color": "Black",
+    "sizeLabel": "M",
+    "size": [
+     3071,
+     2512
+    ],
+    "cost": 2759,
+    "price": 4099
+   },
+   {
+    "id": 32920,
+    "title": "Black / L",
+    "color": "Black",
+    "sizeLabel": "L",
+    "size": [
+     3300,
+     2700
+    ],
+    "cost": 2759,
+    "price": 4099
+   },
+   {
+    "id": 32921,
+    "title": "Black / XL",
+    "color": "Black",
+    "sizeLabel": "XL",
+    "size": [
+     3300,
+     2700
+    ],
+    "cost": 2759,
+    "price": 4099
+   },
+   {
+    "id": 32922,
+    "title": "Black / 2XL",
+    "color": "Black",
+    "sizeLabel": "2XL",
+    "size": [
+     3300,
+     2700
+    ],
+    "cost": 3786,
+    "price": 5499
+   },
+   {
+    "id": 32923,
+    "title": "Black / 3XL",
+    "color": "Black",
+    "sizeLabel": "3XL",
+    "size": [
+     3300,
+     2700
+    ],
+    "cost": 4267,
+    "price": 6199
+   }
+  ],
+  "images": [
+   {
+    "file": "memorial-hoodie-0.webp",
+    "position": "front",
+    "is_default": true,
+    "variant_ids": [
+     32918,
+     32919,
+     32920,
+     32921,
+     32922,
+     32923
+    ],
+    "printify_src": "https://images-api.printify.com/mockup/6ad01753e59f52a3c604aff9/32920/98424/ride-in-memory-hoodie-personalized-biker-memorial-hoodie.jpg?camera_label=front"
+   },
+   {
+    "file": "memorial-hoodie-1.webp",
+    "position": "back",
+    "is_default": false,
+    "variant_ids": [
+     32918,
+     32919,
+     32920,
+     32921,
+     32922,
+     32923
+    ],
+    "printify_src": "https://images-api.printify.com/mockup/6ad01753e59f52a3c604aff9/32920/98425/ride-in-memory-hoodie-personalized-biker-memorial-hoodie.jpg?camera_label=back"
+   },
+   {
+    "file": "memorial-hoodie-2.webp",
+    "position": "back",
+    "is_default": false,
+    "variant_ids": [
+     32918,
+     32919,
+     32920,
+     32921,
+     32922,
+     32923
+    ],
+    "printify_src": "https://images-api.printify.com/mockup/6ad01753e59f52a3c604aff9/32920/98426/ride-in-memory-hoodie-personalized-biker-memorial-hoodie.jpg?camera_label=back-2"
+   },
+   {
+    "file": "memorial-hoodie-3.webp",
+    "position": "other",
+    "is_default": false,
+    "variant_ids": [
+     32918,
+     32919,
+     32920,
+     32921,
+     32922,
+     32923
+    ],
+    "printify_src": "https://images-api.printify.com/mockup/6ad01753e59f52a3c604aff9/32920/98432/ride-in-memory-hoodie-personalized-biker-memorial-hoodie.jpg?camera_label=folded"
+   },
+   {
+    "file": "memorial-hoodie-4.webp",
+    "position": "front",
+    "is_default": true,
+    "variant_ids": [
+     32878,
+     32879,
+     32880,
+     32881,
+     32882,
+     32883
+    ],
+    "printify_src": "https://images-api.printify.com/mockup/6ad01753e59f52a3c604aff9/32880/98424/ride-in-memory-hoodie-personalized-biker-memorial-hoodie.jpg?camera_label=front"
+   },
+   {
+    "file": "memorial-hoodie-5.webp",
+    "position": "back",
+    "is_default": false,
+    "variant_ids": [
+     32878,
+     32879,
+     32880,
+     32881,
+     32882,
+     32883
+    ],
+    "printify_src": "https://images-api.printify.com/mockup/6ad01753e59f52a3c604aff9/32880/98425/ride-in-memory-hoodie-personalized-biker-memorial-hoodie.jpg?camera_label=back"
+   },
+   {
+    "file": "memorial-hoodie-6.webp",
+    "position": "back",
+    "is_default": false,
+    "variant_ids": [
+     32878,
+     32879,
+     32880,
+     32881,
+     32882,
+     32883
+    ],
+    "printify_src": "https://images-api.printify.com/mockup/6ad01753e59f52a3c604aff9/32880/98426/ride-in-memory-hoodie-personalized-biker-memorial-hoodie.jpg?camera_label=back-2"
+   },
+   {
+    "file": "memorial-hoodie-7.webp",
+    "position": "other",
+    "is_default": false,
+    "variant_ids": [
+     32878,
+     32879,
+     32880,
+     32881,
+     32882,
+     32883
+    ],
+    "printify_src": "https://images-api.printify.com/mockup/6ad01753e59f52a3c604aff9/32880/98432/ride-in-memory-hoodie-personalized-biker-memorial-hoodie.jpg?camera_label=folded"
+   },
+   {
+    "file": "memorial-hoodie-8.webp",
+    "position": "front",
+    "is_default": true,
+    "variant_ids": [
+     32894,
+     32895,
+     32896,
+     32897,
+     32898,
+     32899
+    ],
+    "printify_src": "https://images-api.printify.com/mockup/6ad01753e59f52a3c604aff9/32896/98424/ride-in-memory-hoodie-personalized-biker-memorial-hoodie.jpg?camera_label=front"
+   },
+   {
+    "file": "memorial-hoodie-9.webp",
+    "position": "back",
+    "is_default": false,
+    "variant_ids": [
+     32894,
+     32895,
+     32896,
+     32897,
+     32898,
+     32899
+    ],
+    "printify_src": "https://images-api.printify.com/mockup/6ad01753e59f52a3c604aff9/32896/98425/ride-in-memory-hoodie-personalized-biker-memorial-hoodie.jpg?camera_label=back"
+   },
+   {
+    "file": "memorial-hoodie-10.webp",
+    "position": "back",
+    "is_default": false,
+    "variant_ids": [
+     32894,
+     32895,
+     32896,
+     32897,
+     32898,
+     32899
+    ],
+    "printify_src": "https://images-api.printify.com/mockup/6ad01753e59f52a3c604aff9/32896/98426/ride-in-memory-hoodie-personalized-biker-memorial-hoodie.jpg?camera_label=back-2"
+   },
+   {
+    "file": "memorial-hoodie-11.webp",
+    "position": "other",
+    "is_default": false,
+    "variant_ids": [
+     32894,
+     32895,
+     32896,
+     32897,
+     32898,
+     32899
+    ],
+    "printify_src": "https://images-api.printify.com/mockup/6ad01753e59f52a3c604aff9/32896/98432/ride-in-memory-hoodie-personalized-biker-memorial-hoodie.jpg?camera_label=folded"
+   }
+  ],
+  "min_price": 4099,
+  "min_cost": 2759
+ },
+ "memorial-mug": {
+  "printify_id": "6ad017584c7c8d0e9c0e8658",
+  "variants": [
+   {
+    "id": 67624,
+    "title": "11oz",
+    "color": null,
+    "sizeLabel": "11oz",
+    "size": [
+     2480,
+     1146
+    ],
+    "cost": 867,
+    "price": 1299
+   }
+  ],
+  "images": [
+   {
+    "file": "memorial-mug-0.webp",
+    "position": "front",
+    "is_default": true,
+    "variant_ids": [
+     67624
+    ],
+    "printify_src": "https://images-api.printify.com/mockup/6ad017584c7c8d0e9c0e8658/67624/7674/ride-in-memory-mug-11oz-personalized-rider-tribute-mug.jpg?camera_label=front"
+   },
+   {
+    "file": "memorial-mug-1.webp",
+    "position": "other",
+    "is_default": false,
+    "variant_ids": [
+     67624
+    ],
+    "printify_src": "https://images-api.printify.com/mockup/6ad017584c7c8d0e9c0e8658/67624/7675/ride-in-memory-mug-11oz-personalized-rider-tribute-mug.jpg?camera_label=left"
+   },
+   {
+    "file": "memorial-mug-2.webp",
+    "position": "other",
+    "is_default": false,
+    "variant_ids": [
+     67624
+    ],
+    "printify_src": "https://images-api.printify.com/mockup/6ad017584c7c8d0e9c0e8658/67624/7676/ride-in-memory-mug-11oz-personalized-rider-tribute-mug.jpg?camera_label=right"
+   },
+   {
+    "file": "memorial-mug-3.webp",
+    "position": "other",
+    "is_default": false,
+    "variant_ids": [
+     67624
+    ],
+    "printify_src": "https://images-api.printify.com/mockup/6ad017584c7c8d0e9c0e8658/67624/8410/ride-in-memory-mug-11oz-personalized-rider-tribute-mug.jpg?camera_label=context-1"
+   }
+  ],
+  "min_price": 1299,
+  "min_cost": 867
+ },
+ "memorial-print": {
+  "printify_id": "6ad017d14b954522360edeed",
+  "variants": [
+   {
+    "id": 43135,
+    "title": "11″ x 14″ / Matte",
+    "color": null,
+    "sizeLabel": "11″ x 14″",
+    "size": [
+     3300,
+     4200
+    ],
+    "cost": 592,
+    "price": 899
+   },
+   {
+    "id": 43141,
+    "title": "16″ x 20″ / Matte",
+    "color": null,
+    "sizeLabel": "16″ x 20″",
+    "size": [
+     4800,
+     6000
+    ],
+    "cost": 1077,
+    "price": 1599
+   },
+   {
+    "id": 43144,
+    "title": "18″ x 24″ / Matte",
+    "color": null,
+    "sizeLabel": "18″ x 24″",
+    "size": [
+     5400,
+     7200
+    ],
+    "cost": 1062,
+    "price": 1599
+   }
+  ],
+  "images": [
+   {
+    "file": "memorial-print-0.webp",
+    "position": "other",
+    "is_default": true,
+    "variant_ids": [
+     43144
+    ],
+    "printify_src": "https://images-api.printify.com/mockup/6ad017d14b954522360edeed/43144/94696/ride-in-memory-print-personalized-biker-memorial-poster.jpg?camera_label=front"
+   },
+   {
+    "file": "memorial-print-1.webp",
+    "position": "other",
+    "is_default": false,
+    "variant_ids": [
+     43144
+    ],
+    "printify_src": "https://images-api.printify.com/mockup/6ad017d14b954522360edeed/43144/94734/ride-in-memory-print-personalized-biker-memorial-poster.jpg?camera_label=front-2"
+   },
+   {
+    "file": "memorial-print-2.webp",
+    "position": "other",
+    "is_default": false,
+    "variant_ids": [
+     43144
+    ],
+    "printify_src": "https://images-api.printify.com/mockup/6ad017d14b954522360edeed/43144/99410/ride-in-memory-print-personalized-biker-memorial-poster.jpg?camera_label=close-up"
+   },
+   {
+    "file": "memorial-print-3.webp",
+    "position": "other",
+    "is_default": false,
+    "variant_ids": [
+     43144
+    ],
+    "printify_src": "https://images-api.printify.com/mockup/6ad017d14b954522360edeed/43144/95153/ride-in-memory-print-personalized-biker-memorial-poster.jpg?camera_label=context-1"
+   },
+   {
+    "file": "memorial-print-4.webp",
+    "position": "other",
+    "is_default": true,
+    "variant_ids": [
+     43141
+    ],
+    "printify_src": "https://images-api.printify.com/mockup/6ad017d14b954522360edeed/43141/94692/ride-in-memory-print-personalized-biker-memorial-poster.jpg?camera_label=front"
+   },
+   {
+    "file": "memorial-print-5.webp",
+    "position": "other",
+    "is_default": false,
+    "variant_ids": [
+     43141
+    ],
+    "printify_src": "https://images-api.printify.com/mockup/6ad017d14b954522360edeed/43141/94730/ride-in-memory-print-personalized-biker-memorial-poster.jpg?camera_label=front-2"
+   },
+   {
+    "file": "memorial-print-6.webp",
+    "position": "other",
+    "is_default": false,
+    "variant_ids": [
+     43141
+    ],
+    "printify_src": "https://images-api.printify.com/mockup/6ad017d14b954522360edeed/43141/99407/ride-in-memory-print-personalized-biker-memorial-poster.jpg?camera_label=close-up"
+   },
+   {
+    "file": "memorial-print-7.webp",
+    "position": "other",
+    "is_default": false,
+    "variant_ids": [
+     43141
+    ],
+    "printify_src": "https://images-api.printify.com/mockup/6ad017d14b954522360edeed/43141/95149/ride-in-memory-print-personalized-biker-memorial-poster.jpg?camera_label=context-1"
+   },
+   {
+    "file": "memorial-print-8.webp",
+    "position": "other",
+    "is_default": true,
+    "variant_ids": [
+     43135
+    ],
+    "printify_src": "https://images-api.printify.com/mockup/6ad017d14b954522360edeed/43135/94677/ride-in-memory-print-personalized-biker-memorial-poster.jpg?camera_label=front"
+   },
+   {
+    "file": "memorial-print-9.webp",
+    "position": "other",
+    "is_default": false,
+    "variant_ids": [
+     43135
+    ],
+    "printify_src": "https://images-api.printify.com/mockup/6ad017d14b954522360edeed/43135/94718/ride-in-memory-print-personalized-biker-memorial-poster.jpg?camera_label=front-2"
+   },
+   {
+    "file": "memorial-print-10.webp",
+    "position": "other",
+    "is_default": false,
+    "variant_ids": [
+     43135
+    ],
+    "printify_src": "https://images-api.printify.com/mockup/6ad017d14b954522360edeed/43135/99397/ride-in-memory-print-personalized-biker-memorial-poster.jpg?camera_label=close-up"
+   },
+   {
+    "file": "memorial-print-11.webp",
+    "position": "other",
+    "is_default": false,
+    "variant_ids": [
+     43135
+    ],
+    "printify_src": "https://images-api.printify.com/mockup/6ad017d14b954522360edeed/43135/95138/ride-in-memory-print-personalized-biker-memorial-poster.jpg?camera_label=context-1"
+   }
+  ],
+  "min_price": 899,
+  "min_cost": 592
+ },
+ "memorial-flag": {
+  "printify_id": "6ad017f4b66d13e95600632f",
+  "variants": [
+   {
+    "id": 102239,
+    "title": "36\" x 24\"",
+    "color": null,
+    "sizeLabel": "36\" x 24\"",
+    "size": [
+     5695,
+     3892
+    ],
+    "cost": 1926,
+    "price": 2799
+   },
+   {
+    "id": 102240,
+    "title": "18\" x 12\"",
+    "color": null,
+    "sizeLabel": "18\" x 12\"",
+    "size": [
+     2995,
+     2095
+    ],
+    "cost": 1412,
+    "price": 2099
+   },
+   {
+    "id": 102241,
+    "title": "60\" x 36\"",
+    "color": null,
+    "sizeLabel": "60\" x 36\"",
+    "size": [
+     9295,
+     5695
+    ],
+    "cost": 2900,
+    "price": 4299
+   }
+  ],
+  "images": [
+   {
+    "file": "memorial-flag-0.webp",
+    "position": "other",
+    "is_default": true,
+    "variant_ids": [
+     102239
+    ],
+    "printify_src": "https://images-api.printify.com/mockup/6ad017f4b66d13e95600632f/102239/98680/ride-in-memory-flag-personalized-club-and-memorial-run-flag.jpg?camera_label=front"
+   },
+   {
+    "file": "memorial-flag-1.webp",
+    "position": "other",
+    "is_default": false,
+    "variant_ids": [
+     102239
+    ],
+    "printify_src": "https://images-api.printify.com/mockup/6ad017f4b66d13e95600632f/102239/98961/ride-in-memory-flag-personalized-club-and-memorial-run-flag.jpg?camera_label=back"
+   },
+   {
+    "file": "memorial-flag-2.webp",
+    "position": "other",
+    "is_default": false,
+    "variant_ids": [
+     102239
+    ],
+    "printify_src": "https://images-api.printify.com/mockup/6ad017f4b66d13e95600632f/102239/98964/ride-in-memory-flag-personalized-club-and-memorial-run-flag.jpg?camera_label=context-1"
+   },
+   {
+    "file": "memorial-flag-3.webp",
+    "position": "other",
+    "is_default": false,
+    "variant_ids": [
+     102239
+    ],
+    "printify_src": "https://images-api.printify.com/mockup/6ad017f4b66d13e95600632f/102239/98967/ride-in-memory-flag-personalized-club-and-memorial-run-flag.jpg?camera_label=context-2"
+   },
+   {
+    "file": "memorial-flag-4.webp",
+    "position": "other",
+    "is_default": true,
+    "variant_ids": [
+     102240
+    ],
+    "printify_src": "https://images-api.printify.com/mockup/6ad017f4b66d13e95600632f/102240/98679/ride-in-memory-flag-personalized-club-and-memorial-run-flag.jpg?camera_label=front"
+   },
+   {
+    "file": "memorial-flag-5.webp",
+    "position": "other",
+    "is_default": false,
+    "variant_ids": [
+     102240
+    ],
+    "printify_src": "https://images-api.printify.com/mockup/6ad017f4b66d13e95600632f/102240/98960/ride-in-memory-flag-personalized-club-and-memorial-run-flag.jpg?camera_label=back"
+   },
+   {
+    "file": "memorial-flag-6.webp",
+    "position": "other",
+    "is_default": false,
+    "variant_ids": [
+     102240
+    ],
+    "printify_src": "https://images-api.printify.com/mockup/6ad017f4b66d13e95600632f/102240/98963/ride-in-memory-flag-personalized-club-and-memorial-run-flag.jpg?camera_label=context-1"
+   },
+   {
+    "file": "memorial-flag-7.webp",
+    "position": "other",
+    "is_default": false,
+    "variant_ids": [
+     102240
+    ],
+    "printify_src": "https://images-api.printify.com/mockup/6ad017f4b66d13e95600632f/102240/98966/ride-in-memory-flag-personalized-club-and-memorial-run-flag.jpg?camera_label=context-2"
+   },
+   {
+    "file": "memorial-flag-8.webp",
+    "position": "other",
+    "is_default": true,
+    "variant_ids": [
+     102241
+    ],
+    "printify_src": "https://images-api.printify.com/mockup/6ad017f4b66d13e95600632f/102241/98681/ride-in-memory-flag-personalized-club-and-memorial-run-flag.jpg?camera_label=front"
+   },
+   {
+    "file": "memorial-flag-9.webp",
+    "position": "other",
+    "is_default": false,
+    "variant_ids": [
+     102241
+    ],
+    "printify_src": "https://images-api.printify.com/mockup/6ad017f4b66d13e95600632f/102241/98962/ride-in-memory-flag-personalized-club-and-memorial-run-flag.jpg?camera_label=back"
+   },
+   {
+    "file": "memorial-flag-10.webp",
+    "position": "other",
+    "is_default": false,
+    "variant_ids": [
+     102241
+    ],
+    "printify_src": "https://images-api.printify.com/mockup/6ad017f4b66d13e95600632f/102241/98965/ride-in-memory-flag-personalized-club-and-memorial-run-flag.jpg?camera_label=context-1"
+   },
+   {
+    "file": "memorial-flag-11.webp",
+    "position": "other",
+    "is_default": false,
+    "variant_ids": [
+     102241
+    ],
+    "printify_src": "https://images-api.printify.com/mockup/6ad017f4b66d13e95600632f/102241/98968/ride-in-memory-flag-personalized-club-and-memorial-run-flag.jpg?camera_label=context-2"
+   }
+  ],
+  "min_price": 2099,
+  "min_cost": 1412
+ }
+}
