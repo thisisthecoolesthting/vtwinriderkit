@@ -1,7 +1,4 @@
-node_modules/
-dist/
-.astro/
-.spawn-cache/
+node_modules
 .env
-.env.*
-*.log
+*.env
+data/runtime
