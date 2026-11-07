@@ -12,7 +12,7 @@
      3761
     ],
     "cost": 1177,
-    "price": 1799
+    "price": 2599
    },
    {
     "id": 18101,
@@ -24,7 +24,7 @@
      4431
     ],
     "cost": 1177,
-    "price": 1799
+    "price": 2599
    },
    {
     "id": 18102,
@@ -36,7 +36,7 @@
      5100
     ],
     "cost": 1177,
-    "price": 1799
+    "price": 2599
    },
    {
     "id": 18103,
@@ -48,7 +48,7 @@
      5100
     ],
     "cost": 1177,
-    "price": 1799
+    "price": 2599
    },
    {
     "id": 18104,
@@ -60,7 +60,7 @@
      5100
     ],
     "cost": 1438,
-    "price": 2099
+    "price": 2899
    },
    {
     "id": 18105,
@@ -72,7 +72,7 @@
      5100
     ],
     "cost": 1677,
-    "price": 2499
+    "price": 3299
    },
    {
     "id": 18148,
@@ -84,7 +84,7 @@
      3761
     ],
     "cost": 1177,
-    "price": 1799
+    "price": 2599
    },
    {
     "id": 18149,
@@ -96,7 +96,7 @@
      4431
     ],
     "cost": 1177,
-    "price": 1799
+    "price": 2599
    },
    {
     "id": 18150,
@@ -108,7 +108,7 @@
      5100
     ],
     "cost": 1177,
-    "price": 1799
+    "price": 2599
    },
    {
     "id": 18151,
@@ -120,7 +120,7 @@
      5100
     ],
     "cost": 1177,
-    "price": 1799
+    "price": 2599
    },
    {
     "id": 18152,
@@ -132,7 +132,7 @@
      5100
     ],
     "cost": 1438,
-    "price": 2099
+    "price": 2899
    },
    {
     "id": 18153,
@@ -144,7 +144,7 @@
      5100
     ],
     "cost": 1677,
-    "price": 2499
+    "price": 3299
    }
   ],
   "images": [
@@ -261,7 +261,7 @@
     "printify_src": "https://images-api.printify.com/mockup/6ad0174890ab0eb26d083f31/18150/102048/ride-in-memory-tee-personalized-biker-memorial-t-shirt.jpg?camera_label=hanging-1"
    }
   ],
-  "min_price": 1799,
+  "min_price": 2599,
   "min_cost": 1177
  },
  "memorial-hoodie": {
@@ -277,7 +277,7 @@
      2368
     ],
     "cost": 2759,
-    "price": 4099
+    "price": 5199
    },
    {
     "id": 32879,
@@ -289,7 +289,7 @@
      2512
     ],
     "cost": 2759,
-    "price": 4099
+    "price": 5199
    },
    {
     "id": 32880,
@@ -301,7 +301,7 @@
      2700
     ],
     "cost": 2759,
-    "price": 4099
+    "price": 5199
    },
    {
     "id": 32881,
@@ -313,7 +313,7 @@
      2700
     ],
     "cost": 2759,
-    "price": 4099
+    "price": 5199
    },
    {
     "id": 32882,
@@ -325,7 +325,7 @@
      2700
     ],
     "cost": 3786,
-    "price": 5499
+    "price": 6599
    },
    {
     "id": 32883,
@@ -337,7 +337,7 @@
      2700
     ],
     "cost": 4267,
-    "price": 6199
+    "price": 7299
    },
    {
     "id": 32894,
@@ -349,7 +349,7 @@
      2368
     ],
     "cost": 2759,
-    "price": 4099
+    "price": 5199
    },
    {
     "id": 32895,
@@ -361,7 +361,7 @@
      2512
     ],
     "cost": 2759,
-    "price": 4099
+    "price": 5199
    },
    {
     "id": 32896,
@@ -373,7 +373,7 @@
      2700
     ],
     "cost": 2759,
-    "price": 4099
+    "price": 5199
    },
    {
     "id": 32897,
@@ -385,7 +385,7 @@
      2700
     ],
     "cost": 2759,
-    "price": 4099
+    "price": 5199
    },
    {
     "id": 32898,
@@ -397,7 +397,7 @@
      2700
     ],
     "cost": 3786,
-    "price": 5499
+    "price": 6599
    },
    {
     "id": 32899,
@@ -409,7 +409,7 @@
      2700
     ],
     "cost": 4267,
-    "price": 6199
+    "price": 7299
    },
    {
     "id": 32918,
@@ -421,7 +421,7 @@
      2368
     ],
     "cost": 2759,
-    "price": 4099
+    "price": 5199
    },
    {
     "id": 32919,
@@ -433,7 +433,7 @@
      2512
     ],
     "cost": 2759,
-    "price": 4099
+    "price": 5199
    },
    {
     "id": 32920,
@@ -445,7 +445,7 @@
      2700
     ],
     "cost": 2759,
-    "price": 4099
+    "price": 5199
    },
    {
     "id": 32921,
@@ -457,7 +457,7 @@
      2700
     ],
     "cost": 2759,
-    "price": 4099
+    "price": 5199
    },
    {
     "id": 32922,
@@ -469,7 +469,7 @@
      2700
     ],
     "cost": 3786,
-    "price": 5499
+    "price": 6599
    },
    {
     "id": 32923,
@@ -481,7 +481,7 @@
      2700
     ],
     "cost": 4267,
-    "price": 6199
+    "price": 7299
    }
   ],
   "images": [
@@ -654,7 +654,7 @@
     "printify_src": "https://images-api.printify.com/mockup/6ad01753e59f52a3c604aff9/32896/98432/ride-in-memory-hoodie-personalized-biker-memorial-hoodie.jpg?camera_label=folded"
    }
   ],
-  "min_price": 4099,
+  "min_price": 5199,
   "min_cost": 2759
  },
  "memorial-mug": {
@@ -670,7 +670,7 @@
      1146
     ],
     "cost": 867,
-    "price": 1299
+    "price": 2099
    }
   ],
   "images": [
@@ -711,7 +711,7 @@
     "printify_src": "https://images-api.printify.com/mockup/6ad017584c7c8d0e9c0e8658/67624/8410/ride-in-memory-mug-11oz-personalized-rider-tribute-mug.jpg?camera_label=context-1"
    }
   ],
-  "min_price": 1299,
+  "min_price": 2099,
   "min_cost": 867
  },
  "memorial-print": {
@@ -727,7 +727,7 @@
      4200
     ],
     "cost": 592,
-    "price": 899
+    "price": 1599
    },
    {
     "id": 43141,
@@ -739,7 +739,7 @@
      6000
     ],
     "cost": 1077,
-    "price": 1599
+    "price": 2299
    },
    {
     "id": 43144,
@@ -751,7 +751,7 @@
      7200
     ],
     "cost": 1062,
-    "price": 1599
+    "price": 2299
    }
   ],
   "images": [
@@ -864,7 +864,7 @@
     "printify_src": "https://images-api.printify.com/mockup/6ad017d14b954522360edeed/43135/95138/ride-in-memory-print-personalized-biker-memorial-poster.jpg?camera_label=context-1"
    }
   ],
-  "min_price": 899,
+  "min_price": 1599,
   "min_cost": 592
  },
  "memorial-flag": {
@@ -880,7 +880,7 @@
      3892
     ],
     "cost": 1926,
-    "price": 2799
+    "price": 3499
    },
    {
     "id": 102240,
@@ -892,7 +892,7 @@
      2095
     ],
     "cost": 1412,
-    "price": 2099
+    "price": 2799
    },
    {
     "id": 102241,
@@ -904,7 +904,7 @@
      5695
     ],
     "cost": 2900,
-    "price": 4299
+    "price": 5199
    }
   ],
   "images": [
@@ -1017,7 +1017,7 @@
     "printify_src": "https://images-api.printify.com/mockup/6ad017f4b66d13e95600632f/102241/98968/ride-in-memory-flag-personalized-club-and-memorial-run-flag.jpg?camera_label=context-2"
    }
   ],
-  "min_price": 2099,
+  "min_price": 2799,
   "min_cost": 1412
  }
 }

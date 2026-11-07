@@ -51,8 +51,9 @@ function priceCart(items) {
     lines.push({ slug: it.slug, variantId: v.id, qty, unit: v.price, personal, name: `${bySlug[it.slug].name} - ${personal.name} (${variantLabel(v)})` });
   }
   const units = []; for (const l of lines) for (let i = 0; i < l.qty; i++) units.push({ slug: l.slug, variantId: l.variantId });
-  const shipping = shippingFor(units);
-  return { lines, subtotal, shipping, total: subtotal + shipping };
+  // fleet policy: free US shipping. shipCost is what Printify charges us; it is kept on the order for margin tracking.
+  const shipCost = shippingFor(units), shipping = 0;
+  return { lines, subtotal, shipping, shipCost, total: subtotal + shipping };
 }
 
 /* ---------- Printify ---------- */
@@ -127,12 +128,12 @@ app.post('/api/checkout', limit(15), async (req, res) => {
     if (!stripe) return res.status(503).json({ error: 'Checkout is being set up. Please check back shortly.' });
     const cart = priceCart(req.body.items); const email = String(req.body.email || '').slice(0, 200); const orderId = crypto.randomBytes(5).toString('hex');
     const utm = {}; for (const k of ['utm_source', 'utm_medium', 'utm_campaign', 'utm_content']) if (req.body.utm && req.body.utm[k]) utm[k] = tail(req.body.utm[k]);
-    fs.writeFileSync(path.join(DATA_DIR, 'orders', orderId + '.json'), JSON.stringify({ orderId, created: new Date().toISOString(), email, lines: cart.lines, totals: { subtotal: cart.subtotal, shipping: cart.shipping, total: cart.total }, utm }, null, 1));
+    fs.writeFileSync(path.join(DATA_DIR, 'orders', orderId + '.json'), JSON.stringify({ orderId, created: new Date().toISOString(), email, lines: cart.lines, totals: { subtotal: cart.subtotal, shipping: cart.shipping, printifyShipCost: cart.shipCost, total: cart.total }, utm }, null, 1));
     const session = await stripe.checkout.sessions.create({
       mode: 'payment', customer_email: email || undefined, client_reference_id: orderId, locale: 'en',
       line_items: cart.lines.map(l => ({ quantity: l.qty, price_data: { currency: 'usd', unit_amount: l.unit, product_data: { name: l.name.slice(0, 120), description: [QText.resolve(l.personal).head, QText.resolve(l.personal).name, QText.resolve(l.personal).line2].filter(Boolean).join(' - ').slice(0, 300) } } })),
       shipping_address_collection: { allowed_countries: ['US'] }, phone_number_collection: { enabled: true },
-      shipping_options: [{ shipping_rate_data: { type: 'fixed_amount', fixed_amount: { amount: cart.shipping, currency: 'usd' }, display_name: 'US standard shipping (made to order)', delivery_estimate: { minimum: { unit: 'business_day', value: 5 }, maximum: { unit: 'business_day', value: 12 } } } }],
+      shipping_options: [{ shipping_rate_data: { type: 'fixed_amount', fixed_amount: { amount: cart.shipping, currency: 'usd' }, display_name: 'Free US shipping', delivery_estimate: { minimum: { unit: 'business_day', value: 5 }, maximum: { unit: 'business_day', value: 12 } } } }],
       metadata: { store: STORE_ID, order_id: orderId, ...utm }, payment_intent_data: { metadata: { store: STORE_ID, order_id: orderId } },
       success_url: `${SITE_URL}/?order=thanks#top`, cancel_url: `${SITE_URL}/checkout`,
     });
@@ -163,16 +164,18 @@ function jsonLd() {
   const prods = publicCatalog().map(p => { const d = CAT[p.slug]; const prices = d.variants.map(v => v.price); const img = SITE_URL + '/img/mock/' + d.images[0].file;
     return { '@type': 'Product', name: bySlug[p.slug].title, description: bySlug[p.slug].description, image: img, brand: { '@type': 'Brand', name: BRAND }, sku: p.slug, url: `${SITE_URL}/#item-${p.slug}`,
       offers: { '@type': 'AggregateOffer', priceCurrency: 'USD', lowPrice: (Math.min(...prices) / 100).toFixed(2), highPrice: (Math.max(...prices) / 100).toFixed(2), offerCount: prices.length, availability: 'https://schema.org/InStock', url: `${SITE_URL}/#item-${p.slug}`,
-        shippingDetails: { '@type': 'OfferShippingDetails', shippingRate: { '@type': 'MonetaryAmount', value: (Math.min(...Object.values(SHIP[p.slug].by).map(x => x.first)) / 100).toFixed(2), currency: 'USD' }, shippingDestination: { '@type': 'DefinedRegion', addressCountry: 'US' }, deliveryTime: { '@type': 'ShippingDeliveryTime', handlingTime: { '@type': 'QuantitativeValue', minValue: 2, maxValue: 5, unitCode: 'DAY' }, transitTime: { '@type': 'QuantitativeValue', minValue: 3, maxValue: 8, unitCode: 'DAY' } } },
-        hasMerchantReturnPolicy: { '@type': 'MerchantReturnPolicy', applicableCountry: 'US', returnPolicyCategory: 'https://schema.org/MerchantReturnNotPermitted', merchantReturnLink: SITE_URL + '/#returns' } } }; });
+        shippingDetails: { '@type': 'OfferShippingDetails', shippingRate: { '@type': 'MonetaryAmount', value: '0', currency: 'USD' }, shippingDestination: { '@type': 'DefinedRegion', addressCountry: 'US' }, deliveryTime: { '@type': 'ShippingDeliveryTime', handlingTime: { '@type': 'QuantitativeValue', minValue: 2, maxValue: 5, unitCode: 'DAY' }, transitTime: { '@type': 'QuantitativeValue', minValue: 3, maxValue: 8, unitCode: 'DAY' } } },
+        hasMerchantReturnPolicy: { '@type': 'MerchantReturnPolicy', applicableCountry: 'US', returnPolicyCategory: 'https://schema.org/MerchantReturnFiniteReturnWindow', merchantReturnDays: 30, returnFees: 'https://schema.org/FreeReturn', merchantReturnLink: SITE_URL + '/returns' } } }; });
   return JSON.stringify({ '@context': 'https://schema.org', '@graph': [
     { '@type': 'Organization', '@id': SITE_URL + '/#org', name: BRAND, url: SITE_URL, logo: SITE_URL + '/favicon.svg', email: CONTACT_EMAIL },
     { '@type': 'WebSite', '@id': SITE_URL + '/#site', url: SITE_URL, name: BRAND, inLanguage: 'en', publisher: { '@id': SITE_URL + '/#org' } },
     ...prods,
     { '@type': 'FAQPage', mainEntity: FAQ.map(f => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })) } ] });
 }
+const GA_ID = process.env.GA_MEASUREMENT_ID || 'G-BECE2HBE37';
 function pixels() {
   let s = '';
+  if (/^G-[A-Z0-9]+$/.test(GA_ID)) s += `<script async src="https://www.googletagmanager.com/gtag/js?id=${GA_ID}"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','${GA_ID}');</script>`;
   if (process.env.META_PIXEL_ID) s += `<script>!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');fbq('init','${process.env.META_PIXEL_ID.replace(/\W/g, '')}');fbq('track','PageView');</script>`;
   if (process.env.TIKTOK_PIXEL_ID) s += `<script>!function(w,d,t){w.TiktokAnalyticsObject=t;var ttq=w[t]=w[t]||[];ttq.methods=["page","track","identify"];ttq.setAndDefer=function(t,e){t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}};for(var i=0;i<ttq.methods.length;i++)ttq.setAndDefer(ttq,ttq.methods[i]);ttq.load=function(e){var n="https://analytics.tiktok.com/i18n/pixel/events.js";ttq._i=ttq._i||{};ttq._i[e]=[];ttq._t=ttq._t||{};ttq._t[e]=+new Date;var o=document.createElement("script");o.type="text/javascript";o.async=!0;o.src=n+"?sdkid="+e+"&lib="+t;var a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(o,a)};ttq.load('${process.env.TIKTOK_PIXEL_ID.replace(/\W/g, '')}');ttq.page()}(window,document,'ttq');</script>`;
   return s;
@@ -180,7 +183,7 @@ function pixels() {
 function esc(s) { return String(s).replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, '&lt;'); }
 function productsHtml() {
   return cfg.products.map((p, i) => { const d = CAT[p.slug]; const img = d.images[0].file;
-    return '<article class="card" id="item-' + p.slug + '" data-slug="' + p.slug + '"><div class="card-img"><img src="/img/mock/' + img + '" srcset="/img/mock/s/' + img + ' 480w, /img/mock/' + img + ' 800w" sizes="(min-width:760px) 360px, 90vw" alt="' + esc(p.name + ' - Printify product photo, personalized ride in memory design') + '" width="800" height="800"' + (i < 2 ? ' fetchpriority="high"' : ' loading="lazy"') + '></div><div class="thumbs"></div><div class="card-body"><p class="kicker">' + esc(p.short) + '</p><h3>' + esc(p.name) + '</h3><p class="blurb">' + esc(p.blurb) + '</p><div class="opts"></div><p class="will-print"></p><div class="price-row"><span class="price">from ' + money(d.min_price) + '</span><span class="ship-note"></span></div><button type="button" class="btn add">Add to cart</button></div></article>'; }).join('\n');
+    return '<article class="card" id="item-' + p.slug + '" data-slug="' + p.slug + '"><div class="card-img"><img src="/img/mock/' + img + '" srcset="/img/mock/s/' + img + ' 480w, /img/mock/' + img + ' 800w" sizes="(min-width:760px) 360px, 90vw" alt="' + esc(p.name + ' - Printify product photo, personalized ride in memory design') + '" width="800" height="800"' + (i < 2 ? ' fetchpriority="high"' : ' loading="lazy"') + '></div><div class="thumbs"></div><div class="card-body"><p class="kicker">' + esc(p.short) + '</p><h3>' + esc(p.name) + '</h3><p class="blurb">' + esc(p.blurb) + '</p><div class="opts"></div><p class="will-print"></p><div class="price-row"><span class="price">from ' + money(d.min_price) + '</span><span class="ship-note"></span></div><button type="button" class="btn add">Add to cart</button><p class="policy-line">Free US shipping · ships within 48 business hours · free 30-day returns</p></div></article>'; }).join('\n');
 }
 function faqHtml() { return FAQ.map(f => `<details class="faq"><summary>${esc(f.q)}</summary><p>${esc(f.a)}</p></details>`).join('\n'); }
 function render(file) {
@@ -191,8 +194,8 @@ function render(file) {
 app.get(['/', '/index.html'], (req, res) => res.type('html').set('Cache-Control', 'no-cache').send(render('index.html')));
 app.get('/checkout', (req, res) => res.type('html').set('Cache-Control', 'no-cache').send(render('checkout.html')));
 app.get('/robots.txt', (req, res) => res.type('text/plain').send(`User-agent: *\nAllow: /\nDisallow: /api/\nDisallow: /checkout\nSitemap: ${SITE_URL}/sitemap.xml\n`));
-app.get('/sitemap.xml', (req, res) => { const d = new Date().toISOString().slice(0, 10); res.type('application/xml').send(`<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">\n<url><loc>${SITE_URL}/</loc><lastmod>${d}</lastmod><changefreq>weekly</changefreq><priority>1.0</priority>${cfg.products.map(p => `<image:image><image:loc>${SITE_URL}/img/mock/${CAT[p.slug].images[0].file}</image:loc><image:title>${esc(p.title)}</image:title></image:image>`).join('')}</url>\n</urlset>\n`); });
-app.use(express.static(path.join(ROOT, 'public'), { index: false, maxAge: '30d', setHeaders: (r, f) => { if (/\.(html|json)$/.test(f)) r.setHeader('Cache-Control', 'no-cache'); } }));
+app.get('/sitemap.xml', (req, res) => { const d = new Date().toISOString().slice(0, 10); res.type('application/xml').send(`<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">\n<url><loc>${SITE_URL}/</loc><lastmod>${d}</lastmod><changefreq>weekly</changefreq><priority>1.0</priority>${cfg.products.map(p => `<image:image><image:loc>${SITE_URL}/img/mock/${CAT[p.slug].images[0].file}</image:loc><image:title>${esc(p.title)}</image:title></image:image>`).join('')}</url>\n${['shipping','returns','privacy','terms','faq','contact'].map(n => `<url><loc>${SITE_URL}/${n}</loc><lastmod>${d}</lastmod><priority>0.4</priority></url>`).join('\n')}\n</urlset>\n`); });
+app.use(express.static(path.join(ROOT, 'public'), { index: false, extensions: ['html'], maxAge: '30d', setHeaders: (r, f) => { if (/\.(html|json)$/.test(f)) r.setHeader('Cache-Control', 'no-cache'); } }));
 app.use((req, res) => res.status(404).type('text/plain').send('Not found'));
 if (require.main === module) app.listen(PORT, process.env.HOST || '127.0.0.1', () => console.log(`${STORE_ID} on ${process.env.HOST || '127.0.0.1'}:${PORT} (${SITE_URL})`));
 module.exports = { app, fulfillSession, priceCart };

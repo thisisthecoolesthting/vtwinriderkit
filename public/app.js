@@ -69,7 +69,7 @@
       var im = $('.card-img img', card); var f = imgs[sel.img].file; if (im.getAttribute('src') !== '/img/mock/' + f) { im.src = '/img/mock/' + f; im.srcset = '/img/mock/s/' + f + ' 480w, /img/mock/' + f + ' 800w'; }
       $('.opts', card).innerHTML = optsHtml(p, sel); $('.opts', card).className = 'opts' + (p.variants.length === 1 ? ' single' : '');
       $('.thumbs', card).innerHTML = imgs.length > 1 ? imgs.map(function (i, k) { return '<button type="button" data-k="' + k + '" aria-label="View photo ' + (k + 1) + '"' + (k === sel.img ? ' aria-current="true"' : '') + '><img src="/img/mock/s/' + i.file + '" alt="" loading="lazy" width="52" height="52"></button>'; }).join('') : '';
-      $('.price', card).textContent = money(v.price); $('.ship-note', card).textContent = '+ shipping from ' + money(shipFrom(p.slug));
+      $('.price', card).textContent = money(v.price); $('.ship-note', card).textContent = 'Free US shipping';
     });
     renderPreview();
   }
@@ -87,7 +87,7 @@
     if (!cart.length) return '<p class="empty">Your cart is empty.</p>';
     return cart.map(function (c, i) { var l = lineInfo(c); return '<div class="line"><img src="/img/mock/s/' + l.img + '" alt="" width="64" height="64"><div><h4>' + esc(l.name) + '</h4><small>' + esc(l.text) + '</small>' + (editable ? '<div class="qty"><button type="button" data-q="-1" data-i="' + i + '" aria-label="Fewer">&minus;</button><b>' + c.qty + '</b><button type="button" data-q="1" data-i="' + i + '" aria-label="More">+</button><button type="button" class="rm" data-rm="' + i + '">Remove</button></div>' : '<small>x ' + c.qty + '</small>') + '</div><b>' + money(l.unit * c.qty) + '</b></div>'; }).join('');
   }
-  function totalsHtml() { var x = totals(); return '<div class="tot"><span>Subtotal</span><span>' + money(x.sub) + '</span></div><div class="tot"><span>Shipping (US)</span><span>' + money(x.ship) + '</span></div><div class="tot big"><span>Total</span><span>' + money(x.total) + '</span></div>'; }
+  function totalsHtml() { var x = totals(); return '<div class="tot"><span>Subtotal</span><span>' + money(x.sub) + '</span></div><div class="tot"><span>Shipping (US)</span><span>Free</span></div><div class="tot big"><span>Total</span><span>' + money(x.total) + '</span></div>'; }
   function renderCart() {
     var n = cart.reduce(function (a, c) { return a + c.qty; }, 0);
     var cc = $('#cartCount'); if (cc) { cc.textContent = n; cc.hidden = !n; } var bc = $('#buybarCount'); if (bc) bc.textContent = n;
